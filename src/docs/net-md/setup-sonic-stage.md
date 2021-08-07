@@ -8,10 +8,12 @@ description: การติดตั้งไดร์เวอร์ NetMD แ
 1.1 ดาวน์โหลดโปรแกรม SonicStage 4.3 Click to download
 แล้วคลิก Download anyway (อาจจะต้องคลิกสองครั้ง)
 
+![](images/download-file-anyway.png)
 
 1.2 ดาวน์โหลดไดร์เวอร์ 64 bit Click to download
 ภาพแสดงทั้งสองไฟล์ที่โหลดลงมาในเครื่องเก็บที่โฟล์เดอร์ Downloads
 
+![](images/downloaded-files.png)
 
 1.3 unzip แตกไฟล์ SonicStage 4.3.zip และ Sony NetMD driver.zip
 โครงสร้างไฟล์ชองโฟล์เดอร์ SonicStage 4.3
