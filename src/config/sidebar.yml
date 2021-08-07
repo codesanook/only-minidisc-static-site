@@ -1,8 +1,8 @@
 # Sidebar navigation
 
-- label: "About"
-  link: "/"
-- label: NetMD
+- label: เกี่ยวกับเรา
+  link: /
+- label: Net MD
   items:
-    - label: "ติดตั้งโปรแกรม SonicStage 4.3 สำหรับ window 10 64-bit"
-      link: "/net-md/setup-sonic-stage"
+    - label: ติดตั้งโปรแกรม SonicStage 4.3 สำหรับ window 10 64-bit
+      link: /net-md/setup-sonic-stage
