@@ -1,20 +1,8 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+- label: "About"
+  link: "/"
+- label: NetMD
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
-- label: More
-  items:
-    - label: FAQ
-      link: /faq
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: "ติดตั้งโปรแกรม SonicStage 4.3 บน window 10 64bit"
+      link: "/net-md/setup-sonic-stage"
