@@ -4,5 +4,5 @@
   link: /
 - label: Net MD
   items:
-    - label: ติดตั้งโปรแกรม SonicStage 4.3 สำหรับ window 10 64-bit
-      link: /net-md/setup-sonic-stage
+    - label: คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ window 10 64-bit
+      link: /net-md/sonic-stage-installation-manual
