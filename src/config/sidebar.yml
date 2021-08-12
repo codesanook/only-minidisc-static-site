@@ -6,3 +6,5 @@
   items:
     - label: คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ Windows 10 64-bit
       link: /net-md/sonic-stage-installation-manual
+    - label: คู่มือใช้งาน Web MiniDisc
+      link: /net-md/web-mini-disc-manual
