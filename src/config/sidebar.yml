@@ -10,3 +10,5 @@
       link: /net-md/web-mini-disc-manual
     - label: รู้จัก MD recording mode
       link: /net-md/md-recording-mode
+    - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
+      link: /net-md/writing-disc-time-usage-test
