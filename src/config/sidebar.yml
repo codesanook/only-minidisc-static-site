@@ -12,3 +12,6 @@
       link: /net-md/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
+    - label: ชื่อรุ่นของ Sony MD players
+      link: /net-md/md-player-model-number
+
