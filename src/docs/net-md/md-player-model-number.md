@@ -16,7 +16,7 @@ description: ความหมายของตัวอักษรแต่�
 
 - **H** is an abbreviation for a **[H]i-MD** model.
 - **N** is an abbreviation for a **[N]etMD**-supported model.
-- **R** is an abbreviation for [R]ecord**-supported model (Non-NetMD).
+- **R** is an abbreviation for **[R]ecord**-supported model (Non-NetMD).
 - **E** is an abbreviation for play only model, I think E is for [E]volution.
 - **S** is an abbreviation for a **[S]port** model.
 - **F** is an abbreviation for **[F]M** radio-supported model.

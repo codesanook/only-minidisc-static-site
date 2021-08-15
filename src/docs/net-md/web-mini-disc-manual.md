@@ -1,6 +1,6 @@
 ---
 title: คู่มือใช้งาน Web MiniDisc
-description: คู่มืองาน Web MiniDisc แบบ step by step
+description: คู่มือใช้งาน Web MiniDisc แบบ step by step
 ---
 
 ## Install a driver with Zadig

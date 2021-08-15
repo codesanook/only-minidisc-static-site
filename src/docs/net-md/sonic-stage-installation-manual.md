@@ -153,7 +153,6 @@ description: คู่มือติตตั้งโปรแกรม SonicS
 - ข้อมูลจาก DoSomething ใน Youtube (https://youtu.be/euTfzqsm8YQ)
 - ข้อมูลจาก https://www.techspace.co.th/kb/entry/412/
 - ข้อมูลจาก https://archivisiondirectory.blogspot.com/2011/01/download-netmd-usb-drivers-for-your.html
+- Valid MDS-S500 driver from https://forums.sonyinsider.com/files/file/142-netmd-driver-64-bit-win7-or-vista/
 - ข้อมูลและรูปภาพจาก - information and images from
   https://www.tenforums.com/tutorials/156602-how-enable-disable-driver-signature-enforcement-windows-10-a.html
-
-
