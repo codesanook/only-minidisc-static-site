@@ -64,8 +64,8 @@ export default function YahooActionJapanCalculator() {
 
   const [productPrice, setProductPrice] = useState(0);
   const [shippingCost, setShippingCost] = useState(0);
-  const [yahooAuctionFee, setYahooActionFee] = useState(100);
-  const [billingFee, setBillingFee] = useState(250);
+  const [yahooAuctionFee, setYahooActionFee] = useState(0);
+  const [billingFee, setBillingFee] = useState(0);
   const [exchangeRate, setExchangeRate] = useState(0.35);
 
 
@@ -75,7 +75,7 @@ export default function YahooActionJapanCalculator() {
   const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) => setBillingFee(parseFloat(e.target.value))
   const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) => setExchangeRate(parseFloat(e.target.value))
 
-  const getTotalPrice = () => ((productPrice + shippingCost + yahooAuctionFee) * exchangeRate).toFixed(2);
+  const getTotalPrice = () => ((productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate).toFixed(2);
 
   return (
     <div>
@@ -107,7 +107,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="yahooAuctionFree"
             spellCheck="false"
-            value={yahooAuctionFee}
+            placeholder="Usually 100 Yen"
             onChange={handleYahooAuctionFeeChanged} />
         </div>
         <div>
@@ -116,7 +116,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="billingFee"
             spellCheck="false"
-            value={billingFee}
+            placeholder="Usually 250 Yen"
             onChange={handleBillingFeeChanged} />
           <span className="hint">Billing fee from a provider who deliveries an item from Japan to Thailand</span>
         </div>
@@ -126,12 +126,12 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="exchangeRate"
             spellCheck="false"
-            value={exchangeRate}
+            placeholder="Usually 0.35 Yen/THB"
             onChange={handleExchangeRateChanged}
           />
         </div>
         <div>
-          Total price: ({productPrice} + {shippingCost} + {yahooAuctionFee}) x {exchangeRate} = {getTotalPrice()}
+          Total price: ({productPrice} + {shippingCost} + {yahooAuctionFee} + {billingFee}) x {exchangeRate} = {getTotalPrice()}
         </div>
       </form>
     </div>
