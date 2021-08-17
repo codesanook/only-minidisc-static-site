@@ -30,12 +30,19 @@ Same features as the RM-MC32EL but with backlight and kanji/kana display.
 supplied with MZ-N710. Features are the same as 30L. NO backlight. To the right of shuttle switch has two 'folder' + and - buttons to go to quick access to multiple groups (if any) on the disc.
 
 ## RM-MC33EL
-supplied with MZ-E710, MZ-E610 MZ-E510, MZ-E810SP MZ-E620, MZ-E720, MZ-N10 (NA/EU), MZ-N910 (EU), et al. Features are the same as RM-MC33L but with backlight.
-*Please note: the MC33EL is 100% compatible with all 1st and 2nd generation HiMD units.
+- Supplied with MZ-E710, MZ-E610 MZ-E510, MZ-E810SP MZ-E620, MZ-E720, MZ-N10 (NA/EU), MZ-N910 (EU), et al.
+- Features are the same as RM-MC33L but with backlight.
+- *Please note: the MC33EL is 100% compatible with all 1st and 2nd generation HiMD units.
+
+![](images/sony-md-remotes/RM-MC33EL.png)
 
 ## RM-MC35ELK
-supplied with MZ-N10 (JP), MZ-NE810, MZ-N910 (JP), MZ-N920, MZ-RH1 (JP) and MZ-RH10 (JP)*. (*Color matching RM-MC35ELK comes bundled only with the MZ-RH10 (JP)) Features are the same as RM-MC33EL but with improved kanji/kana display and higher resolution. Narrower text allows 12 (roman) character displays. Scrolling is 1 character at a time rather than 1 pixel at a time; special 2-line display can display disc or group name at the top, and track title at the bottom (only compatible with NetMD units mentioned above); special animations show up when starting up MD, or accessing various sound modes.
-*Please note: the MC35ELK is 100% compatible with all 1st, 2nd and 3rd generation Hi-MD units.
+- Supplied with MZ-N10 (JP), MZ-NE810, MZ-N910 (JP), MZ-N920, MZ-RH1 (JP) and MZ-RH10 (JP)*. (*Color matching RM-MC35ELK comes bundled only with the MZ-RH10 (JP))
+- Features are the same as RM-MC33EL but with improved kanji/kana display and higher resolution. Narrower text allows 12 (roman) character displays.
+- Scrolling is 1 character at a time rather than 1 pixel at a time; special 2-line display can display disc or group name at the top, and track title at the bottom (only compatible with NetMD units mentioned above); special animations show up when starting up MD, or accessing various sound modes.
+- *Please note: the MC35ELK is 100% compatible with all 1st, 2nd and 3rd generation Hi-MD units.
+
+![](images/sony-md-remotes/RM-MC35ELK.png)
 
 ## RM-MC33ELU/RM-MC35ELKU
 fitted exclusively for the MZ-E10 (NA/EU, JP). same features as the 33EL/35ELK, except for a special miniplug fitted due to the thinness of the E10
@@ -90,3 +97,5 @@ The MC25C is a non-LCD rotary car remote commander with basic playback functions
 
 ## Credit
 - [ขอบคุณเนื้อหาจากเว็บบอร์ด Munkong Gadget](https://forum.munkonggadget.com/detail.php?id=87433)
+- Remote images from amazon.com and mercari.com
+
