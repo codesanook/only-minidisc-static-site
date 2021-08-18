@@ -18,6 +18,8 @@ description: รีโมทรุ่นต่างๆ ของ Sony MD แล
 - Special twist knob on top of remote; twisting it 'up' or 'down' changes tracks | or |. pulling it out gives access to volume - and +.
 - Circular Stop button on very top of remote on the twist knob. Hold switch opposite of the 5 buttons. NO backlight.
 
+![](images/sony-md-remotes/RM-MC10L.png)
+
 ## RM-MC11EL
 - Supplied with MZ-R900, MZ-R909, MZ-N1<sup>A2</sup>, MZ-R910, MZ-E900, MZ-E700, MZ-E707, MZ-E909<sup>A3</sup>, MZ-E505 as well as some CD players.
 - All features are same on RM-MC10L, except w/ backlight.
@@ -28,6 +30,7 @@ description: รีโมทรุ่นต่างๆ ของ Sony MD แล
 - Headphone jack now moved to top of remote where stop button used to be.
 - Stop button now moved to row of buttons.
 - 6 buttons on one side hold switch on the other.
+![](images/sony-md-remotes/RM-MC12ELK.png)
 
 ## RM-MC30L
 - Supplied with D-EJ885. 9 character display. This remote is a revamped version of the 11EL/12ELK remote.
@@ -35,6 +38,8 @@ description: รีโมทรุ่นต่างๆ ของ Sony MD แล
 - Navigation has moved off the twist knob and a new 'shuttle switch' is placed next to the stop button in where pushing it in will play (activate CD player), and pause.
 - Moving the switch to the right will advance to the next track, and moving it to the right will go back one track.
 - Volume + and - are still located on the twist knob. Removable alligator clip. NO BACKLIGHT
+
+![](images/sony-md-remotes/RM-MC30L.png)
 
 ## RM-MC32EL
 - Supplied with D-EJ2000, D-EJ985 CD players.
@@ -47,6 +52,7 @@ description: รีโมทรุ่นต่างๆ ของ Sony MD แล
 - Supplied with MZ-N710.
 - Features are the same as 30L. NO backlight.
 - To the right of shuttle switch has two 'folder' + and - buttons to go to quick access to multiple groups (if any) on the disc.
+![](images/sony-md-remotes/RM-MC30L.png)
 
 ## RM-MC33EL
 - Supplied with MZ-E710, MZ-E610 MZ-E510, MZ-E810SP MZ-E620, MZ-E720, MZ-N10 (NA/EU), MZ-N910 (EU), et al.
@@ -142,5 +148,5 @@ The MC25C is a non-LCD rotary car remote commander with basic playback functions
 
 ## Credit
 - [ขอบคุณเนื้อหาจากเว็บบอร์ด Munkong Gadget](https://forum.munkonggadget.com/detail.php?id=87433)
-- Remote images from amazon.com and mercari.com
+- Remote images from amazon.com, mercari.com and ebay.com
 
