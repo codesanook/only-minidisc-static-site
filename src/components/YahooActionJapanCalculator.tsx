@@ -61,11 +61,12 @@ const style = css`
 
 // configuration
 const defaultExchangeRate = 0.33;
+const defaultShippingCost = 0;
 
 export default function YahooActionJapanCalculator() {
 
   const [productPrice, setProductPrice] = useState(0);
-  const [shippingCost, setShippingCost] = useState(0);
+  const [shippingCost, setShippingCost] = useState(defaultShippingCost);
   const [yahooAuctionFee, setYahooActionFee] = useState(100);
   const [billingFee, setBillingFee] = useState(250);
   const [exchangeRate, setExchangeRate] = useState(defaultExchangeRate)
@@ -91,7 +92,7 @@ export default function YahooActionJapanCalculator() {
     <div>
       <form css={style}>
         <div>
-          <label htmlFor="productPrice">Product price</label>
+          <label htmlFor="productPrice">* Product price</label>
           <input
             type="text"
             id="productPrice"
@@ -106,7 +107,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="shippingCost"
             spellCheck="false"
-            placeholder="Shipping cost"
+            placeholder={`Optional, default to ${defaultShippingCost}`}
             onChange={handleShippingCostChanged}
           />
           <span className="hint">Shipping cost (In Japan only), search a number in <em>配送方法と送料</em> section</span>
@@ -117,7 +118,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="yahooAuctionFree"
             spellCheck="false"
-            placeholder="Default to 100 Yen"
+            placeholder="Optional, default to 100 Yen"
             onChange={handleYahooAuctionFeeChanged} />
         </div>
         <div>
@@ -126,7 +127,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="billingFee"
             spellCheck="false"
-            placeholder="Default to 250 Yen"
+            placeholder="Optional, default to 250 Yen"
             onChange={handleBillingFeeChanged} />
           <span className="hint">Billing fee from a provider who deliveries an item from Japan to Thailand</span>
         </div>
@@ -136,7 +137,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="exchangeRate"
             spellCheck="false"
-            placeholder={`Default to ${defaultExchangeRate} Yen/THB`}
+            placeholder={`Optional, default to ${defaultExchangeRate} Yen/THB`}
             onChange={handleExchangeRateChanged}
           />
         </div>
