@@ -1,7 +1,6 @@
 import React, { ChangeEvent } from 'react';
 import { css } from '@emotion/react';
 import { useState } from 'react';
-import { number } from 'prop-types';
 
 // https://freshdesignweb.com/css-registration-form-templates/
 // https://www.begindot.com/best-css-registration-form-templates/
@@ -60,20 +59,31 @@ const style = css`
 	}
 `;
 
+// configuration
+const defaultExchangeRate = 0.33;
+
 export default function YahooActionJapanCalculator() {
 
   const [productPrice, setProductPrice] = useState(0);
   const [shippingCost, setShippingCost] = useState(0);
-  const [yahooAuctionFee, setYahooActionFee] = useState(0);
-  const [billingFee, setBillingFee] = useState(0);
-  const [exchangeRate, setExchangeRate] = useState(0.35);
+  const [yahooAuctionFee, setYahooActionFee] = useState(100);
+  const [billingFee, setBillingFee] = useState(250);
+  const [exchangeRate, setExchangeRate] = useState(defaultExchangeRate)
 
+  const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue));
 
-  const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) => setProductPrice(parseFloat(e.target.value))
-  const handleShippingCostChanged = (e: ChangeEvent<HTMLInputElement>) => setShippingCost(parseFloat(e.target.value))
-  const handleYahooAuctionFeeChanged = (e: ChangeEvent<HTMLInputElement>) => setYahooActionFee(parseFloat(e.target.value))
-  const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) => setBillingFee(parseFloat(e.target.value))
-  const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) => setExchangeRate(parseFloat(e.target.value))
+  const handleShippingCostChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setShippingCost(numberValue));
+
+  const handleYahooAuctionFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setYahooActionFee(numberValue));
+
+  const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setBillingFee(numberValue));
+
+  const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setExchangeRate(numberValue));
 
   const getTotalPrice = () => ((productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate).toFixed(2);
 
@@ -86,7 +96,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="productPrice"
             spellCheck="false"
-            placeholder="Product price (You can add the highest bidding price.)"
+            placeholder="Product price (Highest bidding price)"
             onChange={handleProductPriceChanged}
           />
         </div>
@@ -96,7 +106,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="shippingCost"
             spellCheck="false"
-            placeholder="shipping cost"
+            placeholder="Shipping cost"
             onChange={handleShippingCostChanged}
           />
           <span className="hint">Shipping cost (In Japan only), search a number in <em>配送方法と送料</em> section</span>
@@ -107,7 +117,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="yahooAuctionFree"
             spellCheck="false"
-            placeholder="Usually 100 Yen"
+            placeholder="Default to 100 Yen"
             onChange={handleYahooAuctionFeeChanged} />
         </div>
         <div>
@@ -116,7 +126,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="billingFee"
             spellCheck="false"
-            placeholder="Usually 250 Yen"
+            placeholder="Default to 250 Yen"
             onChange={handleBillingFeeChanged} />
           <span className="hint">Billing fee from a provider who deliveries an item from Japan to Thailand</span>
         </div>
@@ -126,7 +136,7 @@ export default function YahooActionJapanCalculator() {
             type="text"
             id="exchangeRate"
             spellCheck="false"
-            placeholder="Usually 0.35 Yen/THB"
+            placeholder={`Default to ${defaultExchangeRate} Yen/THB`}
             onChange={handleExchangeRateChanged}
           />
         </div>
@@ -136,4 +146,11 @@ export default function YahooActionJapanCalculator() {
       </form>
     </div>
   );
+}
+
+function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void) {
+  const numberValue = Number(inputValue);
+  if (!isNaN(numberValue)) {
+    setValueState(numberValue)
+  }
 }
