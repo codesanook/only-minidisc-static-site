@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Super early bird',
-    defaultTitle: 'Super early bird',
-    siteTitleShort: 'Super early bird',
-    siteDescription: 'Out of the box Gatsby Theme for creating documentation websites easily and quickly',
-    siteUrl: 'https://rocketdocs.netlify.app',
-    siteAuthor: '@rocketseat',
+    siteTitle: 'MD Burner',
+    defaultTitle: 'MD Burner',
+    siteTitleShort: 'MD Burner',
+    siteDescription: 'Write your mini disc online',
+    siteUrl: 'https://mdburner.com',
+    siteAuthor: 'MD Burner team',
     siteImage: '/banner.png',
     siteLanguage: 'en',
     themeColor: '#8257E6',
