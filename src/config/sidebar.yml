@@ -5,7 +5,7 @@
 - label: Net MD
   items:
     - label: คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ Windows 10 64-bit
-      link: /net-md/sonic-stage-installation-manual
+      link: /net-md/sonic-stage-installation-instructions
     - label: คู่มือใช้งาน Web MiniDisc
       link: /net-md/web-mini-disc-manual
     - label: รู้จัก MD recording mode
