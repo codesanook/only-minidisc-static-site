@@ -59,3 +59,5 @@ Looking for docs? Check our live demo and documentation [website](https://rocket
 ---
 
 Made with 💜 by Rocketseat :wave: [check our community!](https://discordapp.com/invite/gCRAFhc)
+
+- swa start http://localhost:8000 --run "yarn start"

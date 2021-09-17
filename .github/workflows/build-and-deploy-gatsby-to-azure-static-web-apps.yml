@@ -11,7 +11,7 @@ env:
   NODE_VERSION: 12.x # Set Node.js version to use.
 
 jobs:
-  build:
+  build_and_deploy_job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the latest source code from ${{ github.sha }} commit

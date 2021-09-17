@@ -1,9 +1,9 @@
 ---
-title: คู่มือติดตั้งโปรแกรม SonicStage 4.3 และอัพเดทไดร์เวอร์ Net MD สำหรับ Windows 10 64-bit
-description: คู่มือติตตั้งโปรแกรม SonicStage 4.3 และอัพเดทไดร์เวอร์ Net MD สำหรับ Windows 10 64-bit แบบ step by step
+title: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
+description: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage แบบ step by step
 ---
 
-# SonicStage installation instructions
+# SonicStage installation instructions for Windows 10 64-bit
 
 ## 1. Prepare program and driver
 

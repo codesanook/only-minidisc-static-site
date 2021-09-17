@@ -4,13 +4,15 @@
   link: /
 - label: Net MD
   items:
-    - label: คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ Windows 10 64-bit
-      link: /net-md/sonic-stage-installation-instructions
+    - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
+      link: /net-md/sonic-stage-manual
     - label: คู่มือใช้งาน Web MiniDisc
       link: /net-md/web-mini-disc-manual
+    - label: คู่มือติดตั้งและใช้งานโปรแกรม MD Simple Burner
+      link: /net-md/md-simple-burner-manual
+
     - label: รู้จัก MD recording mode
       link: /net-md/md-recording-mode
-
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
     - label: ชื่อรุ่นของ Sony MD players
