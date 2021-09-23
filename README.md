@@ -61,3 +61,8 @@ Looking for docs? Check our live demo and documentation [website](https://rocket
 Made with 💜 by Rocketseat :wave: [check our community!](https://discordapp.com/invite/gCRAFhc)
 
 - swa start http://localhost:8000 --run "yarn start"
+
+# Static files
+- Font files should be placed in the static folder in the root of the project (or a subfolder therein, eg. fonts), and their path specified accordingly.
+- Images
+

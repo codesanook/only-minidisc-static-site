@@ -23,7 +23,12 @@
     - label: MD head-lens cleaner
       link: /net-md/md-head-lens-cleaner
 
+- label: Interesting players with VU meters
+  link: interesting-players-with-vu-meters
+
 - label: Useful resources
   items:
     - label: Yahoo Auction Japan calculator
       link: /useful-resources/yahoo-auction-japan-calculator
+
+
