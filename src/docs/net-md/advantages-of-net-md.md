@@ -4,9 +4,11 @@ description: Advantages of Net MD
 disableTableOfContents: true
 ---
 
+![](images/advantages-of-net-md/net-md-logo-transparent.png)
+
 ## ข้อดีของการเขียนเพลงลงแผ่น MD ด้วย Net MD
 - ใช้งานได้ง่ายและสะดวก แค่เสียบสาย USB ลง driver ลงโปรแกรมก็ใช้งานได้เลย
-  - [คู่มือติดตั้งและใช้งานโปรแกรม SonicStage](/net-md/sonic-stage-manual)
+  - [คู่มือติดตั้งและใช้งานโปรแกรม SonicStage](/net-md/sonic-stage-manual-manual)
   - [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-manual)
 - ไม่ต้องซื้ออุปกรณ์เพิ่มเติม เช่น USB to Toslink/Coaxial เพื่ออัดแบบ digital input
 - เขียนไวมากๆ เพลง 10 นาทีใช้เวลาประมาณ 45 วินาที
@@ -23,7 +25,7 @@ disableTableOfContents: true
 *Note* อย่างไรก็ตาม **Net MD จะใช้ได้เฉพาะเครื่องเล่นที่รองรับ Net MD เท่านั้น**
 
 ## ภาพตัวอย่างโปรแกรม SonicStage
-![](images/sonic-stage/net-md-connected.png)
+![](images/sonic-stage-manual/net-md-connected.png)
 
 
 ## ภาพตัวอย่างโปรแกรม Web MiniDisc

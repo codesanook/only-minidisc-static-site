@@ -23,7 +23,7 @@ description: คู่มือติดตั้งและใช้งาน�
       - MDS-NT1
 
 - ถ้าเบราว์เซอร์แจ้งว่าไฟล์ที่ดาวน์โหลดมาอาจจะมีอัตราย ให้คลิก **Keep** ดังในรูปด้านล่างนี้ (ตรงนี้ไม่ต้องกังวล ปลอดภัยครับ)
-![](images/sonic-stage/keep-downloaded-file.png)
+  ![](images/sonic-stage-manual/keep-downloaded-file.png)
 
 - Unzip แตกไฟล์โปรแกรม SonicStage-4.3.zip
 - ตัวอย่างโครงสร้างไฟล์ของโฟล์เดอร์ SonicStage-4.3
@@ -56,7 +56,7 @@ description: คู่มือติดตั้งและใช้งาน�
 - เข้าไปในโฟล์เดอร์ SonicStage-4.3 ที่แตกมาแล้ว ดับเบิ้ลคลิก **SetupSS.exe** เพื่อติดตั้งโปรแกรม
 - คลิกปุ่ม **Next** หรือ **Yes** ไปเรื่อยๆ จนถึงหน้าสุดท้าย **จะมีข้อความแสดงว่าให้ Restart เครื่องคอมพิวเตอร์**
 - คลิกปุ่ม **Done** เครื่องคอมพิวเตอร์จะ restart โดยอัตโนมัติ รอจนกว่าเครื่องคอมพิวเตอร์จะเปิดขึ้นมาพร้อมใช้งาน และทำตามขั้นตอนในหัวข้อต่อไป
-<!-- ![](images/sonic-stage/done-installing-sonic-stage.png) -->
+<!-- ![](images/sonic-stage-manual/done-installing-sonic-stage-manual.png) -->
 
 ## 3. Disable driver signature enforcement
 
@@ -66,31 +66,31 @@ description: คู่มือติดตั้งและใช้งาน�
 - พิมพ์คำว่า **change advanced**
 - คลิกเลือก **Change advanced startup options**.
 
-![](images/sonic-stage/change-advanced-startup-options.png)
+  ![](images/sonic-stage-manual/change-advanced-startup-options.png)
 
 - คลิกปุ่ม **Restart now** ที่อยู่ใต้ Advanced startup
 
-![](images/sonic-stage/advanced-startup-restart-now.png)
+  ![](images/sonic-stage-manual/advanced-startup-restart-now.png)
 
 - เครื่องคอมพิวเตอร์จะ restart โดยอัตโนมัติ แล้วจะแสดงหน้าจอที่มีข้อความว่า **Choose an option** ให้คลิก **Troubleshoot**
 
-![](images/sonic-stage/disable-driver-signature-enforcement-at-boot-1.png)
+  ![](images/sonic-stage-manual/disable-driver-signature-enforcement-at-boot-1.png)
 
 - คลิก **Advanced Options**
 
-![](images/sonic-stage/disable-driver-signature-enforcement-at-boot-2.png)
+  ![](images/sonic-stage-manual/disable-driver-signature-enforcement-at-boot-2.png)
 
 - คลิก **Startup Settings**
 
-![](images/sonic-stage/disable-driver-signature-enforcement-at-boot-3.png)
+  ![](images/sonic-stage-manual/disable-driver-signature-enforcement-at-boot-3.png)
 
 - คลิก **Restart**
 
-![](images/sonic-stage/disable-driver-signature-enforcement-at-boot-4.png)
+  ![](images/sonic-stage-manual/disable-driver-signature-enforcement-at-boot-4.png)
 
 - เมื่อเครื่องคอมพิวเตอร์เปิดขึ้นมาแล้ว ให้กดปุ่มเลข 7 หรือ F7 ที่แป้นพิมพ์ เพื่อ Disable driver signature enforcement
 
-![](images/sonic-stage/disable-driver-signature-enforcement-at-boot-5.png)
+  ![](images/sonic-stage-manual/disable-driver-signature-enforcement-at-boot-5.png)
 
 - เครื่องคอมพิวเตอร์จะ restart โดยอัตโนมัติ หลังจากที่คอมพิวเตอร์เปิดขึ้นมาพร้อมใช้งานแล้ว เราก็จะสามารถอัพเดทไดร์เวอร์ให้กับเครื่องเล่น Net MD ได้
 
@@ -102,15 +102,15 @@ description: คู่มือติดตั้งและใช้งาน�
 - เลื่อนเมาส์ไปที่ไอคอน Window ที่มุมล่างซ้ายของหน้าจอ แล้วคลิกขวา
 - คลิกเลือก **Device Manager**
 
-![](images/sonic-stage/select-device-manager.png)
+  ![](images/sonic-stage-manual/select-device-manager.png)
 
 - หน้าจอ **Device Manager** จะแสดงขึ้นมา ให้เลื่อนเมาส์ไปที่ไอคอนที่มีข้อความ "Net MD" ดังรูปด้านล่างนี้
 
-![](images/sonic-stage/net-md-in-device-manager.png)
+  ![](images/sonic-stage-manual/net-md-in-device-manager.png)
 
 - คลิกขวาที่ไอคอน Net MD แล้วเลือก **Update driver**
 
-![](images/sonic-stage/select-update-driver.png)
+  ![](images/sonic-stage-manual/select-update-driver.png)
 
 - เลือก **Browser my computer for drivers**
 
@@ -120,15 +120,15 @@ description: คู่มือติดตั้งและใช้งาน�
 - กด **OK** เพื่อเลือกโฟล์เดอร์
 - กด **Next** เพื่ออัพเดทไดร์เวอร์
 
-![](images/sonic-stage/update-driver-steps.png)
+  ![](images/sonic-stage-manual/update-driver-steps.png)
 
 - คลิกเลือก **Install this driver software anyway**
 
-![](images/sonic-stage/install-this-software-driver-anyway.png)
+  ![](images/sonic-stage-manual/install-this-software-driver-anyway.png)
 
 - เมื่ออัพเดทไดร์เวอร์เสร็จเรียบร้อยแล้ว จะมีข้อความ **Windows has successfully updated your driver**
 
-![](images/sonic-stage/update-driver-successfully.png)
+  ![](images/sonic-stage-manual/update-driver-successfully.png)
 
 **ถ้าท่านใดไม่สามารถติดตั้งไดร์เวอร์ที่ดาวน์โหลดไปได้ สามารถแจ้งมายังกลุ่ม [Minidisc Playground](https://www.facebook.com/groups/mdplayground) ทางเราจะได้ทำการแก้ไขให้ครับ**
 
@@ -140,24 +140,37 @@ description: คู่มือติดตั้งและใช้งาน�
 - การเปิดใช้งานครั้งแรกจะมีการกำหนดค่าเริ่มต้น ให้คลิก Next ไปเรื่อยๆ ได้เลย
 - เมื่อโปรแแกรมพร้อมใช้งานแล้ว ให้เลื่อนเมาส์ไปตรงข้อความ "Transfer"
 
-![](images/sonic-stage/hover-transfer.png)
+  ![](images/sonic-stage-manual/hover-transfer.png)
 
 - คลิกเลือก Net MD
 
-![](images/sonic-stage/select-net-md.png)
+  ![](images/sonic-stage-manual/select-net-md.png)
 
 - ถ้าในเครื่องเล่นมีแผ่น MD ที่มีเพลงอยู่ ตัวโปรแกรมจะแสดงรายชื่อเพลงทั้งหมดในแผ่น MD นั้น
 
-![](images/sonic-stage/net-md-connected.png)
+  ![](images/sonic-stage-manual/net-md-connected.png)
 
 - ถ้าจะ copy เพลงจากเครื่องคอมพิวเตอร์ไปยังแผ่น MD ให้ลากเพลงไปวางในหน้าต่าง **Library** ด้านซ้ายมือได้เลย
 
-![](images/sonic-stage/transfer-music.png)
+  ![](images/sonic-stage-manual/transfer-music.png)
 
 - คลิกปุ่มสีแดงที่มีลูกศรชี้ไปทางขวามือเพื่อเขียนเพลงลงแผ่น MD
-![](images/sonic-stage/transfer-music-button.png)
+  ![](images/sonic-stage-manual/transfer-music-button.png)
 
 - รอจนกว่าเครื่องเล่นจะเขียนเพลงเสร็จ เพียงเท่านี้เราก็สามารถ copy เพลงผ่านเครื่องเล่นที่รองรับ Net MD ได้แล้ว
+
+## Supported music files
+- OpenMG Audio
+- OpenMG
+- ATRAC Advanced Lossless
+- WAV
+- MP3
+- AAC (AACLC)
+- HE-AAC
+- WMA
+- M3U ดึง file ทั้งหมดใน playlist ที่มีอยู่แล้ว ใช้ได้กับ MP3, WAV, และ WMA
+ ![](images/sonic-stage-manual/supported-music-files.png)
+
 
 ## Credit & Reference
 - คุณชาย Teerapong Kuchi Seeker, คุณ Parinya Jaipang, คุณอาทิตย์ สมวาที, คุณ Tanapon Sean Pochatan, คุณ Napadon Tang
@@ -170,3 +183,5 @@ description: คู่มือติดตั้งและใช้งาน�
 - Valid MDS-S500 driver from https://forums.sonyinsider.com/files/file/142-netmd-driver-64-bit-win7-or-vista/
 - ข้อมูลและรูปภาพจาก - information and images from
   https://www.tenforums.com/tutorials/156602-how-enable-disable-driver-signature-enforcement-windows-10-a.html
+
+
