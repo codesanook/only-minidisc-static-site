@@ -11,11 +11,13 @@ disableTableOfContents: false
 ## Sony TC-D5M
 👇
 ![](images/interesting-players-with-vu-meters/sony-tc-d5m-01.png)
+
 ![](images/interesting-players-with-vu-meters/sony-tc-d5m-02.png)
 
 ## Sony TC-2850
 👇
 ![](images/interesting-players-with-vu-meters/sony-tc-2850-01.png)
+
 ![](images/interesting-players-with-vu-meters/sony-tc-2850-02.png)
 
 ## Technics​ RS-265U
@@ -25,6 +27,7 @@ disableTableOfContents: false
 ## Aiwa XR-FD55
 👇
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-01.png)
+
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-02.png)
 
 # Credit
