@@ -1,12 +1,15 @@
 ---
 title: Advantages of Net MD
 description: Advantages of Net MD
-disableTableOfContents: true
+disableTableOfContents: false
 ---
 
 ![](images/advantages-of-net-md/net-md-logo-transparent.png)
 
-## ข้อดีของการเขียนเพลงลงแผ่น MD ด้วย Net MD
+## Advantages of Net MD
+
+ข้อดีของการเขียนเพลงลงแผ่น MD ด้วย Net MD
+
 - ใช้งานได้ง่ายและสะดวก แค่เสียบสาย USB ลง driver ลงโปรแกรมก็ใช้งานได้เลย
   - [คู่มือติดตั้งและใช้งานโปรแกรม SonicStage](/net-md/sonic-stage-manual-manual)
   - [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-manual)
@@ -24,11 +27,25 @@ disableTableOfContents: true
 
 *Note* อย่างไรก็ตาม **Net MD จะใช้ได้เฉพาะเครื่องเล่นที่รองรับ Net MD เท่านั้น**
 
-## ภาพตัวอย่างโปรแกรม SonicStage
-![](images/sonic-stage-manual/net-md-connected.png)
+## SonicStage screenshot
+- ภาพตัวอย่างโปรแกรม SonicStage
+
+  ![](images/sonic-stage-manual/net-md-connected.png)
 
 
-## ภาพตัวอย่างโปรแกรม Web MiniDisc
-สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
+## Web MiniDisc screenshot
+- สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
+- ภาพตัวอย่างโปรแกรม Web MiniDisc
 
-![](images/web-mini-disc/list-all-songs.png)
+  ![](images/web-mini-disc/list-all-songs.png)
+
+## USB to Toslink/Coaxial converter
+
+- Douk USB to Toslink optical and coaxial converter
+- XMOS XU208 chip
+- เล่นเพลงจาก computer หรือโทรศัพท์มือถือ ต่อ micro USB เข้ากับเครื่องนี้ และ USB อีกฝั่งกับ computer
+- ใช้สาย Toslink แบบปกติ ต่อจากเครื่องนี้เข้าเครื่อง MD deck ที่มี Toslink input แล้วก็ทำการอัด 1:1 digital
+- รุ่นอื่นที่น่าสนใจ เช่น FiiO K3
+
+  ![](images/advantages-of-net-md/usb-to-toslink-coaxial.png)
+
