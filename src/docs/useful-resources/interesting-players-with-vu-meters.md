@@ -30,9 +30,15 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-02.png)
 
+## Panasonic CQ-VX5500
+👇
+![](images/interesting-players-with-vu-meters/panasonic-cq-vx5500.png)
+
+
 # Credit
 - Images here just for study/reference and not for commercial
 - Credit images from
   - Yahoo Auction Japan
   - Khun Chalermphol
+  - [Panasonic CQ-VX5500 MiniDisc & CD Double Din with VU meters video from CassetteMD channel](https://www.youtube.com/watch?v=_WBjpiYBdSw)
 
