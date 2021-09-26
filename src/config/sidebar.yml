@@ -4,6 +4,8 @@
   link: /
 - label: Net MD
   items:
+    - label: MiniDisc story
+      link: /net-md/mini-disc-story
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
       link: /net-md/sonic-stage-manual
     - label: คู่มือใช้งาน Web MiniDisc
