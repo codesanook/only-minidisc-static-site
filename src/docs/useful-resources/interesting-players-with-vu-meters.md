@@ -20,6 +20,13 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/sony-tc-2850-02.png)
 
+
+## Sony TC-153SD
+👇
+![](images/interesting-players-with-vu-meters/sony-tc-153sd-01.png)
+
+![](images/interesting-players-with-vu-meters/sony-tc-153sd-02.png)
+
 ## Technics​ RS-265U
 👇
 ![](images/interesting-players-with-vu-meters/technics​-rs-265u-01.png)
@@ -30,6 +37,11 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-02.png)
 
+Remote control - Aiwa RC-CAS20
+
+![](images/interesting-players-with-vu-meters/aiwa-rc-cas20.png)
+
+
 ## Panasonic CQ-VX5500
 👇
 ![](images/interesting-players-with-vu-meters/panasonic-cq-vx5500.png)
@@ -39,6 +51,7 @@ disableTableOfContents: false
 - Images here just for study/reference and not for commercial
 - Credit images from
   - Yahoo Auction Japan
+  - Eaby
   - Khun Chalermphol
   - [Panasonic CQ-VX5500 MiniDisc & CD Double Din with VU meters video from CassetteMD channel](https://www.youtube.com/watch?v=_WBjpiYBdSw)
-
+  -
