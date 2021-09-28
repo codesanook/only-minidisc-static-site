@@ -32,6 +32,11 @@ disableTableOfContents: false
 👇
 ![](images/interesting-players-with-vu-meters/technics​-rs-265u-01.png)
 
+
+## Victor KD-110
+👇
+![](images/interesting-players-with-vu-meters/victor-kd-110.png)
+
 ## Aiwa XR-FD55
 👇
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-01.png)
@@ -49,10 +54,12 @@ Remote control - Aiwa RC-CAS20
 
 
 # Credit
-- Images here just for study/reference and not for commercial
+- Images here just for reference, not for commercial
 - Credit images from
   - Yahoo Auction Japan
   - Eaby
   - Khun Chalermphol
+  - [Khun Krissada](https://www.facebook.com/kiffheavyfamily/)
   - [Panasonic CQ-VX5500 MiniDisc & CD Double Din with VU meters video from CassetteMD channel](https://www.youtube.com/watch?v=_WBjpiYBdSw)
-  -
+
+
