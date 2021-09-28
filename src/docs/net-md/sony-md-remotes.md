@@ -147,6 +147,11 @@ The MC25C is a non-LCD rotary car remote commander with basic playback functions
 - <sup>A3</sup> North American/European E909 only (11EL), Japanese model (12ELK)
 
 ## Credit
-- [ขอบคุณเนื้อหาจากเว็บบอร์ด Munkong Gadget](https://forum.munkonggadget.com/detail.php?id=87433)
-- Remote images from amazon.com, mercari.com and ebay.com
+- Original content from SonyInsider forum [A Guide To Sony LCD Remotes
+](https://forums.sonyinsider.com/topic/11679-a-guide-to-sony-lcd-remotes/)
+- Remote images for reference not commercial from
+  - amazon.com,
+  - mercari.com,
+  - ebay.com
+  - [Yahoo Action Japan](https://auctions.yahoo.co.jp/)
 
