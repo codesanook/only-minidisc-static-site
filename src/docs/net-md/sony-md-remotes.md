@@ -149,7 +149,7 @@ The MC25C is a non-LCD rotary car remote commander with basic playback functions
 ## Credit
 - Original content from SonyInsider forum [A Guide To Sony LCD Remotes
 ](https://forums.sonyinsider.com/topic/11679-a-guide-to-sony-lcd-remotes/)
-- Remote images for reference not commercial from
+- Remotes' images for reference only, not for commercial. Credit images from:
   - amazon.com,
   - mercari.com,
   - ebay.com
