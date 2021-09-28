@@ -1,9 +1,7 @@
 ---
-title: MiniDisc story
-description: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage แบบ step by step
+title: เรื่องเล่า MiniDisc
+description: เรื่องเล่า MiniDisc
 ---
-
-# เรื่องเล่า MiniDisc
 
 ![MD logo](/images/md-logo-transparent-medium.png)
 

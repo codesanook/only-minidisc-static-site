@@ -4,8 +4,9 @@
   link: /
 - label: Net MD
   items:
-    - label: MiniDisc story
+    - label: เริ่องเล่า MiniDisc
       link: /net-md/mini-disc-story
+
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
       link: /net-md/sonic-stage-manual
     - label: คู่มือใช้งาน Web MiniDisc
@@ -24,18 +25,19 @@
 
     - label: MD head-lens cleaner
       link: /net-md/md-head-lens-cleaner
-
-    - label: Advantages of Net MD
+    - label: ข้อดีของ Net MD
       link: /net-md/advantages-of-net-md
-
     - label: Sony Net MD decks
       link: /net-md/sony-net-md-decks
 
 - label: Useful resources
   items:
+    - label: รวม Wiki ข้อมูลของเครื่องเล่นแบบต่างๆ
+      link: /useful-resources/audio-player-wiki
     - label: Interesting players with VU meters
       link: /useful-resources/interesting-players-with-vu-meters
+    - label: Handmade reel to reel cassette tape
+      link: /useful-resources/handmade-reel-to-reel-cassette-tape
+
     - label: Yahoo Auction Japan calculator
       link: /useful-resources/yahoo-auction-japan-calculator
-
-

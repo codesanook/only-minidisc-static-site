@@ -1,6 +1,6 @@
 ---
-title: Advantages of Net MD
-description: Advantages of Net MD
+title: ข้อดีของ Net MD
+description: ข้อดีของ Net MD
 disableTableOfContents: false
 ---
 

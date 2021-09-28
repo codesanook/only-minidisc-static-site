@@ -14,12 +14,13 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/sony-tc-d5m-02.png)
 
+👉👉[Sony TC D5 Pro II the most extraordinary portable deck](http://www.walkman-archive.com/wa/2012/06/sony-tc-d5-pro-ii-the-most-extraordinary-portable-deck/)
+
 ## Sony TC-2850
 👇
 ![](images/interesting-players-with-vu-meters/sony-tc-2850-01.png)
 
 ![](images/interesting-players-with-vu-meters/sony-tc-2850-02.png)
-
 
 ## Sony TC-153SD
 👇
