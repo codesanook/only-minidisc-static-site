@@ -34,10 +34,13 @@ description: All Sony Net MD decks
 👇
 ![](images/sony-net-md-decks/sony-mds-s500-01.png)
 
+[More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-s500)
+
 ### Mini review of MDS S500
 
 **จุดเด่น**
 - รองรับ Net MD เขียนแผ่น MD จากเครื่องคอมพิวเตอร์ได้เลย
+- รองรับ MDLP เล่นได้ทั้ง SP, LP2, LP4 mode
 - คหสต สัมผัสได้ถึงพลังเสียงมากกว่า LAM-Z05
 - ทนทานกว่าเครื่องเล่นแบบพกพา
 - มี function MD เพียงอย่างเดียว ลดความซับซ้อนของกลไก
@@ -48,3 +51,15 @@ description: All Sony Net MD decks
 - ใช้เป็น DAC แบบรุ่น LAM-Z05 ไม่ได้
 - ไม่เล็กกระทัดรัดเท่า LAM-Z05
 - เปลี่ยนเป็น Net MD mode จาก remote control ไม่ได้
+
+
+### MDS-S500 VS MDS-JE780
+
+![](images/sony-net-md-decks/sony-mds-s500-vs-sony-mds-je780.png)
+
+
+## Credit
+- Players' images for reference only, not for commercial. Credit images from:
+  - [Jeff Phyakul](https://www.facebook.com/jeff.richy.52)
+
+
