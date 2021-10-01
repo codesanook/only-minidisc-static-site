@@ -28,6 +28,8 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/sony-tc-d5-07.png)
 
+- Sony TC-D5/TC-D5M has 6.5 mm jack (6.5mm is also known as 6.35mm) and 2 RCA audio output.
+
 👉👉[Sony TC D5 Pro II the most extraordinary portable deck](http://www.walkman-archive.com/wa/2012/06/sony-tc-d5-pro-ii-the-most-extraordinary-portable-deck/)
 
 ## Sony TC-2850
@@ -64,7 +66,7 @@ Remote control - Aiwa RC-CAS20
 👇
 ![](images/interesting-players-with-vu-meters/panasonic-cq-vx5500.png)
 
-# Credit
+## Credit
 - Players' images for reference only, not for commercial. Credit images from:
   - Yahoo Auction Japan
   - ebay
