@@ -4,7 +4,7 @@
   link: /
 - label: Net MD
   items:
-    - label: เริ่องเล่า MiniDisc
+    - label: เรื่องเล่า MiniDisc
       link: /net-md/mini-disc-story
 
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
@@ -35,6 +35,9 @@
 
 - label: Useful resources
   items:
+    - label: Yahoo Auction Japan calculator
+      link: /useful-resources/yahoo-auction-japan-calculator
+
     - label: รวม Wiki ข้อมูลของเครื่องเล่นแบบต่างๆ
       link: /useful-resources/audio-player-wiki
     - label: Interesting players with VU meters
@@ -47,5 +50,3 @@
     - label: Adjustable metal headband on-ear headphones (ก้านเหล็ก)
       link: /useful-resources/adjustable-metal-headband-on-ear-headphones
 
-    - label: Yahoo Auction Japan calculator
-      link: /useful-resources/yahoo-auction-japan-calculator
