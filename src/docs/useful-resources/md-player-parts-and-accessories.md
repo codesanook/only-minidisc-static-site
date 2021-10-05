@@ -1,6 +1,6 @@
 ---
-title: MD player parts
-description: MD player parts
+title: MD player parts and accessories
+description: MD player parts and accessories
 disableTableOfContents: false
 ---
 
@@ -24,3 +24,22 @@ disableTableOfContents: false
 | Sony AC-96NP     | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
+
+
+## Sidecar battery
+
+![](images/md-player-parts-and-accessories/sidecar-battery-01.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-02.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-03.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-04.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-05.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-06.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-07.png)
+
+![](images/md-player-parts-and-accessories/sidecar-battery-08.png)
