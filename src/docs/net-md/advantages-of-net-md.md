@@ -40,8 +40,7 @@ disableTableOfContents: false
   ![](images/web-mini-disc/list-all-songs.png)
 
 ## USB to Toslink/Coaxial converter
-
-- Douk USB to Toslink optical and coaxial converter
+- Douk Audio Mini XMOS USB to SPDIF Coaxial Optical
 - XMOS XU208 chip
 - เล่นเพลงจาก computer หรือโทรศัพท์มือถือ ต่อ micro USB เข้ากับเครื่องนี้ และ USB อีกฝั่งกับ computer
 - ใช้สาย Toslink แบบปกติ ต่อจากเครื่องนี้เข้าเครื่อง MD deck ที่มี Toslink input แล้วก็ทำการอัด 1:1 digital

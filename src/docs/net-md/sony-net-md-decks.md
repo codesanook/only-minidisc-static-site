@@ -19,7 +19,9 @@ description: All Sony Net MD decks
 
 ![](images/sony-net-md-decks/sony-mds-je780-02.png)
 
-[More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-je780)
+
+- width x height x depth: 430mm x 95mm x 285mm
+- [More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-je780)
 
 ## Sony MDS-JB980
 👇
@@ -28,7 +30,8 @@ description: All Sony Net MD decks
 
 ![](images/sony-net-md-decks/sony-mds-jb980-02.png)
 
-[More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-jb980)
+- width x height x depth: 430mm x 108mm x 285mm
+- [More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-jb980)
 
 ## Sony MDS-S500
 👇
@@ -53,6 +56,11 @@ description: All Sony Net MD decks
 - เปลี่ยนเป็น Net MD mode จาก remote control ไม่ได้
 
 
+### MDS-S500 VS MDS-NT1
+
+![](images/sony-net-md-decks/sony-mds-s500-vs-sony-mds-nt1.png)
+
+
 ### MDS-S500 VS MDS-JE780
 
 ![](images/sony-net-md-decks/sony-mds-s500-vs-sony-mds-je780.png)
@@ -60,6 +68,7 @@ description: All Sony Net MD decks
 
 ## Credit
 - Players' images for reference only, not for commercial. Credit images from:
+  - [Puwanai Mahachinorot](https://www.facebook.com/pinghitz)
   - [Jeff Phyakul](https://www.facebook.com/jeff.richy.52)
 
 
