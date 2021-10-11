@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'MD Burner',
-    defaultTitle: 'MD Burner',
-    siteTitleShort: 'MD Burner',
+    siteTitle: 'Only MiniDisc',
+    defaultTitle: 'Only MiniDisc',
+    siteTitleShort: 'Only MiniDisc',
     siteDescription: 'Write your mini disc online',
-    siteUrl: 'https://mdburner.com',
-    siteAuthor: 'MD Burner team',
+    siteUrl: 'https://onlyminidisc.com',
+    siteAuthor: 'Only MiniDisc',
     siteImage: '/banner.png',
     siteLanguage: 'en',
     themeColor: '#8257E6',
