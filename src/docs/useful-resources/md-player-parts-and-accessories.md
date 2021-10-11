@@ -25,7 +25,6 @@ disableTableOfContents: false
 | CMT-C7NT    | New                                | MDM-7X2B          | KMS-262E             |                    |
 | MDS-S500    |                                    |                   |                      |                    |
 
-
 * Good players that can share parts or easy to find parts.
 
 [1]:https://alltroniccomputer.com.sg/products/audio-md-optical-pickup-assy-kms260a-mdm-31-md-mechanism
@@ -46,7 +45,6 @@ disableTableOfContents: false
 | Sony AC-96NP     | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
-
 
 ## Sidecar battery
 - Images of side card battery for Sony portable MD players.
