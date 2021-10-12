@@ -58,8 +58,8 @@ disableTableOfContents: false
 
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-02.png)
 
-Remote control - Aiwa RC-CAS20
-
+- MD mechanism type: MDM-16QA
+- Remote control - Aiwa RC-CAS20:
 ![](images/interesting-players-with-vu-meters/aiwa-rc-cas20.png)
 
 ## Panasonic CQ-VX5500
