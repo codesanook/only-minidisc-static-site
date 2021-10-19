@@ -11,6 +11,8 @@ description: All Sony Net MD decks
 
 ![](images/sony-net-md-decks/sony-mds-nt1-03.png)
 
+Power adapter: Sony AC-96NP 9V 600mA
+
 [More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-nt1)
 
 ## Sony MDS-JE780
@@ -36,6 +38,8 @@ description: All Sony Net MD decks
 ## Sony MDS-S500
 👇
 ![](images/sony-net-md-decks/sony-mds-s500-01.png)
+
+- Remote control: Sony RM-D10J
 
 [More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-s500)
 

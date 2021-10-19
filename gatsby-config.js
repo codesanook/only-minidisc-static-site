@@ -23,5 +23,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-remove-trailing-slashes',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Only MiniDisc',
+        short_name: 'Only MiniDisc',
+        start_url: `/`,
+        background_color: `#ffffff`,
+        display: `standalone`,
+        icon: `static/favicon.png`,
+      },
+    },
+
   ],
 };
