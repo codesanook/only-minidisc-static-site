@@ -13,13 +13,11 @@ export const Container = styled.aside`
 
   position: sticky;
   top: 0;
-  padding-top: 36px;
   transition: transform 0.5s;
   height: calc(100vh - 1px);
 
   nav {
     width: 100%;
-    padding-top: 24px;
     align-self: flex-start;
     flex: 1;
   }

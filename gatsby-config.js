@@ -3,7 +3,7 @@ module.exports = {
     siteTitle: 'Only MiniDisc',
     defaultTitle: 'Only MiniDisc',
     siteTitleShort: 'Only MiniDisc',
-    siteDescription: 'Write your mini disc online',
+    siteDescription: 'All things about MiniDisc',
     siteUrl: 'https://onlyminidisc.com',
     siteAuthor: 'Only MiniDisc',
     siteImage: '/banner.png',
@@ -24,16 +24,15 @@ module.exports = {
     },
     'gatsby-plugin-remove-trailing-slashes',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Only MiniDisc',
         short_name: 'Only MiniDisc',
-        start_url: `/`,
-        background_color: `#ffffff`,
-        display: `standalone`,
-        icon: `static/favicon.png`,
+        start_url: '/',
+        background_color: '#ffffff',
+        display: 'standalone',
+        icon: 'static/favicon.png',
       },
     },
-
   ],
 };
