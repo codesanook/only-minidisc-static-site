@@ -1,6 +1,6 @@
 ---
-title: เว็บไซด์เพื่อนบ้าน
-description: เว็บไซด์เพื่อนบ้าน
+title: เว็บไซต์เพื่อนบ้าน
+description: เว็บไซต์เพื่อนบ้าน
 disableTableOfContents: false
 ---
 
