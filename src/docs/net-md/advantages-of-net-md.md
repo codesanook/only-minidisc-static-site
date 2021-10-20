@@ -32,7 +32,6 @@ disableTableOfContents: false
 
   ![](images/sonic-stage-manual/net-md-connected.png)
 
-
 ## Web MiniDisc screenshot
 - สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
 - ภาพตัวอย่างโปรแกรม Web MiniDisc
@@ -48,3 +47,8 @@ disableTableOfContents: false
 
   ![](images/advantages-of-net-md/usb-to-toslink-coaxial.png)
 
+## CD to MD
+การอัดจากแผ่น CD ไปยังแผ่น MD ให้คุณภาพเสียงที่ดี แต่ก็มีข้อจำกัดดังนี้
+
+- ต้องมีแผ่นต้น CD ฉบับ ที่บางครั้งหายาก และราคาแพง
+- แผ่น CD ต้องอยู่ในสภาพที่ดี ถ้าแผ่นมีรอยเพียงเล็กน้อยก็ให้เพลงสะดุดได้
