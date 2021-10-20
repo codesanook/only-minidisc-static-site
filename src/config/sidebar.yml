@@ -1,9 +1,12 @@
 # Sidebar navigation
 
-- label: เกี่ยวกับเรา
+- label: หน้าแรก
   link: /
-- label: เว็บไซด์เพื่อนบ้าน
+- label: ทำไมยังเล่น MD
+  link: /why-minidisc
+- label: เว็บไซต์เพื่อนบ้าน
   link: /friends-websites
+
 - label: Net MD
   items:
     - label: เรื่องเล่า MiniDisc
