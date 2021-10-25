@@ -18,6 +18,10 @@ disableTableOfContents: false
 - จำหน่ายเครื่องเสียงและลำโพงนำเข้าจากญี่ปุ่น คู่มือการใช้ แหล่งอะไหล่ และซ่อมบำรุง
 - https://www.facebook.com/Japanstereo2020/
 
+## Cassette Diary
+- นำเข้าเทปมือ 2 จากญี่ปุ่น
+- https://www.facebook.com/Cassette-Diary-109104654375114/
+
 ## Vintage listening sessions
 - ขายเครื่องเล่น Tape/CD/MD/rec ครับ
 - https://www.facebook.com/Vintage-listening-sessions-114169739981319/
