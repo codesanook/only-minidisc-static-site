@@ -52,6 +52,12 @@ disableTableOfContents: false
 👇
 ![](images/interesting-players-with-vu-meters/victor-kd-110.png)
 
+
+## Sony PCM-D1
+👇
+![](images/interesting-players-with-vu-meters/sony-pcm-d1.png)
+
+
 ## Aiwa XR-FD55
 👇
 ![](images/interesting-players-with-vu-meters/aiwa-xr-fd55-01.png)
