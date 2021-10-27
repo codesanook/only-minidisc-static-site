@@ -37,6 +37,9 @@ MD Simple Burner main page
 👇
 ![](images/md-simple-burner-manual/the-download-button-on-sony-mz-nh3d.png)
 
+## How it work in action
+
+https://youtu.be/t7HTIMyuINM
 
 ## Credit
 - [[Lost Tech] Sony MZ-DH10P Unboxing (Hi-MD minidisc)
