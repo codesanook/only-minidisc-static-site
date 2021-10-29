@@ -11,9 +11,17 @@ disableTableOfContents: false
 <!-- > Sorted by name alphabetically -->
 
 ## Tama Gadgets
-- สินค้าหลากหลาย อิมพอร์ตมาจาก​ญี่ปุ่น เครื่องเสียงตั้งโต๊ะ พกพา gadgets อื่นๆ 
+- สินค้าหลากหลาย อิมพอร์ตมาจาก​ญี่ปุ่น เครื่องเสียงตั้งโต๊ะ พกพา gadgets อื่นๆ
 - รับประกันการใช้งาน 1 เดือนทุกชิ้น มีปัญหาแก้ไขให้ เปลี่ยนสินค้า หรือคืนเงินให้
 - https://www.facebook.com/groups/591352834706458
+
+## IT BAGS SHOP
+- จำหน่ายแผ่น เครื่องเล่น อุปกรณ์เกี่ยวกับ MD และ gadgets นำเข้าจากต่างประเทศ
+- https://www.lazada.co.th/shop/itbagsshop
+
+## Kiattisak Seabea
+- จำหน่ายเครื่องเล่น MD แผ่น MD และอุปกรณ์เครื่องเสียงอื่นๆ นำเข้าจากญี่ปุ่น สินค้ามีรับประกัน
+- https://www.facebook.com/profile.php?id=1075363789
 
 ## Wit766
 - ขายเครื่องเสียงจากญี่ปุ่น By Yahoo JAPAN
