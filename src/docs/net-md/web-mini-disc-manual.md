@@ -82,6 +82,15 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 
 ![](images/web-mini-disc/menu.png)
 
+## Use Web MiniDisc on a mobile phone
+- ใช้ Web MiniDisc เขียนเพลงลงแผ่น MD ผ่านมือถือโดยตรงกับเครื่องเล่นที่รองรับ NetMD ถือว่าใช้งานได้ดี
+- เลือกเพลงที่อยู่ในมือถือได้เลย
+- SP mode ใช้เวลาเขียนเยอะกว่า MDS-S500 อยู่มาก
+- มี error ที่ตัว Web MiniDisc ตอนโหลด TOC (table of content) ใหม่
+- เปิดเล่นเพลงในแผ่นที่เพิ่งเขียนไปได้ปกติ
+- ใช้ USB OTG adapter ได้เลย
+  ![](images/web-mini-disc/web-mini-disc-on-mobile-phone.png)
+
 ## Credit & Reference
 
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้แนะนำ Web MiniDisc
