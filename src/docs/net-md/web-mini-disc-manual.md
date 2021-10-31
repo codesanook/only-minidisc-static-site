@@ -91,6 +91,26 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 - ใช้ USB OTG adapter ได้เลย
   ![](images/web-mini-disc/web-mini-disc-on-mobile-phone.png)
 
+## Supported music files
+
+| File extension | File name                                        | Developer                    |
+|----------------|--------------------------------------------------|------------------------------|
+| *.opus         | Opus Audio File                                  | Xiph.Org                     |
+| *.flac         | Free Lossless Audio Codec                        | Xiph.Org                     |
+| *.webm         | WebM Video                                       | Google                       |
+| *.weba         | WebM Audio File                                  | Google                       |
+| *.wav          | WAVE Audio File                                  | Microsoft & IBM              |
+| *.ogg          | Ogg Vorbis Audio File                            | Xiph.Org                     |
+| *.m4a          | MPEG-4 Audio File                                | Apple                        |
+| *.oga          | Ogg Vorbis Audio File                            | Xiph.Org                     |
+| *.mid          | MIDI File (Musical Instrument Digital Interface) |                              |
+| *.mp3          | MP3 Audio File   (Layer 3 audio compression)     | Moving Picture Experts Group |
+| *.aiff         | Audio Interchange File Format                    | Apple                        |
+| *.wma          | Windows Media Audio File                         | Microsoft                    |
+| *.au           | Audacity Audio File                              | Audacity                     |
+| *.m4v          | iTunes Video File                                | Apple                        |
+| *.mp4          | MPEG-4 Video File                                | Moving Picture Experts Group |
+
 ## Credit & Reference
 
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้แนะนำ Web MiniDisc
