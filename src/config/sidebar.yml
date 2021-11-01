@@ -4,13 +4,16 @@
   link: /
 - label: ทำไมยังเล่น MD
   link: /why-minidisc
+
+- label: เรื่องเล่า MiniDisc
+  link: /mini-disc-story
 - label: เว็บไซต์เพื่อนบ้าน
   link: /friends-websites
 
 - label: Net MD
   items:
-    - label: เรื่องเล่า MiniDisc
-      link: /net-md/mini-disc-story
+    - label: ข้อดีของ Net MD
+      link: /net-md/advantages-of-net-md
 
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
       link: /net-md/sonic-stage-manual
@@ -30,8 +33,6 @@
 
     - label: MD head-lens cleaner
       link: /net-md/md-head-lens-cleaner
-    - label: ข้อดีของ Net MD
-      link: /net-md/advantages-of-net-md
     - label: Sony Net MD decks
       link: /net-md/sony-net-md-decks
 
