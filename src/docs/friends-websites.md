@@ -54,3 +54,9 @@ disableTableOfContents: false
 ## Mr. Cassette Player
 - ประสิทธิ์​แผงเทป เครื่องเล่นเทปวินเทจ, เครื่องเล่นแผ่นเสียง, เทป, แผ่นเสียง ฯลฯ สินค้าส่วนใหญ่จะเป็นสินค้ามือ 2
 - https://www.instagram.com/mr.cassetteplayer/
+
+## Hi-End Studio
+- Upgrade, develop, remix music, video and song
+- https://www.facebook.com/studio.hiend
+
+
