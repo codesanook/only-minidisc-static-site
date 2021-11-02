@@ -11,4 +11,3 @@
 - Run `yarn install`.
 - Run `yarn start`.
 - Open a browser and navigate to http://localhost:8000.
-
