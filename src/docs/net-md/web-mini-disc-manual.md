@@ -111,8 +111,16 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 | *.m4v          | iTunes Video File                                | Apple                        |
 | *.mp4          | MPEG-4 Video File                                | Moving Picture Experts Group |
 
+## Hi-MD players/recorders
+- เครื่องเล่น Hi-MD ที่รองรับเขียนแผ่นผ่าน Net MD ก็สามารถใช้ Web Minidisc ได้
+- รุ่นที่รองรับมีดังนี้ Sony CMT-AH10, Sony LAM-X1, Sony MZ-DH10P, Sony MZ-NH1, Sony MZ-NH3D, Sony MZ-NH600/MZ-NH600D/MD-HUSB, Sony MZ-NH700/MZ-NHF800,
+  Sony MZ-NH900, Sony MZ-RH1/MZ-M200, Sony MZ-RH10/MZ-M100, Sony MZ-RH710/MZ-DH710, Sony MZ-RH910/MZ-M10
+- **ไม่สามารถเขียนแผ่นใน Hi-MD mode**
+- **ไม่สามารถใช้ร่วมกับแผ่น Hi-MD**
+- **เขียนได้แต่ SP, LP2, LP4 mode กับแผ่น MD ธรรมดาเท่านั้น**
+- **ไดร์เวอร์ที่ติดตั้งกับ Zadig มีปัญหากับ Windows OS และ Hi-MD players** แนะนำให้ไปใช้กับโทรศัพท์มือถือ Linux หรือเครื่อง Mac แทน
+
 ## Credit & Reference
 
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้แนะนำ Web MiniDisc
 - [Using Web MiniDisc from MiniDisc Wiki](https://www.minidisc.wiki/guides/webminidisc)
-
