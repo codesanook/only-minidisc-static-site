@@ -38,6 +38,7 @@ Power adapter: Sony AC-96NP 9V 600mA
 ## Sony MDS-S500
 👇
 ![](images/sony-net-md-decks/sony-mds-s500-01.png)
+![](images/sony-net-md-decks/sony-mds-s500-02.png)
 
 - Remote control: Sony RM-D10J
 
