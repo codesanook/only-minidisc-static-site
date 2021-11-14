@@ -1,5 +1,6 @@
 # Sidebar navigation
 
+
 - label: หน้าแรก
   link: /
 - label: ทำไมยังเล่น MD
@@ -58,3 +59,6 @@
 
     - label: MP3 to casette tape adapter
       link: /useful-resources/mp3-to-cassette-tape-adapter
+    - label: Music sync instructions
+      link: /useful-resources/music-sync-instructions
+
