@@ -1,17 +1,28 @@
 import React, { useState, useEffect } from 'react';
-import data from './ipod-specification-data';
 import { css } from '@emotion/react';
+import data from './md-players-parts-data';
 
-const Spreadsheet = () => {
+// demo https://mengshukeji.github.io/LuckysheetDemo/
+export default function MDPlayersPartsSheet() {
   const [cellData] = useState(data);
 
   useEffect(() => {
     const luckysheet = window.luckysheet;
+
+    // configuration https://mengshukeji.github.io/LuckysheetDocs/guide/config.html
     luckysheet.create({
       container: 'spreadsheet',
       showtoolbar: false,
       showinfobar: false,
+      lang: 'en',
+      column: 5,
+      row: 30,
+      enableAddRow: false,
+      showsheetbar: false,
+      //showsheetbarConfig: { }
+
       data: [
+        // Sheet configuration https://mengshukeji.github.io/LuckysheetDocs/guide/sheet.html
         {
           name: 'iPod specification',
           color: '',
@@ -21,32 +32,28 @@ const Spreadsheet = () => {
           index: 0,
           config: {
             columnlen: {
-              0: 250,
-              1: 150,
+              0: 100,
+              1: 220,
               2: 150,
               3: 150,
               4: 150,
-            }, //Table column width
+            }, // Table column width
           },
-        },//end sheet 1
+        }, // End sheet 1
       ],
     });
-    console.log('sheet download');
+    console.log('sheet loaded');
   }, []);
 
   const style = css`
     margin: 0;
     padding: 0;
-    position: absolute;
     width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
+    height: 350px;
   `;
 
   return (
-    <div id="spreadsheet" css={style}></div>
+    <div id="spreadsheet" css={style}>
+    </div>
   );
 }
-
-export default Spreadsheet;

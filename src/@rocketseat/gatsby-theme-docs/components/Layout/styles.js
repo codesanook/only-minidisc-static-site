@@ -1,4 +1,4 @@
-// Theme shadowing the original from https://github.com/Rocketseat/gatsby-themes/blob/main/%40rocketseat/gatsby-theme-docs/src/components/Layout/styles.js
+// Theme shadowing the original from https://github.com/Rocketseat/gatsby-themes/blob/main/@rocketseat/gatsby-theme-docs/src/components/Layout/styles.js
 import styled from '@emotion/styled';
 
 export const Container = styled.div`

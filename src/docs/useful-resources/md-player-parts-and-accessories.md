@@ -6,9 +6,9 @@ disableTableOfContents: false
 
 ## MD drives
 
-<!-- import Spreadsheet from '../../components/Spreadsheet';
+import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 
-<Spreadsheet /> -->
+<MDPlayersPartsSheet />
 
 | Model name  | Model name using similar mechanism | MD mechanism type | Optical pick-up type | Link to buy a part |
 |-------------|------------------------------------|-------------------|----------------------|--------------------|
