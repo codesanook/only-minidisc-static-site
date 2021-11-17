@@ -1,7 +1,7 @@
 
 // https://github.com/jpedroschmitz/rocketdocs/blob/main/@rocketseat/gatsby-theme-docs/src/styles/theme.js
 
-export default {
+const theme = {
   colors: {
     primary: '#8257E6',
     background: '#FFFFFF',
@@ -19,3 +19,5 @@ export default {
     body: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif`,
   },
 };
+
+export default theme;

@@ -1,0 +1,22 @@
+[
+  [
+    "Model name",
+    "Device type",
+    "Release data",
+    "Hi-MD",
+    "Input",
+    "Output",
+    "Connection to a computer",
+    "Remark"
+  ],
+  [
+    "MDS-NT1",
+    "Deck",
+    "2001/12",
+    "No",
+    "-",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Type-B",
+    "Good at Net MD recording, like Net MD-ROM"
+  ]
+]

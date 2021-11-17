@@ -1,6 +1,5 @@
 # Sidebar navigation
 
-
 - label: หน้าแรก
   link: /
 - label: ทำไมยังเล่น MD
@@ -15,6 +14,10 @@
   items:
     - label: ข้อดีของ Net MD
       link: /net-md/advantages-of-net-md
+    - label: ชื่อรุ่นของเครื่องเล่น Sony MD
+      link: /net-md/md-player-model-number
+    - label: เครื่องเล่นที่รองรับ Net MD
+      link: /net-md/net-md-players
 
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
       link: /net-md/sonic-stage-manual
@@ -27,8 +30,6 @@
       link: /net-md/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
-    - label: ชื่อรุ่นของ Sony MD players
-      link: /net-md/md-player-model-number
     - label: รีโมทรุ่นต่างๆ ของ Sony MD
       link: /net-md/sony-md-remotes
 

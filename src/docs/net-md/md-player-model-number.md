@@ -1,6 +1,5 @@
 ---
-title: ชื่อรุ่นของ Sony MD players
-description: ความหมายของตัวอักษรแต่ละตัวในชื่อรุ่นของ Sony MD players
+title: ชื่อรุ่นของเครื่องเล่น Sony MD
 ---
 
 ## Introduction

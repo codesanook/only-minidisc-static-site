@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/react';
-import data from './md-players-parts-data';
+import data from './net-md-players-data.json';
 
-const containerId = 'mdPlayerPartsSheet';
+const containerId = 'netMDPlayersSheet';
+
 // demo https://mengshukeji.github.io/LuckysheetDemo/
-export default function MDPlayersPartsSheet() {
+export default function NetMDPlayersSheet() {
   const [cellData] = useState(data);
 
   useEffect(() => {
@@ -25,7 +26,7 @@ export default function MDPlayersPartsSheet() {
       data: [
         // Sheet configuration https://mengshukeji.github.io/LuckysheetDocs/guide/sheet.html
         {
-          name: 'MD players parts',
+          name: 'Net MD players',
           color: '',
           status: '1',
           order: '0',
@@ -34,10 +35,13 @@ export default function MDPlayersPartsSheet() {
           config: {
             columnlen: {
               0: 100,
-              1: 220,
-              2: 150,
-              3: 150,
-              4: 150,
+              1: 100,
+              2: 100,
+              3: 100,
+              4: 50,
+              5: 150,
+              6: 150,
+              7: 150,
             }, // Table column width
           },
         }, // End sheet 1
