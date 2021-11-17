@@ -10,7 +10,7 @@
     "Remark"
   ],
   [
-    "MDS-NT1",
+    "Sony MDS-NT1",
     "Deck",
     "2001/12",
     "No",
@@ -18,5 +18,95 @@
     "3.5mm line out (analog-only), 3.5mm headphone",
     "USB Type-B",
     "Good at Net MD recording, like Net MD-ROM"
+  ],
+  [
+    "Sony MDS-S500",
+    "Deck",
+    "2003/11",
+    "No",
+    "RCA in, Digital optical (TOSLINK)",
+    "3.5mm headphone, RCA out, Digital optical (TOSLINK)",
+    "USB Type-B",
+    "Good at Net MD recording and listening"
+  ],
+  [
+    "Sony MDS-JE780",
+    "Deck",
+    "2002/06",
+    "No",
+    "RCA in, Digital optical (TOSLINK)",
+    "6.3mm headphone, RCA out, Digital optical (TOSLINK)",
+    "USB Type-B",
+    "Good at Net MD recording and listening, slim body"
+  ],
+  [
+    "Sony MDS-JB980",
+    "Deck",
+    "2002/08",
+    "No",
+    "RCA in, Digital optical (TOSLINK), Digital coaxial",
+    "6.3mm headphone, RCA out, Digital optical (TOSLINK)",
+    "USB Type-B",
+    "Good at Net MD recording and listening, top model in Net MD deck range"
+  ],
+  [
+    "Sony MZ-NE810",
+    "Portable",
+    "2003/06",
+    "No",
+    "-",
+    "3.5mm headphone",
+    "USB Mini-B",
+    "No LCD screen"
+  ],
+  [
+    "Aiwa AM-NX1",
+    "Portable",
+    "2003/03",
+    "No",
+    "-",
+    "3.5mm headphone",
+    "USB Mini-B",
+    "It has no LCD screen and requires a remote to control all functions"
+  ],
+  [
+    "Sony MZ-N1",
+    "Portable",
+    "2001/12",
+    "No",
+    "3.5mm line in (analog-only), 3.5mm line in (optical multi), 3.5mm microphone",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Mini-B",
+    "A dock is required in order to use netMD."
+  ],
+  [
+    "Sony MZ-N910",
+    "Portable",
+    "2003/03",
+    "No",
+    "3.5mm line in (analog-only), 3.5mm line in (optical multi), 3.5mm microphone",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Mini-B",
+    ""
+  ],
+  [
+    "Sony MZ-N920",
+    "Portable",
+    "2004/05",
+    "No",
+    "3.5mm line in (analog-only), 3.5mm line in (optical multi), 3.5mm microphone",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Mini-B",
+    ""
+  ],
+  [
+    "Sony MZ-RH1",
+    "Portable",
+    "2006/04",
+    "Yes",
+    "3.5mm line in (analog-only), 3.5mm line in (optical multi), 3.5mm microphone",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Mini-B",
+    "Last portable MD player model"
   ]
 ]

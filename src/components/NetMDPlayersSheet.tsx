@@ -32,6 +32,9 @@ export default function NetMDPlayersSheet() {
           order: '0',
           celldata: luckysheet.getGridData(cellData),
           index: 0,
+          frozen: {
+            type: 'column'
+          },
           config: {
             columnlen: {
               0: 100,

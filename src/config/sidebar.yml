@@ -18,6 +18,8 @@
       link: /net-md/md-player-model-number
     - label: เครื่องเล่นที่รองรับ Net MD
       link: /net-md/net-md-players
+    - label: Sony Net MD decks
+      link: /net-md/sony-net-md-decks
 
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
       link: /net-md/sonic-stage-manual
@@ -35,8 +37,6 @@
 
     - label: MD head-lens cleaner
       link: /net-md/md-head-lens-cleaner
-    - label: Sony Net MD decks
-      link: /net-md/sony-net-md-decks
 
     - label: A cheap music streamer with an MD deck
       link: /net-md/a-cheap-music-streamer-with-an-md-deck
