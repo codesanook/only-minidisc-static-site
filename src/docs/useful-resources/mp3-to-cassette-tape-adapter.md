@@ -1,5 +1,5 @@
 ---
-title: MP3 to casette tape adapter
+title: MP3 to cassette tape adapter
 ---
 
 ![](images/mp3-to-casette-tape-adapter/mp3-to-casette-tape-adapter.png)
@@ -23,6 +23,9 @@ title: MP3 to casette tape adapter
 - เครื่องเล่นเทปไม่ต้องมี auto reverse เหมือนมี auto reverse ในตัว
 - เล่นได้เป็นพันเพลงๆ หรือจนกว่าแบตจะหมด
 - มีเสียงจากกลไกเทปเพียงเล็กน้อย แต่ต้องเข้าไปฟังใกล้ๆ เครื่องเล่นเทปจริงๆ ถึงจะได้ยิน
+
+## Demo video
+https://www.youtube.com/watch?v=MpYlc8pjQn8
 
 ## Credit
 - คุณ Cheevin Phiboon สำหรับข้อมูลที่มีประโยชน์จากผู้ใช้งานจริง
