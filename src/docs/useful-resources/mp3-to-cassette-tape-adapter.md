@@ -1,14 +1,12 @@
 ---
 title: MP3 to casette tape adapter
-description: MP3 to casette tape adapter
-disableTableOfContents: false
 ---
 
 ![](images/mp3-to-casette-tape-adapter/mp3-to-casette-tape-adapter.png)
 
 ## Feature & Instruction
-
-- ตัวตลับเทปมีแบตในตัว เสียบชาร์จได้เลย ขั้วจะเป็น mini usb กับ micro usb แล้วแต่รุ่น
+- ตลับเทป adapter สะดวกในการ copy พวกเพลง MP3/Wave เข้าไปใน SD card แล้วเอาตลับเทปไปใช้กับเครื่องเล่นเทปได้เลย
+- ตัวตลับเทปมีแบตในตัว เสียบชาร์จได้เลย ขั้วจะเป็น mini USB หรือ micro USB แล้วแต่รุ่น
 - ใช้ได้กับไฟล์ MP3 ถึง 320kbps และ Wave 16bit/44.1 kHz
 - เก็บไฟล์ใน Sd card ไม่ใช่ micro SD ถ้าจะใช้ micro SD ให้ใช้ร่วมกับ SD card adapter
 - ใช้ได้กับ SD card ขนาด 64GB (ทดสอบแล้ว)
