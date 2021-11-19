@@ -40,7 +40,7 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 ## Use Web MiniDisc
 ใช้งาน Web MiniDisc
 
-- เปิดเบราว์เซอร์ (Chrome, Firefox หรือ Edge) แล้วไปที่ https://stefano.brilli.me/webminidisc/
+- เปิดเบราว์เซอร์ (Chrome, Firefox หรือ Edge) แล้วไปที่ https://webminidisc.com หรือ https://stefano.brilli.me/webminidisc/
 - ที่เบราว์เซอร์จะแสดงหน้าแรกของ Web MiniDisc ขึ้นมา
 
 ![](images/web-mini-disc/home-page.png)
