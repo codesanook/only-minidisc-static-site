@@ -5,6 +5,10 @@ import { useState } from 'react';
 // Configuration
 const defaultExchangeRate = 0.32;
 const defaultShippingCost = 0;
+const numberFormat = new Intl.NumberFormat(
+  'en-US',
+  { maximumFractionDigits: 2 }
+);
 
 // https://freshdesignweb.com/css-registration-form-templates/
 // https://www.begindot.com/best-css-registration-form-templates/
@@ -21,7 +25,7 @@ const style = css`
   padding: 10px;
   border: 7px solid $green-border;
   border-radius: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #444;
   background-color: $back-color;
   box-shadow: 0 0 20px 0 #000000;
@@ -82,7 +86,7 @@ const fieldContainer = css`
   }
 
 	input[type=text], input[type=password] {
-    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+    font-family: 'Lucida Grande','Lucida Sans Unicode',Tahoma,Sans-Serif;
     padding: 5px;
     font-size: 0.9em;
     border-radius: 5px;
@@ -122,70 +126,78 @@ export default function YahooActionJapanCalculator() {
   const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
     setNumberValue(e.target.value, numberValue => setExchangeRate(numberValue));
 
-  const getTotalPrice = () => ((productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate).toFixed(2);
+  const getTotalPrice = () => (productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate;
 
   return (
     <form css={style}>
       <div css={fieldContainer}>
-        <label htmlFor="productPrice">* Product price</label>
+        <label htmlFor='productPrice'>* Product price</label>
         <input
-          type="text"
-          id="productPrice"
-          spellCheck="false"
-          placeholder="Product price (Highest bidding price)"
+          type='text'
+          id='productPrice'
+          spellCheck='false'
+          placeholder='Product price (Highest bidding price)'
           onChange={handleProductPriceChanged}
         />
       </div>
       <div css={fieldContainer}>
-        <label className='input' htmlFor="shippingCost">Shipping cost</label>
+        <label className='input' htmlFor='shippingCost'>Shipping cost</label>
         <input
           className='field'
-          type="text"
-          id="shippingCost"
-          spellCheck="false"
+          type='text'
+          id='shippingCost'
+          spellCheck='false'
           placeholder={`Optional, default to "${defaultShippingCost}"`}
           onChange={handleShippingCostChanged}
         />
-        <span className="hint">Shipping cost (In Japan only), search a value in <em>配送方法と送料</em> section</span>
+        <span className='hint'>Shipping cost (In Japan only), search a value in <em>配送方法と送料</em> section</span>
       </div>
       <div css={fieldContainer}>
-        <label className='label' htmlFor="yahooAuctionFee">Yahoo auction free</label>
+        <label className='label' htmlFor='yahooAuctionFee'>Yahoo auction free</label>
         <input className='input'
-          type="text"
-          id="yahooAuctionFree"
-          spellCheck="false"
-          placeholder={"Optional, default to \"100\" Yen"}
+          type='text'
+          id='yahooAuctionFree'
+          spellCheck='false'
+          placeholder={'Optional, default to "100" Yen'}
           onChange={handleYahooAuctionFeeChanged} />
       </div>
       <div css={fieldContainer}>
-        <label htmlFor="billingFee">Billing free</label>
+        <label htmlFor='billingFee'>Billing free</label>
         <input
-          type="text"
-          id="billingFee"
-          spellCheck="false"
-          placeholder={"Optional, default to \"250\" Yen"}
+          type='text'
+          id='billingFee'
+          spellCheck='false'
+          placeholder={'Optional, default to "250" Yen'}
           onChange={handleBillingFeeChanged} />
-        <span className="hint">Billing fee from a provider who deliveries an item from Japan to Thailand</span>
+        <span className='hint'>Billing fee from a provider who deliveries an item from Japan to Thailand</span>
       </div>
       <div css={fieldContainer}>
-        <label htmlFor="exchangeRate">Exchange Rate (1 YEN to THB)</label>
+        <label htmlFor='exchangeRate'>Exchange Rate (1 YEN to THB)</label>
         <input
-          type="text"
-          id="exchangeRate"
-          spellCheck="false"
+          type='text'
+          id='exchangeRate'
+          spellCheck='false'
           placeholder={`Optional, default to "${defaultExchangeRate}" Yen/THB`}
           onChange={handleExchangeRateChanged}
         />
       </div>
       <div css={totalPrice}>
-        Total price: ({productPrice} + {shippingCost} + {yahooAuctionFee} + {billingFee}) x {exchangeRate} = {getTotalPrice()}
+        Total price: (
+        {numberFormat.format(productPrice)} +
+        {numberFormat.format(shippingCost)} +
+        {numberFormat.format(yahooAuctionFee)} +
+        {numberFormat.format(billingFee)}
+        ) x
+        {numberFormat.format(exchangeRate)} = {numberFormat.format(getTotalPrice())}
       </div>
     </form>
   );
 }
 
 function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void) {
-  const numberValue = Number(inputValue);
+  const pattern = /[^0-9\.]/g;
+
+  const numberValue = Number(inputValue.replace(pattern, ''));
   if (!isNaN(numberValue)) {
     setValueState(numberValue)
   }
