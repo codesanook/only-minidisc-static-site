@@ -2,7 +2,7 @@
 title: ทำไมในอดีต Net MD จึงเสียงไม่ดี
 ---
 
-![](images/why-did-md-not-produce-good-sound-quality-in-the-past/net-md-sound-quality-cover.png)
+![](images/why-did-net-md-not-produce-good-sound-quality-in-the-past/net-md-sound-quality-cover.png)
 
 เรามักได้ยินเสมอว่า "Net MD เสียงไม่ดี" เรื่องนี้เป็นไปได้จริง แต่ปัจจุบันไม่ได้เป็นแบบนั้นแล้ว
 
