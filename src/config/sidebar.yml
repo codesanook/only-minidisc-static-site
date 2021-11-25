@@ -14,8 +14,9 @@
   items:
     - label: ข้อดีของ Net MD
       link: /net-md/advantages-of-net-md
-    - label: ชื่อรุ่นของเครื่องเล่น Sony MD
-      link: /net-md/md-player-model-number
+    - label: ทำไมในอดีต Net MD จึงเสียงไม่ดี
+      link: /net-md/why-did-md-not-produce-good-sound-quality-in-the-past
+
     - label: เครื่องเล่นที่รองรับ Net MD
       link: /net-md/net-md-players
     - label: Sony Net MD decks
@@ -32,19 +33,25 @@
       link: /net-md/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
-    - label: รีโมทรุ่นต่างๆ ของ Sony MD
-      link: /net-md/sony-md-remotes
-
-    - label: MD head-lens cleaner
-      link: /net-md/md-head-lens-cleaner
-
-    - label: A cheap music streamer with an MD deck
-      link: /net-md/a-cheap-music-streamer-with-an-md-deck
 
 - label: Useful resources
   items:
     - label: Yahoo Auction Japan calculator
       link: /useful-resources/yahoo-auction-japan-calculator
+
+    - label: ชื่อรุ่นของเครื่องเล่น Sony MD
+      link: /useful-resources/md-player-model-number
+    - label: รีโมทรุ่นต่างๆ ของ Sony MD
+      link: /useful-resources/sony-md-remotes
+    - label: Sony MD power adapter
+      link: /useful-resources/sony-md-power-adapter
+
+
+    - label: MD head-lens cleaner
+      link: /useful-resources/md-head-lens-cleaner
+
+    - label: A cheap music streamer with an MD deck
+      link: /useful-resources/a-cheap-music-streamer-with-an-md-deck
 
     - label: รวม Wiki ข้อมูลของเครื่องเล่นแบบต่างๆ
       link: /useful-resources/audio-player-wiki

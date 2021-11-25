@@ -1,7 +1,5 @@
 ---
 title: MD player parts and accessories
-description: MD player parts and accessories
-disableTableOfContents: false
 ---
 
 ## MD drives

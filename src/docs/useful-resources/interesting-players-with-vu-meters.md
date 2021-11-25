@@ -1,7 +1,5 @@
 ---
 title: Interesting players with VU meters
-description: List of interesting tape, MD players with VU meters
-disableTableOfContents: false
 ---
 
 ##  Technics Stereo cassette deck 615

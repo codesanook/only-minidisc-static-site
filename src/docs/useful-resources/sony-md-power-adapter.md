@@ -1,6 +1,5 @@
 ---
 title: Sony MD power adapter
-description: Sony MD power adapter
 ---
 
 ## Sony AC-ES3010K3
