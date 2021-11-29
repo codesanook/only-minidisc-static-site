@@ -37,15 +37,15 @@ export default function NetMDPlayersSheet() {
           },
           config: {
             columnlen: {
-              0: 100,
-              1: 100,
-              2: 100,
-              3: 100,
-              4: 50,
-              5: 150,
-              6: 150,
-              7: 150,
-            }, // Table column width
+              0: 110, // Model name
+              1: 80, // Device type
+              2: 80, // Release date
+              3: 50, // Hi-MD
+              4: 150, // Input
+              5: 150, // Output
+              6: 150, // Connection to a computer
+              7: 150, // Remark
+            }, // End columns' width
           },
         }, // End sheet 1
       ],

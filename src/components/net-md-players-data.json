@@ -2,7 +2,7 @@
   [
     "Model name",
     "Device type",
-    "Release data",
+    "Release date",
     "Hi-MD",
     "Input",
     "Output",
@@ -118,5 +118,15 @@
     "3.5mm line out (analog-only), 3.5mm headphone",
     "USB proprietary, very difficult to find",
     "It is a tenth anniversary recorder. A proprietary usb cable is required to charge/use netMD, with or without the dock."
+  ],
+  [
+    "Sony MZ-NF810",
+    "Portable",
+    "2003/04",
+    "No",
+    "3.5mm line in (analog-only), 3.5mm line in (optical multi), 3.5mm microphone",
+    "3.5mm line out (analog-only), 3.5mm headphone",
+    "USB Mini-B",
+    ""
   ]
 ]
