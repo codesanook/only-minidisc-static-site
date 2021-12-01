@@ -23,6 +23,10 @@ disableTableOfContents: false
 - จำหน่ายเครื่องเล่น MD แผ่น MD และอุปกรณ์เครื่องเสียงอื่นๆ นำเข้าจากญี่ปุ่น สินค้ามีรับประกัน
 - https://www.facebook.com/profile.php?id=1075363789
 
+## Sukit Laokaew
+- รับซ่อมคอมทุกอาการ โทรศัพท์ เทป ซาวเบา 450 บาท ติดต่อได้ by kuka
+- https://www.facebook.com/kuka.scorpions
+
 ## Wit766
 - ขายเครื่องเสียงจากญี่ปุ่น By Yahoo JAPAN
 - https://www.facebook.com/wit766/
