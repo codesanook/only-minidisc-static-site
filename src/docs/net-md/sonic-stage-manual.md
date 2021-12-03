@@ -1,6 +1,5 @@
 ---
-title: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
-description: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage แบบ step by step
+title: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage แบบ step by step
 ---
 
 # SonicStage installation instructions for Windows 10 64-bit

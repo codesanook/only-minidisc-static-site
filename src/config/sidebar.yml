@@ -33,6 +33,8 @@
       link: /net-md/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
+    - label: รีวิวคุณภาพเสียงจากแผ่นที่อัดด้วย Net MD
+      link: /net-md/net-md-sound-quality-review
 
 - label: Useful resources
   items:
