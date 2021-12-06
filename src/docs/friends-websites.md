@@ -35,6 +35,11 @@ disableTableOfContents: false
 - จำหน่ายเครื่องเสียงและลำโพงนำเข้าจากญี่ปุ่น คู่มือการใช้ แหล่งอะไหล่ และซ่อมบำรุง
 - https://www.facebook.com/Japanstereo2020/
 
+## Wat Khlong Thom
+- วัตร คลองถม จำหน่ายเทป เครื่องเล่น หูฟัง
+- https://www.facebook.com/profile.php?id=100002555765124
+- [กลุ่มคลองถม-ขายของมือ1-มือ2](https://www.facebook.com/groups/783472448511833)
+
 ## Cassette Diary
 - นำเข้าเทปมือ 2 จากญี่ปุ่น
 - https://www.facebook.com/Cassette-Diary-109104654375114/
@@ -63,4 +68,10 @@ disableTableOfContents: false
 - Upgrade, develop, remix music, video and song
 - https://www.facebook.com/studio.hiend
 
+## Japan Guitar 2Hand
+- ขายกีต้าร์ไฟฟ้า กีต้าร์โปร่ง เบส ญี่ปุ่นมือสอง เครื่องดนตรีมือสองจากญี่ปุ่น
+- https://www.facebook.com/japanguitar2hand
 
+##  The Walkman for Sale
+- ศูนย์รวม เครื่องเล่น Walkman สำหรับนักสะสมทุกรุ่น (รีวิวรับซ่อม และจำหน่ายเครื่องเล่นวินเทจ)
+- https://www.facebook.com/retromarkets/
