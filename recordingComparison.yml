@@ -1,0 +1,14 @@
+# 1:1 VS Net MD
+# Feature as row
+# - feature: xxx
+#   oneOnOne: >
+#     aaa
+#   netMD: >
+#     bbb
+
+# - feature: xxx
+#   oneOnOne: aa
+#   netMD: bb
+
+- label: หน้าแรก2
+  link: /
