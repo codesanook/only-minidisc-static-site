@@ -3,9 +3,8 @@ import { css } from '@emotion/react';
 import { useState } from 'react';
 
 // Configuration
-const defaultExchangeRate = 0.32;
+const defaultExchangeRate = 0.33;
 const defaultShippingCost = 0;
-
 const defaultYahooAuctionFee = 100;
 const defaultBillingFee = 250;
 
