@@ -1,7 +1,5 @@
 ---
 title: ข้อดีของ Net MD
-description: ข้อดีของ Net MD
-disableTableOfContents: false
 ---
 
 ![](images/advantages-of-net-md/net-md-logo-transparent.png)
