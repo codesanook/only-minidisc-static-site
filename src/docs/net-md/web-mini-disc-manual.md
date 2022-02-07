@@ -83,13 +83,35 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 ![](images/web-mini-disc-manual/menu.png)
 
 ## Use Web MiniDisc on a mobile phone
-- ใช้ Web MiniDisc เขียนเพลงลงแผ่น MD ผ่านมือถือโดยตรงกับเครื่องเล่นที่รองรับ NetMD ถือว่าใช้งานได้ดี
-- เลือกเพลงที่อยู่ในมือถือได้เลย
-- SP mode ใช้เวลาเขียนเยอะกว่า MDS-S500 อยู่มาก
-- มี error ที่ตัว Web MiniDisc ตอนโหลด TOC (table of content) ใหม่
-- เปิดเล่นเพลงในแผ่นที่เพิ่งเขียนไปได้ปกติ
-- ใช้ USB OTG adapter ได้เลย
-  ![](images/web-mini-disc-manual/web-mini-disc-manual-on-mobile-phone.png)
+- เราสามารถใช้ Web MiniDisc เขียนเพลงลงแผ่น MD ผ่านมือถือโดยตรงกับเครื่องเล่นที่รองรับ Net MD
+- ไม่ต้องลง driver
+- ใช้ USB OTG adapter ได้เลย หรือ USB type C to mini USB
+- เลือกเพลงที่อยู่ในมือถือได้เลย จะเลือกเพลงเดียวหรือเพลงทั้งหมดใน folder ก็ได้ เขียนหลายเพลงในครั้งเดียวได้
+  - กดปุ่ม + เพื่อเลือกเพลงที่จะเขียนลงแผ่น MD
+    ![](images/web-mini-disc-manual/mobile-select-add-music-files.png)
+
+  - เลือก Files action
+    ![](images/web-mini-disc-manual/mobile-select-files-action.png)
+
+  - เลือกโฟลเดอร์ที่เก็บเพลง และเลือกไฟล์ทั้งหมด
+    ![](images/web-mini-disc-manual/mobile-select-all-music-files-in-a-folder.png)
+
+  - กดปุ่ม OPEN เพื่อนำไฟล์ทั้งหมดไปเขียนลงแผ่น
+    ![](images/web-mini-disc-manual/mobile-select-open-files.png)
+
+  - เลือก Recording mode แล้วกดปุ่ม OK เพื่อทำการเขียนแผ่น
+    ![](images/web-mini-disc-manual/mobile-select-recording-mode-and-ok.png)
+
+  - รอจนกว่า Web MiniDisc จะเขียนแผ่นเสร็จ
+    ![](images/web-mini-disc-manual/mobile-recording-status.png)
+
+- เขียนแผ่น SP mode ด้วยมือถือใช้เวลาเขียนมากกว่า MDS-S500 ค่อนข้างมาก
+- อาจจะมี error ที่ตัว Web MiniDisc ตอนโหลด TOC (table of content) ใหม่
+- เปิดเล่นเพลงในแผ่นที่เพิ่งเขียนเสร็จไปได้ปกติ
+  ![](images/web-mini-disc-manual/web-mini-disc-on-mobile-phone.png)
+
+- Credit music files from YouTube Audio Libary
+
 
 ## Supported music files
 
