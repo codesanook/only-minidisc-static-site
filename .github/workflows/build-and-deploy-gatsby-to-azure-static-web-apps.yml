@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  NODE_VERSION: 12.x # Set Node.js version to use.
+  NODE_VERSION: 14.x # Set Node.js version to use.
 
 jobs:
   build_and_deploy_job:
