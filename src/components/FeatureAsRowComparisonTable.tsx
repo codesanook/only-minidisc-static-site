@@ -74,7 +74,7 @@ const comparisonTableStyle = () => css`
 `;
 
 // https://www.sitepoint.com/responsive-solutions-for-feature-comparison-tables/
-const FeatureAsRowComparisonTable = ({ data }) => {
+export default function FeatureAsRowComparisonTable({ data }) {
 
   return (
     <Wrapper>
@@ -82,22 +82,21 @@ const FeatureAsRowComparisonTable = ({ data }) => {
         <thead>
           <tr>
             <th></th>
-            <th>GitHub Actions</th>
-            <th>Azure DevOps Pipelines</th>
+            <th>1:1 (optical input)</th>
+            <th>Net MD (Web MiniDisc)</th>
           </tr>
         </thead>
         <tbody>
           {data.map((item) =>
             <tr key={item.id}>
               <td data-column={item.feature}>{item.feature}</td>
-              <td data-column='Github Actions'>{item.actions}</td>
-              <td data-column='Azure DevOps Pipeline'>{item.pipelines}</td>
+              <td data-column='oneOnOne'>{item.oneOnOne}</td>
+              <td data-column='netMD'>{item.netMD}</td>
             </tr>
           )}
         </tbody>
       </table>
     </Wrapper>
-  )
+  );
 };
 
-export default FeatureAsRowComparisonTable;

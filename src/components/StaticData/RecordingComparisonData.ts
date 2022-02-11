@@ -3,25 +3,22 @@
 // https://www.gatsbyjs.com/plugins/gatsby-transformer-yaml/
 
 // yarn add gatsby-source-filesystem gatsby-transformer-yaml
-
 import { useStaticQuery, graphql } from 'gatsby';
 
 // https://www.gatsbyjs.cn/docs/use-static-query/#composing-custom-usestaticquery-hooks
-const recordingComparisonData = () => {
-  const { recordingComparisonDataYml } = useStaticQuery(graphql`
-    query queryReportYAML {
-      allReportingYaml {
+export default function RecordingComparisonData() {
+  const { allRecordingComparisonDataYaml: { nodes: data } } = useStaticQuery(graphql`
+    query recordingComparisonDataQuery {
+      allRecordingComparisonDataYaml {
         nodes {
-          id
-          feature
           oneOnOne
           netMD
+          feature
         }
       }
     }
   `);
 
-  return recordingComparisonDataYml.nodes;
+  return data;
 };
 
-export default recordingComparisonData;
