@@ -1,40 +1,40 @@
 # 1:1 VS Net MD
 # Feature as row
 - feature: ได้ชื่อเพลงอัตโนมัติ
-  oneOnOne: >
+  oneToOne: >
     ไม่มี ต้องพิมพ์ชื่อเพลงเข้าไปเอง ผ่าน input ที่ตัวเครื่องเล่นแบบเลื่อนไปทีละตัว
     หรือผ่าน computer keyboard ที่ใช้ได้กับ Deck บางรุ่น
   netMD: >
     ได้ชื่อเพลงโดยอัตโนมัติ (เฉพาะชื่อเพลงภาษาอังกฤษ สำหรับภาษาไทยจะกลายเป็นข้อความว่างๆ)
 
 - feature: ตัด track ได้ถูกต้องแม่นยำ (auto tracking)
-  oneOnOne: >
+  oneToOne: >
     จากประสบการณ์ส่วนตัวของผู้เขียน อัดจากเครื่องเล่น CD (optical out) ตัดเพลงได้ถูกต้อง
     แต่จากต้นทางอื่นๆ แทบจะได้มาแค่เพลงเดียวเลยแบบยาวๆ เลย
   netMD: >
     ตัดเพลงได้ถูกต้องแม่นยำ เพราะผ่านโปรแกรมคอมพิวเตอร์และไฟล์ต้นฉลับที่แยกกันชัดเจน
 
 - feature: เวลาที่ใช้งานการอัดเพลง
-  oneOnOne: >
+  oneToOne: >
     เท่ากับความยาวของเพลง เช่น เพลง 5 นาที จะใช้เวลาอัด 5 นาที เพลงทั้งอัลบั้ม 60 นาที จะใช้เวลา 60 นาที
   netMD: >
     ใช้เวลาน้อยกว่าเวลาจริงของเพลง ตัวอย่างเช่น เพลง 64 เขียนใน SP mode (4x) จะใช้เวลา ~16 นาที และ LP2 mode (32x) จะใช้เวลา ~2 นาที
     เรียนรู้เพิ่มเติม https://onlyminidisc.com/net-md/writing-disc-time-usage-test และ https://www.minidisc.wiki/guides/net-md-speed-test
 
 - feature: เครื่องเล่นที่รองรับ
-  oneOnOne: >
+  oneToOne: >
     เครื่องเล่น MD ที่รองรับการอัดเพลง และมี digital input
   netMD: >
     เครื่องเล่น MD ที่รองรับ Net MD หรือเครื่องเล่น Hi-MD ที่รองรับการอัดเพลง
 
 - feature: วิธีการอัดเพลง
-  oneOnOne: >
+  oneToOne: >
     ใช้เครื่องเล่นที่มี optical out เล่นเพลงที่จะอัด และต่อเข้ากับ optical input ของเครื่องเล่น MD ที่จะใช้อัดแผ่น
   netMD: >
     ใช้งานโปรแกรม Web MiniDisc จากเครื่องคอมพิวเตอร์หรือโทรศัพท์มือถือ สั่งให้เครื่องเล่น Net MD ที่เชื่อมต่ออยู่เขียนเพลงลงแผ่น
 
 - feature: แหล่งต้นทางของเพลง
-  oneOnOne: >
+  oneToOne: >
     เครื่องเล่น CD, เครื่องเล่น Digital Audio Player,  เครื่องเล่น Music Streamer, portable DAC
     หรือเครื่องเล่นเพลงอื่นๆ ที่มี digital output
     คหสต. จะเห็นได้ว่า input ของ 1:1 จะมีตัวแปรทั้งเครื่องเล่นเพลงต้นทางและคุณภาพของไฟล์เพลง
@@ -44,27 +44,27 @@
     ไฟล์ทั้งหมดที่รองรับ https://onlyminidisc.com/net-md/web-mini-disc-manual#supported-music-files
 
 - feature: โปแกรมเพิ่มเติมที่ต้องใช้
-  oneOnOne: >
+  oneToOne: >
     ไม่มี
   netMD: >
     Web MiniDisc สามารถใช้งานผ่านหน้าเว็บได้เลย ต่อ internet เพียงโหลดครั้งแรก สามารถใช้แบบ offline ได้
     เฉพาะ Windows OS ที่ต้องลง driver แต่ macOS และ Android OS เสียบ USB แล้วใช้งานได้เลย
 
 - feature: อุปกรณ์เชื่อมต่อ
-  oneOnOne: >
+  oneToOne: >
     สาย optical cable หรือที่เรียกอีกชื่อว่า TOSLINK หรือสาย Coaxial
   netMD: >
     เครื่องเล่นที่รองรับ Net MD แบบพกพาเกือบทั้งหมดจะใช้ Mini B USB ที่หาซื้อได้ง่าย ยกเว้น MZ-N10 ที่จะมีสายจำเพาะของ Sony
     ส่วนแบบ deck และ compo จะเป็นแบบ Type B USB แบบเดียวกับเครื่อง printer
 
 - feature: คุณภาพเสียง (เป็นเรื่องปัจเจคบุคคล และรสนิยม)
-  oneOnOne: >
+  oneToOne: >
    N/A
   netMD: >
     เราได้ทำรีวิวคุณภาพเสียงของ Net MD ไว้ที่นี่ https://onlyminidisc.com/net-md/net-md-sound-quality-review
 
 - feature: ความใกล้เคียงเสียงเพลงต้นฉบับ
-  oneOnOne: >
+  oneToOne: >
     จะมีการทดสอบด้วย Oscilloscope ครับ
   netMD: >
     จะมีการทดสอบด้วย Oscilloscope ครับ

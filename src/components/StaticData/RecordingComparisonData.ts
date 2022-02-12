@@ -11,7 +11,7 @@ export default function RecordingComparisonData() {
     query recordingComparisonDataQuery {
       allRecordingComparisonDataYaml {
         nodes {
-          oneOnOne
+          oneToOne
           netMD
           feature
         }

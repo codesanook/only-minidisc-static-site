@@ -90,7 +90,7 @@ export default function FeatureAsRowComparisonTable({ data }) {
           {data.map((item) =>
             <tr key={item.id}>
               <td data-column={item.feature}>{item.feature}</td>
-              <td data-column='oneOnOne'>{item.oneOnOne}</td>
+              <td data-column='oneToOne'>{item.oneToOne}</td>
               <td data-column='netMD'>{item.netMD}</td>
             </tr>
           )}
