@@ -34,7 +34,15 @@ title: ข้อดีของ Net MD
 - สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
 - ภาพตัวอย่างโปรแกรม Web MiniDisc
 
-  ![](images/web-mini-disc/list-all-songs.png)
+  ![](images/web-mini-disc-manual/list-all-songs.png)
+
+## Relationship between MD recorders that support Net MD technology and Hi-MD recorders
+- All MD recorders that support Net MD technology allow us to transfer a music file from a computer or a mobile phone to an MD recorder.
+- **All Sony Hi-MD recorders support Net MD technology** but all Onkyo Hi-MD recorders do not.
+- MD Recorders that support Net MD technology but not Hi-MD recorders allow us to record in SP, LP2 and LP4 modes only.
+- Here is the Venn and Euler diagram that shows the relationship between MD recorders that support Net MD technology and Hi-MD recorders:
+
+  ![](images/advantages-of-net-md/relationship-bettween-md-recorders-that-support-net-md-technology-and-hi-md-recorders.drawio.png)
 
 ## USB to Toslink/Coaxial converter
 - Douk Audio Mini XMOS USB to SPDIF Coaxial Optical
