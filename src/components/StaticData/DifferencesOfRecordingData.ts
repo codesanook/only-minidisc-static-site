@@ -6,10 +6,10 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
 // https://www.gatsbyjs.cn/docs/use-static-query/#composing-custom-usestaticquery-hooks
-export default function RecordingComparisonData() {
-  const { allRecordingComparisonDataYaml: { nodes: data } } = useStaticQuery(graphql`
-    query recordingComparisonDataQuery {
-      allRecordingComparisonDataYaml {
+export default function DifferencesOfRecordingData() {
+  const { allDifferencesOfRecordingDataYaml: { nodes: data } } = useStaticQuery(graphql`
+    query differencesOfRecordingDataQuery {
+      allDifferencesOfRecordingDataYaml {
         nodes {
           oneToOne
           netMD

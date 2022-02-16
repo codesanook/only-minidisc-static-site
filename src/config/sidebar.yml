@@ -42,8 +42,8 @@
     - label: การอัด 1:1 (optical input) และ Net MD (Web MiniDisc) ให้ผลลัพธ์ต่างกันในแบบที่เราฟังแล้วแยกออกหรือไม่
       link: /net-md/do-one-to-one-and-net-md-recording-produce-different-output
 
-    - label: 1:1 (optical input) VS Net MD (Web MiniDisc) recording
-      link: /net-md/one-to-one-vs-net-md-recording
+    - label: ข้อแตกต่างระหว่างการอัดด้วยวิธี 1:1 (optical input) และ Net MD (Web MiniDisc)
+      link: /net-md/differences-between-one-to-one-and-net-md-recording
 
 - label: Useful resources
   items:

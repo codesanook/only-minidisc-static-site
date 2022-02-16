@@ -1,2 +1,2 @@
-export { default as RecordingComparisonData } from './RecordingComparisonData';
+export { default as DifferencesOfRecordingData } from './DifferencesOfRecordingData';
 

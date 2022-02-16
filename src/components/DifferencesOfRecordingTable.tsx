@@ -1,13 +1,8 @@
 // This table fits for many comparison features (rows) but less products (columns)
 import React from 'react';
-import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
-const Wrapper = styled.div`
-  //overflow-x: auto;
-`;
-
-const comparisonTableStyle = () => css`
+const tableStyle = () => css`
   border-collapse: collapse;
   position: relative;
   height: 100%;
@@ -74,29 +69,26 @@ const comparisonTableStyle = () => css`
 `;
 
 // https://www.sitepoint.com/responsive-solutions-for-feature-comparison-tables/
-export default function FeatureAsRowComparisonTable({ data }) {
-
+export default function DifferencesOfRecordingTable({ data }) {
   return (
-    <Wrapper>
-      <table css={comparisonTableStyle()}>
-        <thead>
-          <tr>
-            <th></th>
-            <th>1:1 (optical input)</th>
-            <th>Net MD (Web MiniDisc)</th>
+    <table css={tableStyle()}>
+      <thead>
+        <tr>
+          <th></th>
+          <th>1:1 (optical input)</th>
+          <th>Net MD (Web MiniDisc)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((item) =>
+          <tr key={item.id}>
+            <td data-column={item.feature}>{item.feature}</td>
+            <td data-column='oneToOne'>{item.oneToOne}</td>
+            <td data-column='netMD'>{item.netMD}</td>
           </tr>
-        </thead>
-        <tbody>
-          {data.map((item) =>
-            <tr key={item.id}>
-              <td data-column={item.feature}>{item.feature}</td>
-              <td data-column='oneToOne'>{item.oneToOne}</td>
-              <td data-column='netMD'>{item.netMD}</td>
-            </tr>
-          )}
-        </tbody>
-      </table>
-    </Wrapper>
+        )}
+      </tbody>
+    </table>
   );
 };
 
