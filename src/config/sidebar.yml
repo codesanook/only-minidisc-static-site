@@ -39,10 +39,10 @@
       link: /net-md/net-md-sound-quality-review
     - label: Copy audio CD to MD
       link: /net-md/copy-audio-cd-to-md
-    - label: การอัด 1:1 (optical input) และ Net MD (Web MiniDisc) ให้ผลลัพธ์ต่างกันในแบบที่เราฟังแล้วแยกออกหรือไม่
+    - label: การอัด 1:1 (digital input) และ Net MD (Web MiniDisc) ให้ผลลัพธ์ต่างกันในแบบที่เราฟังแล้วแยกออกหรือไม่
       link: /net-md/do-one-to-one-and-net-md-recording-produce-different-output
 
-    - label: ข้อแตกต่างระหว่างการอัดด้วยวิธี 1:1 (optical input) และ Net MD (Web MiniDisc)
+    - label: ข้อแตกต่างระหว่างการอัดด้วยวิธี 1:1 (digital input) และ Net MD (Web MiniDisc)
       link: /net-md/differences-between-one-to-one-and-net-md-recording
 
 - label: Useful resources

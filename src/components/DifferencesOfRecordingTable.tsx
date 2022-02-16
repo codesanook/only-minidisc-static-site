@@ -75,7 +75,7 @@ export default function DifferencesOfRecordingTable({ data }) {
       <thead>
         <tr>
           <th></th>
-          <th>1:1 (optical input)</th>
+          <th>1:1 (digital input)</th>
           <th>Net MD (Web MiniDisc)</th>
         </tr>
       </thead>
