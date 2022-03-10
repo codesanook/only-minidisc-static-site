@@ -39,6 +39,9 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 | 19                   | 1.2            | Square    | MDS-NT1, MDS-S500, JE780, JB980 |
 | 12.5                 | 1.2            | Square    | LAM-Z05                         |
 
+![](images/md-player-parts-and-accessories/md-belt-diameter.png)
+
+
 ## Power adapters
 
 | Model name       | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
