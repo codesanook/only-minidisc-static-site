@@ -34,10 +34,10 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 
 ## Rubber belts for MD drives
 
-| Inside diameter (mm) | Thickness (mm) | Belt type | For models             |
-|----------------------|----------------|-----------|------------------------|
+| Inside diameter (mm) | Thickness (mm) | Belt type | For models                      |
+|----------------------|----------------|-----------|---------------------------------|
 | 19                   | 1.2            | Square    | MDS-NT1, MDS-S500, JE780, JB980 |
-| 12.5                 | 1.2            | Square    | LAM-Z05                |
+| 12.5                 | 1.2            | Square    | LAM-Z05                         |
 
 ## Power adapters
 
@@ -45,8 +45,15 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 |------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
 | Sony AC-ES3010K3 | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
 | Sony AC-96NP     | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
+| -                | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
+
+![](images/md-player-parts-and-accessories/3v-portable-md.png)
+
+![](images/md-player-parts-and-accessories/3v-portable-md-to-type-c.png)
+
+![](images/md-player-parts-and-accessories/iriver-ihp-jack.png)
 
 ## Sidecar battery
 - Images of side card battery for Sony portable MD players.
