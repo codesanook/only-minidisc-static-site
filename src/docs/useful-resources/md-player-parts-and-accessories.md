@@ -1,6 +1,6 @@
----
-title: MD player parts and accessories
----
+------  ---  ------  -----  ---  -----------
+title:  MD   player  parts  and  accessories
+------  ---  ------  -----  ---  -----------
 
 ## MD drives
 
@@ -9,7 +9,7 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 <MDPlayersPartsSheet />
 
 | Model name  | Model name using similar mechanism | MD mechanism type | Optical pick-up type | Link to buy a part |
-|-------------|------------------------------------|-------------------|----------------------|--------------------|
+| ----------- | ---------------------------------- | ----------------- | -------------------- | ------------------ |
 | MDS-NT1     | New                                | MDM-7S2B          | KMS-262E             |                    |
 | MDS-S50     | MDS-S50                            | MDM-7A            | KMS-260B             |                    |
 | MDS-JE470   | MDS-S50                            | MDM-7A            | KMS-260B/260E        |                    |
@@ -35,7 +35,7 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 ## Rubber belts for MD drives
 
 | Inside diameter (mm) | Thickness (mm) | Belt type | For models                      |
-|----------------------|----------------|-----------|---------------------------------|
+| -------------------- | -------------- | --------- | ------------------------------- |
 | 19                   | 1.2            | Square    | MDS-NT1, MDS-S500, JE780, JB980 |
 | 12.5                 | 1.2            | Square    | LAM-Z05                         |
 
@@ -44,12 +44,13 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 
 ## Power adapters and DC jack diameter
 
-| Model name       | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
-|------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
-| Sony AC-ES3010K3 | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
-| Sony AC-96NP     | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
-|                  | Sony MZ-N10              | 6           | 1000         | 4                        | 1.7                      |
-| -                | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
+| Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
+| ------------------ | ------------------------ | ----------- | ------------ | ------------------------ | ------------------------ |
+| Sony AC-ES3010K3   | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
+| Sony AC-96NP       | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
+| -                  | Sony MZ-N10              | 6           | 1000         | 4                        | 1.7                      |
+| -                  | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
+| -                  | Sanyo MD-U4 (หมาเนย)     | 9           | 2000         | 4                        | 1.7                      |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
 
