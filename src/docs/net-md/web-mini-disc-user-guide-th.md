@@ -1,5 +1,5 @@
 ---
-title: คู่มือใช้งาน Web MiniDisc
+title: คู่มือใช้งาน Web MiniDisc ภาษาไทย
 description: คู่มือใช้งาน Web MiniDisc แบบ step by step
 ---
 
@@ -10,32 +10,32 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 - แตกไฟล์และดับเบิ้ลคลิก **zadig.exe** เพื่อเปิดโปรแกรมขึ้นมา
 - โปแกรมจะถามว่าจะให้ตรวจสอบการอัพเดทหรือไหม่ สามารถคลิก No ไปก่อนได้ครับ
 
-![](images/web-mini-disc-manual/update-policy.png)
+![](images/web-mini-disc-user-guide/update-policy.png)
 
 - รอจนหน้าต่างหลักของโปรแกรมแสดงขึ้นมา
 
-![](images/web-mini-disc-manual/default-window.png)
+![](images/web-mini-disc-user-guide/default-window.png)
 
 - ต่อเครื่องเล่น Net MD เข้ากับเครื่องคอมพิวเตอร์ผ่านสาย USB (สำหรับเครื่องเล่นแบบ Deck หรือ Bookshelf ให้เปลี่ยน mode ไปเป็น Net MD ก่อน)
 - **!!! สำคัญมาก** สำหรับเครื่องคอมพิวเตอร์ที่ยังไม่เคยติดตั้ง Net MD ไดร์เวอร์มาก่อน ตัวโปรแกรมจะแสดงชื่ออุปกรณ์ เช่น Net MD หรือ Net MD Walkman ให้โดยอัตโนมัติ
 
-![](images/web-mini-disc-manual/auto-select-device.png)
+![](images/web-mini-disc-user-guide/auto-select-device.png)
 
 - ถ้าไม่มีอุปกรณ์ (Net MD หรือ Net MD Walkman) แสดงขึ้นมา ให้ทำตามขั้นตอนดังต่อไปนี้
   1. คลิก Options
   2. คลิก List All Devices
   3. คลิกเลือกอุปกรณ์ที่ได้เชื่อมต่อกับเครื่องคอมพิวเตอร์
 
-![](images/web-mini-disc-manual/list-all-devices.png)
+![](images/web-mini-disc-user-guide/list-all-devices.png)
 
 - เมื่อได้เลือกอุปกรณ์ที่เชื่อมต่อกับเครื่องคอมพิวเตอร์เป็นที่เรียบร้อยแล้ว ให้คลิกปุ่ม **Install Driver** (สำหรับเครื่องคอมพิวเตอร์ไม่เคยติดตั้งไดร์เวอร์มาก่อน)
   หรือคลิกปุ่ม **Replace Driver** (สำหรับเครื่องคอมพิวเตอร์ที่เคยติดตั้งไดร์เวอร์ไว้แล้ว)
 
-![](images/web-mini-disc-manual/replace-driver.png)
+![](images/web-mini-disc-user-guide/replace-driver.png)
 
 - จะมีหน้าต่างแสดงขึ้นมาหลังจากได้ติดตั้งไดร์เวอร์เป็นที่เรียบร้อยแล้ว
 
-![](images/web-mini-disc-manual/driver-installed-successfully.png)
+![](images/web-mini-disc-user-guide/driver-installed-successfully.png)
 
 ## Use Web MiniDisc
 ใช้งาน Web MiniDisc
@@ -43,25 +43,25 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 - เปิดเบราว์เซอร์ (Chrome, Firefox หรือ Edge) แล้วไปที่ https://webminidisc.com หรือ https://stefano.brilli.me/webminidisc/
 - ที่เบราว์เซอร์จะแสดงหน้าแรกของ Web MiniDisc ขึ้นมา
 
-![](images/web-mini-disc-manual/home-page.png)
+![](images/web-mini-disc-user-guide/home-page.png)
 
 - ใส่แผ่น MD ที่จะเขียนเพลงเข้าไปในเครื่องเล่น
   - คลิกปุ่ม **CONNECT**
   - คลิกอุปกรณ์ที่ต่ออยู่
   - คลิกปุ่ม **Connect**
 
-![](images/web-mini-disc-manual/connect-device.png)
+![](images/web-mini-disc-user-guide/connect-device.png)
 
 - Web MiniDisc จะแสดง:
   - ชื่อเครื่องเล่นที่เชื่อมต่ออยู่
   - ชื่อแผ่น MD
   - รายชื่อเพลงทั้งหมดในแผ่น MD หรือแสดงเป็นแผ่นเปล่าถ้าไม่เพลงใดๆ เลย
 
-![](images/web-mini-disc-manual/list-all-songs.png)
+![](images/web-mini-disc-user-guide/list-all-songs.png)
 
 - คลิกปุ่มสีน้ำเงินขนาดใหญ่ที่มุมล่างขวาของจอ เลือกเพลงที่จะเขียนลงแผ่น MD (สามารถกดปุ่ม CTRL ค้างไว้ แล้วคลิกเลือกหลายเพลงได้)
 
-![](images/web-mini-disc-manual/select-songs.png)
+![](images/web-mini-disc-user-guide/select-songs.png)
 
 - ปรับค่าในการอัดเพลง
   - เลือกโหมดในการอัดเพลงเป็น SP, LP2 หรือ LP4
@@ -69,18 +69,18 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
   - กดปุ่ม **OK** เพื่อเขียนเพลงลงแผ่น MD
   - เราสามารถกดปุ่ม **SHOW TRACK** เพื่อแสดงรายชื่อเพลงที่ได้เลือกมาทั้งหมดได้
 
-![](images/web-mini-disc-manual/upload-settings.png)
+![](images/web-mini-disc-user-guide/upload-settings.png)
 
 - Web MiniDisc ก็จะเริ่มแปลงเพลงที่ได้เลือกไว้และเขียนลงแผ่น MD
 - เราสามารถคลิกเลือก **Notify when completed** เพื่อให้โปรแกรมแจ้งเตือนเมื่อเขียนแพลงทั้งหมดเสร็จแล้ว
 
-![](images/web-mini-disc-manual/recording.png)
+![](images/web-mini-disc-user-guide/recording.png)
 
 - รอจนกว่า Web MiniDisc ได้เขียนเพลงที่ได้เลือกไว้ทั้งหมดลงแผ่น MD
 - เข้าไปที่เมนู คลิกจุดเล็กๆ สามจุดที่มุมบนขวาของจอ แล้วคลิก **Exit** เพื่อออกจาก Web MiniDisc
 - ถอดสาย USB ที่เชื่อมต่อเครื่องเล่นกับเครื่องคอมพิวเตอร์ และกดเล่นแผ่น MD ที่เครื่องเล่นได้เลย
 
-![](images/web-mini-disc-manual/menu.png)
+![](images/web-mini-disc-user-guide/menu.png)
 
 ## Use Web MiniDisc on a mobile phone
 - เราสามารถใช้ Web MiniDisc เขียนเพลงลงแผ่น MD ผ่านมือถือโดยตรงกับเครื่องเล่นที่รองรับ Net MD
@@ -88,29 +88,26 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 - ใช้ USB OTG adapter ได้เลย หรือ USB type C to mini USB
 - เลือกเพลงที่อยู่ในมือถือได้เลย จะเลือกเพลงเดียวหรือเพลงทั้งหมดใน folder ก็ได้ เขียนหลายเพลงในครั้งเดียวได้
   - กดปุ่ม + เพื่อเลือกเพลงที่จะเขียนลงแผ่น MD
-    ![](images/web-mini-disc-manual/mobile-select-add-music-files.png)
+    ![](images/web-mini-disc-user-guide/mobile-select-add-music-files.png)
 
   - เลือก Files action
-    ![](images/web-mini-disc-manual/mobile-select-files-action.png)
+    ![](images/web-mini-disc-user-guide/mobile-select-files-action.png)
 
   - เลือกโฟลเดอร์ที่เก็บเพลง และเลือกไฟล์ทั้งหมด
-    ![](images/web-mini-disc-manual/mobile-select-all-music-files-in-a-folder.png)
+    ![](images/web-mini-disc-user-guide/mobile-select-all-music-files-in-a-folder.png)
 
   - กดปุ่ม OPEN เพื่อนำไฟล์ทั้งหมดไปเขียนลงแผ่น
-    ![](images/web-mini-disc-manual/mobile-select-open-files.png)
+    ![](images/web-mini-disc-user-guide/mobile-select-open-files.png)
 
   - เลือก Recording mode แล้วกดปุ่ม OK เพื่อทำการเขียนแผ่น
-    ![](images/web-mini-disc-manual/mobile-select-recording-mode-and-ok.png)
+    ![](images/web-mini-disc-user-guide/mobile-select-recording-mode-and-ok.png)
 
   - รอจนกว่า Web MiniDisc จะเขียนแผ่นเสร็จ
-    ![](images/web-mini-disc-manual/mobile-recording-status.png)
+    ![](images/web-mini-disc-user-guide/mobile-recording-status.png)
 
-- เขียนแผ่น SP mode ด้วยมือถือใช้เวลาเขียนมากกว่า MDS-S500 ค่อนข้างมาก
-- อาจจะมี error ที่ตัว Web MiniDisc ตอนโหลด TOC (table of content) ใหม่
-- เปิดเล่นเพลงในแผ่นที่เพิ่งเขียนเสร็จไปได้ปกติ
-  ![](images/web-mini-disc-manual/web-mini-disc-on-mobile-phone.png)
+- ภาพแสดงการเขียน MD ผ่านโทรศัพท์มือถือ
+  ![](images/web-mini-disc-user-guide/web-mini-disc-on-mobile-phone.png)
 
-- Credit music files from YouTube Audio Libary
 
 
 ## Supported music files
@@ -146,3 +143,4 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้แนะนำ Web MiniDisc
 - [Using Web MiniDisc from MiniDisc Wiki](https://www.minidisc.wiki/guides/webminidisc)
+- Music files from YouTube Audio Libary

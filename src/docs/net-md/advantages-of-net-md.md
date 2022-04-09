@@ -10,7 +10,7 @@ title: ข้อดีของ Net MD
 
 - ใช้งานได้ง่ายและสะดวก แค่เสียบสาย USB ลง driver ลงโปรแกรมก็ใช้งานได้เลย
   - [คู่มือติดตั้งและใช้งานโปรแกรม SonicStage](/net-md/sonic-stage-manual-manual)
-  - [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-manual)
+  - [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-user-guide)
 - ไม่ต้องซื้ออุปกรณ์เพิ่มเติม เช่น USB to Toslink/Coaxial เพื่ออัดแบบ digital input
 - เขียนไวมากๆ เพลง 10 นาทีใช้เวลาประมาณ 45 วินาที
   - [ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD](/net-md/writing-disc-time-usage-test)
@@ -34,7 +34,7 @@ title: ข้อดีของ Net MD
 - สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
 - ภาพตัวอย่างโปรแกรม Web MiniDisc
 
-  ![](images/web-mini-disc-manual/list-all-songs.png)
+  ![](images/web-mini-disc-user-guide/list-all-songs.png)
 
 ## Relationship between MD recorders that support Net MD technology and Hi-MD recorders
 - All MD recorders that support Net MD technology allow us to transfer a music file from a computer or a mobile phone to an MD recorder.

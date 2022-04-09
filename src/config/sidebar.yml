@@ -14,27 +14,30 @@
 
 - label: Net MD
   items:
-    - label: ข้อดีของ Net MD
-      link: /net-md/advantages-of-net-md
-    - label: ทำไมในอดีต Net MD จึงเสียงไม่ดี
-      link: /net-md/why-did-net-md-not-produce-good-sound-quality-in-the-past
+    - label: Web MiniDisc User Guide
+      link: /net-md/web-mini-disc-user-guide
+    - label: คู่มือใช้งาน Web MiniDisc ภาษาไทย
+      link: /net-md/web-mini-disc-user-guide-th
+    - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
+      link: /net-md/sonic-stage-manual
+    - label: คู่มือติดตั้งและใช้งานโปรแกรม MD Simple Burner
+      link: /net-md/md-simple-burner-manual
 
     - label: เครื่องเล่นที่รองรับ Net MD
       link: /net-md/net-md-players
     - label: Sony Net MD decks
       link: /net-md/sony-net-md-decks
 
-    - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
-      link: /net-md/sonic-stage-manual
-    - label: คู่มือใช้งาน Web MiniDisc
-      link: /net-md/web-mini-disc-manual
-    - label: คู่มือติดตั้งและใช้งานโปรแกรม MD Simple Burner
-      link: /net-md/md-simple-burner-manual
-
     - label: รู้จัก MD recording mode
       link: /net-md/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
+
+    - label: ข้อดีของ Net MD
+      link: /net-md/advantages-of-net-md
+    - label: ทำไมในอดีต Net MD จึงเสียงไม่ดี
+      link: /net-md/why-did-net-md-not-produce-good-sound-quality-in-the-past
+
     - label: รีวิวคุณภาพเสียงจากแผ่นที่อัดด้วย Net MD
       link: /net-md/net-md-sound-quality-review
     - label: Copy audio CD to MD

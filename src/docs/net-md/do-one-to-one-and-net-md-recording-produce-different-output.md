@@ -41,7 +41,7 @@ title: การอัด 1:1 (digital input) และ Net MD (Web MiniDisc) �
 
 เนื้อหาอื่นๆ ที่มีประโยชน์
 
-- [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-manual)
+- [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-user-guide)
 - [ข้อดีของ Net MD](/net-md/advantages-of-net-md)
 - [GitHub issue - Does ATRAC compression happen inside a Sony recorder?](https://github.com/cybercase/netmd-js/issues/32)
 - [GitHub issue - Why does an MD device require a 16bit/44.1khz input file for recording in SP mode?](https://github.com/linux-minidisc/linux-minidisc/issues/77)
