@@ -169,7 +169,7 @@ export default function YahooActionJapanCalculator() {
           type='text'
           id='productPrice'
           spellCheck='false'
-          placeholder='Product price (Highest bidding price)'
+          placeholder='Product price (highest bidding price in JPY)'
           onChange={handleProductPriceChanged}
         />
       </div>
@@ -180,37 +180,38 @@ export default function YahooActionJapanCalculator() {
           type='text'
           id='shippingCost'
           spellCheck='false'
-          placeholder={`Optional, default to "${defaultShippingCost}"`}
+          placeholder={`Optional, default to "${defaultShippingCost}" JPY`}
           onChange={handleShippingCostChanged}
         />
-        <span className='hint'>Shipping cost (In Japan only), search a value in <em>配送方法と送料</em> section</span>
+        <span className='hint'>Shipping cost (in Japan only), search a value in <em>配送方法と送料</em> section</span>
       </div>
       <div css={fieldContainer}>
-        <label className='label' htmlFor='yahooAuctionFee'>Yahoo auction free</label>
+        <label className='label' htmlFor='yahooAuctionFee'>Yahoo auction fee</label>
         <input className='input'
           type='text'
-          id='yahooAuctionFree'
+          id='yahooAuctionFee'
           spellCheck='false'
-          placeholder={'Optional, default to "100" Yen'}
+          placeholder={'Optional, default to "100" JPY'}
           onChange={handleYahooAuctionFeeChanged} />
       </div>
       <div css={fieldContainer}>
-        <label htmlFor='billingFee'>Billing free</label>
+        <label htmlFor='billingFee'>Billing fee</label>
         <input
           type='text'
           id='billingFee'
           spellCheck='false'
-          placeholder={'Optional, default to "250" Yen'}
+          placeholder={'Optional, default to "250" JPY'}
           onChange={handleBillingFeeChanged} />
-        <span className='hint'>Billing fee from a provider who deliveries an item from Japan to Thailand</span>
+        <span className='hint'>Billing fee is what we pay a provider who delivers an item from Japan to Thailand</span>
       </div>
       <div css={fieldContainer}>
-        <label htmlFor='exchangeRate'>Exchange rate (1 YEN to THB)</label>
+        {/* We must think as 1 JPY to how many THB, not raito as devided by 1 */}
+        <label htmlFor='exchangeRate'>Exchange rate (1 JPY to THB), JPY/THB</label>
         <input
           type='text'
           id='exchangeRate'
           spellCheck='false'
-          placeholder={`Optional, default to "${defaultExchangeRate}" Yen/THB`}
+          placeholder={`Optional, default to "${defaultExchangeRate}" JPY/THB`}
           onChange={handleExchangeRateChanged}
         />
       </div>
@@ -221,7 +222,7 @@ export default function YahooActionJapanCalculator() {
         {numberFormat.format(yahooAuctionFee)}+
         {numberFormat.format(billingFee)}
         )x
-        {numberFormat.format(exchangeRate)} = {numberFormat.format(getTotalPrice())}
+        {numberFormat.format(exchangeRate)} = {numberFormat.format(getTotalPrice())} THB
       </div>
     </form>
   );
