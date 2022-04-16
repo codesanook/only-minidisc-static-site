@@ -134,13 +134,13 @@ List of supported files that we can use in Web MiniDisc app
 
 ## Hi-MD players/recorders
 - Hi-MD recorders that support Net MD can also be used with Web Minidisc.
-- Supported models are as follows: Sony CMT-AH10, Sony LAM-X1, Sony MZ-DH10P, Sony MZ-NH1, Sony MZ-NH3D, Sony MZ-NH600 / MZ-NH600D / MD-HUSB, Sony MZ-NH700 / MZ- NHF800, Sony MZ-NH900, Sony MZ-RH1 / MZ-M200, Sony MZ-RH10 / MZ-M100, Sony MZ-RH710 / MZ-DH710, Sony MZ-RH910 / MZ-M10
+- Supported models are as follows: Sony CMT-AH10, Sony LAM-X1, Sony MZ-DH10P, Sony MZ-NH1, Sony MZ-NH3D, Sony MZ-NH600/MZ-NH600D/MD-HUSB, Sony MZ-NH700/MZ- NHF800, Sony MZ-NH900, Sony MZ-RH1 /MZ-M200, Sony MZ-RH10/MZ-M100, Sony MZ-RH710/MZ-DH710, Sony MZ-RH910/MZ-M10
 
 ## Note for using Web Minidisc with Hi-MD recorders
-- We can't use write a normal disc in Hi-MD mode.
-- It is not compatible with Hi-MD discs.
-- It supports only SP, LP2, LP4 mode and normal MD discs.
-- It is possible that a driver installed with Zadig have issues with Windows OS and Hi-MD recorders. It is recommended to use Linux, mobile phones, or Mac as they do not require a driver to be installed.
+- We can't use Web MiniDisc to write a normal disc in Hi-MD mode.
+- It is not compatible with a Hi-MD disc.
+- It supports only SP, LP2, LP4 mode and a normal MD disc.
+- It is possible that a driver installed with Zadig has an issue with Windows OS and Hi-MD recorders. It is recommended to use Linux, mobile phones or Mac beause these OS do not require a driver to be installed.
 
 ## Credit & Reference
 - [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) who recommended Web MiniDisc to me.
