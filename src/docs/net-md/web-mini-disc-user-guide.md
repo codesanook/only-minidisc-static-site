@@ -40,7 +40,7 @@ description: How to use Web MiniDisc step by step
 Use Web MiniDisc single page app. This application requires internet connection only the first time that you open it. It does not upload your music files to a server.
 Everything is done on your computer.
 
-- Open a browser (Chrome or Edge) and navigate to https://webminidisc.com or https://stefano.brilli.me/webminidisc/.
+- Open a browser (Chrome or Edge) and navigate to https://web.minidisc.wiki/.
 - A browser will display the homepage of the Web MiniDisc app.
   ![](images/web-mini-disc-user-guide/home-page.png)
 
