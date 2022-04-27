@@ -115,26 +115,26 @@ Everything is done on your computer.
 List of supported files that we can use in Web MiniDisc app
 
 | File extension | File name                                        | Developer                    |
-|----------------|--------------------------------------------------|------------------------------|
-| *.opus         | Opus Audio File                                  | Xiph.Org                     |
+| -------------- | ------------------------------------------------ | ---------------------------- |
 | *.flac         | Free Lossless Audio Codec                        | Xiph.Org                     |
+| *.aiff         | Audio Interchange File Format                    | Apple                        |
+| *.wav          | WAVE Audio File                                  | Microsoft & IBM              |
+| *.m4a          | MPEG-4 Audio File                                | Apple                        |
+| *.mp3          | MP3 Audio File (Layer 3 audio compression)       | Moving Picture Experts Group |
+| *.wma          | Windows Media Audio File                         | Microsoft                    |
+| *.opus         | Opus Audio File                                  | Xiph.Org                     |
 | *.webm         | WebM Video                                       | Google                       |
 | *.weba         | WebM Audio File                                  | Google                       |
-| *.wav          | WAVE Audio File                                  | Microsoft & IBM              |
 | *.ogg          | Ogg Vorbis Audio File                            | Xiph.Org                     |
-| *.m4a          | MPEG-4 Audio File                                | Apple                        |
 | *.oga          | Ogg Vorbis Audio File                            | Xiph.Org                     |
 | *.mid          | MIDI File (Musical Instrument Digital Interface) |                              |
-| *.mp3          | MP3 Audio File   (Layer 3 audio compression)     | Moving Picture Experts Group |
-| *.aiff         | Audio Interchange File Format                    | Apple                        |
-| *.wma          | Windows Media Audio File                         | Microsoft                    |
 | *.au           | Audacity Audio File                              | Audacity                     |
 | *.m4v          | iTunes Video File                                | Apple                        |
 | *.mp4          | MPEG-4 Video File                                | Moving Picture Experts Group |
 
 ## Hi-MD players/recorders
 - Hi-MD recorders that support Net MD can also be used with Web Minidisc.
-- Supported models are as follows: Sony CMT-AH10, Sony LAM-X1, Sony MZ-DH10P, Sony MZ-NH1, Sony MZ-NH3D, Sony MZ-NH600/MZ-NH600D/MD-HUSB, Sony MZ-NH700/MZ- NHF800, Sony MZ-NH900, Sony MZ-RH1 /MZ-M200, Sony MZ-RH10/MZ-M100, Sony MZ-RH710/MZ-DH710, Sony MZ-RH910/MZ-M10
+- Supported models are as follows: Sony CMT-AH10, Sony LAM-X1, Sony MZ-DH10P, Sony MZ-NH1, Sony MZ-NH3D, Sony MZ-NH600/MZ-NH600D/MD-HUSB, Sony MZ-NH700/MZ- NHF800, Sony MZ-NH900, Sony MZ-RH1/MZ-M200, Sony MZ-RH10/MZ-M100, Sony MZ-RH710/MZ-DH710, Sony MZ-RH910/MZ-M10
 
 ## Note for using Web Minidisc with Hi-MD recorders
 - We can't use Web MiniDisc to write a normal disc in Hi-MD mode.

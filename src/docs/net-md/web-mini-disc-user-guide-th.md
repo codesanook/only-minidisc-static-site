@@ -105,18 +105,18 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
 
 | File extension | File name                                        | Developer                    |
 |----------------|--------------------------------------------------|------------------------------|
-| *.opus         | Opus Audio File                                  | Xiph.Org                     |
 | *.flac         | Free Lossless Audio Codec                        | Xiph.Org                     |
+| *.aiff         | Audio Interchange File Format                    | Apple                        |
+| *.wav          | WAVE Audio File                                  | Microsoft & IBM              |
+| *.m4a          | MPEG-4 Audio File                                | Apple                        |
+| *.mp3          | MP3 Audio File (Layer 3 audio compression)     | Moving Picture Experts Group |
+| *.wma          | Windows Media Audio File                         | Microsoft                    |
+| *.opus         | Opus Audio File                                  | Xiph.Org                     |
 | *.webm         | WebM Video                                       | Google                       |
 | *.weba         | WebM Audio File                                  | Google                       |
-| *.wav          | WAVE Audio File                                  | Microsoft & IBM              |
 | *.ogg          | Ogg Vorbis Audio File                            | Xiph.Org                     |
-| *.m4a          | MPEG-4 Audio File                                | Apple                        |
 | *.oga          | Ogg Vorbis Audio File                            | Xiph.Org                     |
 | *.mid          | MIDI File (Musical Instrument Digital Interface) |                              |
-| *.mp3          | MP3 Audio File   (Layer 3 audio compression)     | Moving Picture Experts Group |
-| *.aiff         | Audio Interchange File Format                    | Apple                        |
-| *.wma          | Windows Media Audio File                         | Microsoft                    |
 | *.au           | Audacity Audio File                              | Audacity                     |
 | *.m4v          | iTunes Video File                                | Apple                        |
 | *.mp4          | MPEG-4 Video File                                | Moving Picture Experts Group |
@@ -127,8 +127,9 @@ description: คู่มือใช้งาน Web MiniDisc แบบ step by
   Sony MZ-NH900, Sony MZ-RH1/MZ-M200, Sony MZ-RH10/MZ-M100, Sony MZ-RH710/MZ-DH710, Sony MZ-RH910/MZ-M10
 - **ไม่สามารถเขียนแผ่นใน Hi-MD mode**
 - **ไม่สามารถใช้ร่วมกับแผ่น Hi-MD**
-- **เขียนได้แต่ SP, LP2, LP4 mode กับแผ่น MD ธรรมดาเท่านั้น**
-- **ไดร์เวอร์ที่ติดตั้งกับ Zadig มีปัญหากับ Windows OS และ Hi-MD players** แนะนำให้ไปใช้กับโทรศัพท์มือถือ Linux หรือเครื่อง Mac แทน
+- **เขียนได้แต่ SP, LP2, LP4 mode ลงบนแผ่น MD ธรรมดาเท่านั้น**
+- **ไดร์เวอร์ที่ติดตั้งกับ Zadig มีปัญหากับ Windows OS และ Hi-MD players**
+  แนะนำให้ไปใช้กับโทรศัพท์มือถือ เครื่องคอมพิวเตอร์ Linux หรือเครื่อง Mac แทน
 
 ## Credit & Reference
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้แนะนำ Web MiniDisc
