@@ -54,6 +54,22 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
 
+## MP3 players that we can take OLED and use it as MZ-RH1 replacement part
+### Matched part number
+- NW-S202
+- NW-S202F
+- NW-S203F
+- NW-S205F
+
+### Compatable
+- NW-E305
+- NW-E307
+
+### Possibly compatible but need to test
+- NW-E002F
+- NW-E003F
+- NW-E005F
+
 ![](images/md-player-parts-and-accessories/3v-portable-md.png)
 
 ![](images/md-player-parts-and-accessories/3v-portable-md-to-type-c.png)
