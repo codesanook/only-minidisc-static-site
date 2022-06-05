@@ -33,8 +33,10 @@
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
       link: /net-md/writing-disc-time-usage-test
 
-    - label: ข้อดีของ Net MD
+    - label: Advantages of Net MD
       link: /net-md/advantages-of-net-md
+    - label: ข้อดีของ Net MD
+      link: /net-md/advantages-of-net-md-th
     - label: ทำไมในอดีต Net MD จึงเสียงไม่ดี
       link: /net-md/why-did-net-md-not-produce-good-sound-quality-in-the-past
 

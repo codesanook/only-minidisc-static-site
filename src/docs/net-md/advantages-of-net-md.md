@@ -1,60 +1,41 @@
 ---
-title: ข้อดีของ Net MD
+title: Advantages of Net MD
 ---
 
 ![](images/advantages-of-net-md/net-md-logo-transparent.png)
 
-## Advantages of Net MD
+## Advantages of Net MD technology
 
-ข้อดีของการเขียนเพลงลงแผ่น MD ด้วย Net MD
 
-- ใช้งานได้ง่ายและสะดวก แค่เสียบสาย USB ลง driver ลงโปรแกรมก็ใช้งานได้เลย
-  - [คู่มือติดตั้งและใช้งานโปรแกรม SonicStage](/net-md/sonic-stage-manual-manual)
-  - [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-user-guide)
-- ไม่ต้องซื้ออุปกรณ์เพิ่มเติม เช่น USB to Toslink/Coaxial เพื่ออัดแบบ digital input
-- เขียนไวมากๆ เพลง 10 นาทีใช้เวลาประมาณ 45 วินาที
-  - [ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD](/net-md/writing-disc-time-usage-test)
-- เรียงลำดับเพลงได้ง่าย แก้ไขลำดับภายหลังได้
-- คุณภาพเสียงที่ดี เขียนได้ทั้ง SP, LP2, LP4
-- เขียนใน LP2 (132 kbps) mode ได้คุณภาพเสียงดีกว่า MP3 (128 kbps)
-- ถ้าเขียนเป็น LP2 mode หนึ่งแผ่น MD จะสามารถเก็บเพลงได้เป็นสองเท่าของ SP mode
-- แก้ไขชื่ออัลบัม/ชื่อแผ่นได้เลย พิมพ์จาก keyboard ได้เลย
-- ได้ชื่อเพลงมาเลย ไม่ต้องพิมพ์ชื่อเพลงเอง ตอนนี้ยังได้แต่ชื่อเพลงภาษาอังกฤษ
-- สามารถเขียนเพลงในรูปแบบ FLAC, WAV, MP3 ได้เลย ได้คุณภาพใกล้เคียงต้นฉบับ
-- มีปุ่ม download ที่สามารถ RIP CD ลงแผ่นได้ด้วยการกดปุ่ม Download เพียงปุ่มเดียว (รุ่นที่มีปุ่ม Download: Sony MZ-NE810, Sony MZ-NH3D, Sony MZ-DH10P)
+Advantages of transferring music files to an MD disc with an MD recorder that supports Net MD technology
 
-*Note* อย่างไรก็ตาม **Net MD จะใช้ได้เฉพาะเครื่องเล่นที่รองรับ Net MD เท่านั้น**
+- It is easy to use and convenient. Plug a USB cable to a computer (Windows, Mac or Linux) or Android phone and use either SonicStage or Web MiniDisc.
+  Please follow this [user guide documents](/net-md/web-mini-disc-user-guide) for using Web MiniDisc
+- You don't need to buy additional equipment such as a USB to Toslink/Coaxial adapter as we do for one to one recording.
+- It writes music files to a disc very fast. For example, 4x of an actual song's duration for SP mode, and 16x - 32x for L2 mode.
+  For more information, please check [Net MD writing speed test](https://www.minidisc.wiki/guides/net-md-speed-test).
+- You get a song title automatically from a music file's metadata.  However, you can edit a song's name immediately after it has been recorded,
+  but not only editing the single track title, you can also edit the disc's title.
+- It is easy to rearrange songs on a disc or remove an existing song on a disc and add a new song to an existing recorded disc.
+- It supports many input music files format e.g. FLAC, AIFF, WAV, and MP3 formats.
+- For models that have a Download button, e.g. Sony MZ-NE810, Sony MZ-NH3D, Sony MZ-DH10P,
+  we can use MD Simple Burner program and press a download button to RIP CD to MD easily.
+- Please note that Net MD feature is only available for some recorders that support Net MD technology.
 
-## SonicStage screenshot
-- ภาพตัวอย่างโปรแกรม SonicStage
 
-  ![](images/sonic-stage-manual/net-md-connected.png)
-
-## Web MiniDisc screenshot
-- สามารถใช้งานผ่าน web browser ได้เลย ไม่ต้องติดตั้งโปรแกรมลงในเครื่อง
-- ภาพตัวอย่างโปรแกรม Web MiniDisc
-
-  ![](images/web-mini-disc-user-guide/list-all-songs.png)
 
 ## Relationship between MD recorders that support Net MD technology and Hi-MD recorders
-- All MD recorders that support Net MD technology allow us to transfer a music file from a computer or a mobile phone to an MD recorder.
-- **All Sony Hi-MD recorders support Net MD technology** but all Onkyo Hi-MD recorders do not.
-- MD Recorders that support Net MD technology but not Hi-MD recorders allow us to record in SP, LP2 and LP4 modes only.
-- Here is the Venn and Euler diagram that shows the relationship between MD recorders that support Net MD technology and Hi-MD recorders:
+- Sometimes, we are not sure if a Hi-MD recorder supports Net MD technology or not.
+  This is a Venn and Euler diagram which can help us understand the relationship between normal MD recorders that support Net
 
   ![](images/advantages-of-net-md/relationship-bettween-md-recorders-that-support-net-md-technology-and-hi-md-recorders.drawio.png)
 
-## USB to Toslink/Coaxial converter
-- Douk Audio Mini XMOS USB to SPDIF Coaxial Optical
-- XMOS XU208 chip
-- เล่นเพลงจาก computer หรือโทรศัพท์มือถือ ต่อ micro USB เข้ากับเครื่องนี้ และ USB อีกฝั่งกับ computer
-- ใช้สาย Toslink แบบปกติ ต่อจากเครื่องนี้เข้าเครื่อง MD deck ที่มี Toslink input แล้วก็ทำการอัด 1:1 digital
-- รุ่นอื่นที่น่าสนใจ เช่น FiiO K3
+- All MD recorders that support Net MD technology allow us to transfer a music file from a computer or a mobile phone to an MD recorder.
+- **All Sony Hi-MD recorders support Net MD technology** but all Onkyo Hi-MD recorders do not.
+- MD Recorders that support Net MD technology but not Hi-MD recorders allow us to record in SP, LP2 and LP4 modes only.
 
-  ![](images/advantages-of-net-md/usb-to-toslink-coaxial.png)
+## SonicStage screenshot
+  ![](images/sonic-stage-manual/net-md-connected.png)
 
-## CD to MD
-การอัดจากแผ่น CD ไปยังแผ่น MD ให้คุณภาพเสียงที่ดี แต่ก็มีข้อจำกัดดังนี้
-
-- ต้องมีแผ่น CD ต้นฉบับที่บางครั้งหายาก และราคาแพง
-- แผ่น CD ต้องอยู่ในสภาพที่ดี ถ้าแผ่นมีรอยเพียงเล็กน้อยก็ทำให้อัดเพลงสะดุดได้
+## Web MiniDisc screenshot
+  ![](images/web-mini-disc-user-guide/list-all-songs.png)
