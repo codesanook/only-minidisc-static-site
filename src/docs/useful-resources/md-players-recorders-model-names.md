@@ -1,5 +1,5 @@
 ---
-title: ชื่อรุ่นของเครื่องเล่น Sony MD
+title: MD players'/recorders' model names
 ---
 
 ## Introduction
