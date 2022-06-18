@@ -16,21 +16,24 @@ title: MD players'/recorders' model names
 - **H** is an abbreviation for a **[H]i-MD** model.
 - **N** is an abbreviation for a **[N]etMD**-supported model.
 - **R** is an abbreviation for **[R]ecord**-supported model (Non-NetMD).
-- **E** is an abbreviation for play only model, I think E is for [E]volution.
+- **E** is an abbreviation for **[E]ntertainment**, play only model,
 - **S** is an abbreviation for a **[S]port** model.
 - **F** is an abbreviation for **[F]M** radio-supported model.
-- **G** is an abbreviation for **[G]**-Protection-supported model
-- **B** is an abbreviation for **[B]**usiness. It is a dictation model.
-- **ST**, I think it is abbreviation for **[ST]**ation.
-- **D** ? It may be downloader.
+- **G** is an abbreviation for **[G]round radio** model
+- **B** is an abbreviation for **[B]usiness** model. It is a dictation model.
+- **ST** is an abbreviation for **[ST]**ation.
+- **D** is an abbreviation for **[D]ownloader.
 
-## All models in each category:
+## Example of Sony MD players/recorders in each category:
 
 ### 💾Hi-MD players
-RH1, M200, EH70, EH50, DH10P, RH10, RH910, RH710, M100, M10, LAM-X1, MZ-EH1, NH3D, NH1, NH900, NHF800, NH700, NH600D
+MZ-RH1, MZ-DH10P, MZ-RH10, MZ-RH710, MZ-M10, MZ-NH3D, MZ-NH1, MZ-NH900, MZ-NHF800, MZ-NH700, MZ-NH600D
 
-### ⏺MD players with record function
-Qualia-017, MZ-NF520, N920, N420D, NE810, NF610, NF810, N910, N710, NE410, N510, B10, R410, N10, R910, G755, R701, S1, N707, N505, R501, N1, B100, R909, R500, R700, G750, B50, R900, R70, R90, R91, R37, R55, R35, R5ST, R50, R30, R4ST, B3, R3, R2, 1
+### 💾Hi-MD recorders
+MZ-EH1, MZ-EH50, MZ-EH70, MZ-EH930
+
+### ⏺MD players with record function (play only)
+Qualia-017, MZ-NF520, MZ-N920, MZ-N420D, MZ-NE810, MZ-NF610, MZ-NF810, MZ-N910, MZ-N710, MZ-NE410, MZ-N510, MZ-B10, MZ-R410, MZ-N10, MZ-R910, MZ-G755, MZ-R701, MZ-S1, MZ-N707, MZ-N505, MZ-R501, MZ-N1, MZ-B100, MZ-R909, MZ-R500, MZ-R700, MZ-G750, MZ-B50, MZ-R900, MZ-R70, MZ-R90, MZ-R91, MZ-R37, MZ-R55, MZ-R35, MZ-R5ST, MZ-R50, MZ-R30, MZ-R4ST, MZ-B3, MZ-R3, MZ-R2, MZ-1
 
 ### 💿MD players (without record function)
-MZ-E520, E620, E720, E810SP, E610, E510, E310, E710, E10, E505, E606W, E707, E909, E501, E600, E300, E500, E700, E900, E800, E77, E60, E7W, E95, E90, E75, E80, E70, E55, E33, E44, E45, E35, E25, EP10, EP11, F40, E20, E40, E50, E30, E3, E2, 2P
+MZ-E520, MZ-E620, MZ-E720, MZ-E810SP, MZ-E610, MZ-E510, MZ-E310, MZ-E710, MZ-E10, MZ-E505, MZ-E606W, MZ-E707, MZ-E909, MZ-E501, MZ-E600, MZ-E300, MZ-E500, MZ-E700, MZ-E900, MZ-E800, MZ-E77, MZ-E60, MZ-E7W, MZ-E95, MZ-E90, MZ-E75, MZ-E80, MZ-E70, MZ-E55, MZ-E33, MZ-E44, MZ-E45, MZ-E35, MZ-E25, MZ-EP10, MZ-EP11, MZ-F40, MZ-E20, MZ-E40, MZ-E50, MZ-E30, MZ-E3, MZ-E2, MZ-2P
