@@ -6,6 +6,7 @@ import { useState } from 'react';
 const defaultExchangeRate = 38;
 const defaultShippingRate = 790;
 const defaultBillingRate = 0.08;
+const minBillingFee = 185;
 
 const numberFormat = new Intl.NumberFormat(
   'en-US',
@@ -149,10 +150,9 @@ export default function USCalculator() {
       }
     );
 
-
-  const billingFree = (productPrice * exchangeRate) * billingRate;
+  const billingFree = (productPrice * exchangeRate) * billingRate
   const shippingCost = productWeight * shippingRate;
-  const totalCost = billingFree + shippingCost
+  const totalCost = (billingFree > minBillingFee ? billingFree : minBillingFee) + shippingCost
 
   return (
     <form css={style}>
@@ -214,6 +214,9 @@ export default function USCalculator() {
         ({numberFormat.format(productWeight)} * {numberFormat.format(shippingRate)})
         = {numberFormat.format(totalCost)}
       </div>
+      <p>
+        Minimum Billing free is {minBillingFee} THB
+      </p>
     </form>
   );
 }
