@@ -3,10 +3,9 @@ import { css } from '@emotion/react';
 import { useState } from 'react';
 
 // Configuration
-const defaultExchangeRate = 0.31;
-const defaultShippingCost = 0;
-const defaultYahooAuctionFee = 100;
-const defaultBillingFee = 250;
+const defaultExchangeRate = 38;
+const defaultShippingRate = 790;
+const defaultBillingRate = 0.08;
 
 const numberFormat = new Intl.NumberFormat(
   'en-US',
@@ -107,31 +106,22 @@ const totalPrice = css`
   text-align: center;
 `;
 
-export default function YahooActionJapanCalculator() {
+export default function USCalculator() {
   const [productPrice, setProductPrice] = useState(0);
-  const [shippingCost, setShippingCost] = useState(defaultShippingCost);
-  const [yahooAuctionFee, setYahooActionFee] = useState(defaultYahooAuctionFee);
-  const [billingFee, setBillingFee] = useState(defaultBillingFee);
+  const [productWeight, setProductWeight] = useState(0)
+
+  const [billingRate, setBillingRate] = useState(defaultBillingRate);
+  const [shippingRate, setShippingRate] = useState(defaultShippingRate);
   const [exchangeRate, setExchangeRate] = useState(defaultExchangeRate)
 
   const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) =>
     setNumberValue(e.target.value, numberValue => setProductPrice(numberValue));
 
-  const handleShippingCostChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setShippingCost(numberValue));
+  const handleShippingRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setShippingRate(numberValue));
 
-  const handleYahooAuctionFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setYahooActionFee(defaultYahooAuctionFee);
-        } else {
-          setYahooActionFee(numberValue);
-        }
-      }
-    );
+  const handleProductWeightChanged = (e: ChangeEvent<HTMLInputElement>) =>
+    setNumberValue(e.target.value, numberValue => setProductWeight(numberValue));
 
   const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
     setNumberValue(
@@ -139,9 +129,9 @@ export default function YahooActionJapanCalculator() {
       numberValue => {
         // If a new value is 0, set it to default value.
         if (numberValue == 0) {
-          setBillingFee(defaultBillingFee);
+          setBillingRate(defaultBillingRate);
         } else {
-          setBillingFee(numberValue);
+          setBillingRate(numberValue);
         }
       }
     );
@@ -159,40 +149,23 @@ export default function YahooActionJapanCalculator() {
       }
     );
 
-  const getTotalPrice = () => (productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate;
+
+  const billingFree = (productPrice * exchangeRate) * billingRate;
+  const shippingCost = productWeight * shippingRate;
+  const totalCost = billingFree + shippingCost
 
   return (
     <form css={style}>
       <div css={fieldContainer}>
-        <label htmlFor='productPrice'>* Product price</label>
+        <label htmlFor='productPrice'>* Total product price including TAX in USD</label>
         <input
           type='text'
           id='productPrice'
           spellCheck='false'
-          placeholder='Product price (highest bidding price in JPY)'
+          placeholder='Total product price including TAX in USD'
           onChange={handleProductPriceChanged}
         />
-      </div>
-      <div css={fieldContainer}>
-        <label className='input' htmlFor='shippingCost'>Shipping cost</label>
-        <input
-          className='field'
-          type='text'
-          id='shippingCost'
-          spellCheck='false'
-          placeholder={`Optional, default to "${defaultShippingCost}" JPY`}
-          onChange={handleShippingCostChanged}
-        />
-        <span className='hint'>Shipping cost (in Japan only), search a value in <em>配送方法と送料</em> section</span>
-      </div>
-      <div css={fieldContainer}>
-        <label className='label' htmlFor='yahooAuctionFee'>Yahoo auction fee</label>
-        <input className='input'
-          type='text'
-          id='yahooAuctionFee'
-          spellCheck='false'
-          placeholder={'Optional, default to "100" JPY'}
-          onChange={handleYahooAuctionFeeChanged} />
+        <span className='hint'>Get total product price from a checkout page</span>
       </div>
       <div css={fieldContainer}>
         <label htmlFor='billingFee'>Billing fee</label>
@@ -200,29 +173,46 @@ export default function YahooActionJapanCalculator() {
           type='text'
           id='billingFee'
           spellCheck='false'
-          placeholder={'Optional, default to "250" JPY'}
+          placeholder={`Default to "${defaultBillingRate}"`}
           onChange={handleBillingFeeChanged} />
-        <span className='hint'>Billing fee is what we pay a provider who delivers an item from Japan to Thailand</span>
+        <span className='hint'>Billing fee is what we pay a provider who delivers an item from USA to Thailand</span>
       </div>
       <div css={fieldContainer}>
-        {/* We must think as 1 JPY to how many THB, not raito as devided by 1 */}
-        <label htmlFor='exchangeRate'>Exchange rate (1 JPY to THB), JPY/THB</label>
+        {/* We must think as how many THB for 1 dollar */}
+        <label htmlFor='exchangeRate'>Exchange rate (THB to 1 USD), THB/USD</label>
         <input
           type='text'
           id='exchangeRate'
           spellCheck='false'
-          placeholder={`Optional, default to "${defaultExchangeRate}" JPY/THB`}
+          placeholder={`Default to "${defaultExchangeRate}" THB/USD`}
           onChange={handleExchangeRateChanged}
         />
       </div>
+      <div css={fieldContainer}>
+        <label htmlFor='shippingRate'>Shipping rate for 1 KG</label>
+        <input
+          type='text'
+          id='shippingRate'
+          spellCheck='false'
+          placeholder={`Default to "${defaultShippingRate}" THB per 1 KG `}
+          onChange={handleShippingRateChanged} />
+        <span className='hint'>Actual, not shifting price</span>
+      </div>
+
+      <div css={fieldContainer}>
+        <label htmlFor='productWeight'>Product weight</label>
+        <input
+          type='text'
+          id='productWeight'
+          spellCheck='false'
+          placeholder={`Product weight in KG unit`}
+          onChange={handleProductWeightChanged} />
+      </div>
+
       <div css={totalPrice}>
-        Total price: (
-        {numberFormat.format(productPrice)}+
-        {numberFormat.format(shippingCost)}+
-        {numberFormat.format(yahooAuctionFee)}+
-        {numberFormat.format(billingFee)}
-        )x
-        {numberFormat.format(exchangeRate)} = {numberFormat.format(getTotalPrice())} THB
+        Total price: ({numberFormat.format(productPrice)} * {numberFormat.format(exchangeRate)} * {numberFormat.format(billingRate)}) +
+        ({numberFormat.format(productWeight)} * {numberFormat.format(shippingRate)})
+        = {numberFormat.format(totalCost)}
       </div>
     </form>
   );

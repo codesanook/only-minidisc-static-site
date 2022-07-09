@@ -3,17 +3,19 @@ title: Yahoo Auction Japan calculator
 disableTableOfContents: false
 ---
 
-## The calculator
+## Yahoo/Mercari
 
-import YahooActionJapanCalculator from '../../components/YahooActionJapanCalculator';
-import SearchOnMercari from '../../components/SearchOnMercari';
+import YahooActionJapanCalculator from "../../components/YahooActionJapanCalculator";
+import USShippingCalculator from "../../components/USShippingCalculator";
 
 <YahooActionJapanCalculator />
 
+## Shipping from USA
+<USShippingCalculator />
+
 ## Useful links
 
-<SearchOnMercari title='Sony MDS-NT1' />
-<SearchOnMercari title='Sony MDS-S500' />
-<SearchOnMercari title='iRiver-iHP' />
-<SearchOnMercari title='Sony MZ-NE810' />
-<SearchOnMercari title='Chromecast Audio' />
+import SearchOnYahooAuctions from "../../components/SearchOnYahooAuctions";
+
+<SearchOnYahooAuctions searchTerm="Sony MZ-N910" />
+<SearchOnYahooAuctions searchTerm="Sony MZ-NE810" />
