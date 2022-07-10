@@ -44,12 +44,16 @@ title: MD player parts and accessories
 | Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
 |--------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
 | Sony AC-ES3010K3   | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
-| Sony AC-96NP       | Sony MDS-NT1             | 9           | 600          | 5                        | 1.7                      |
+| Sony AC-96NP       | Sony MDS-NT1             | 9           | 600          | 4.8                      | 1.7                      |
 | -                  | Sony MZ-N10              | 6           | 1000         | 4                        | 1.7                      |
-| -                  | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
 | -                  | Sanyo MD-U4 (หมาเนย)     | 9           | 2000         | 4                        | 1.7                      |
+| -                  | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
+
+![](images/md-player-parts-and-accessories/3v-portable-md.png)
+![](images/md-player-parts-and-accessories/3v-portable-md-to-type-c.png)
+![](images/md-player-parts-and-accessories/iriver-ihp-jack.png)
 
 ## MP3 players that we can take OLED and use it as MZ-RH1 replacement part
 ### Matched part number
@@ -66,11 +70,6 @@ title: MD player parts and accessories
 - NW-E002F
 - NW-E003F
 - NW-E005F
-
-## DC jacks
-![](images/md-player-parts-and-accessories/3v-portable-md.png)
-![](images/md-player-parts-and-accessories/3v-portable-md-to-type-c.png)
-![](images/md-player-parts-and-accessories/iriver-ihp-jack.png)
 
 ## Sidecar battery
 - Images of side card battery for Sony portable MD players.
