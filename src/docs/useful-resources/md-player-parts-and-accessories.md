@@ -1,12 +1,8 @@
-------  ---  ------  -----  ---  -----------
-title:  MD   player  parts  and  accessories
-------  ---  ------  -----  ---  -----------
+---
+title: MD player parts and accessories
+---
 
 ## MD drives
-
-import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
-
-
 | Model name  | Model name using similar mechanism | MD mechanism type | Optical pick-up type | Link to buy a part |
 |-------------|------------------------------------|-------------------|----------------------|--------------------|
 | MDS-NT1     | New                                | MDM-7S2B          | KMS-262E             |                    |
@@ -33,11 +29,10 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 [1]:https://alltroniccomputer.com.sg/products/audio-md-optical-pickup-assy-kms260a-mdm-31-md-mechanism
 [2]:https://alltroniccomputer.com.sg/products/audio-md-optical-pickup-assy-kms260b-e-mdm-7s2a-md-mechanism
 
-<MDPlayersPartsSheet />
-
+<!-- import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet'; -->
+<!-- <MDPlayersPartsSheet /> -->
 
 ## Rubber belts for MD drives
-
 | Inside diameter (mm) | Thickness (mm) | Belt type | For models                      |
 |----------------------|----------------|-----------|---------------------------------|
 | 19                   | 1.2            | Square    | MDS-NT1, MDS-S500, JE780, JB980 |
@@ -45,9 +40,7 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 
 ![](images/md-player-parts-and-accessories/md-belt-diameter.png)
 
-
 ## Power adapters and DC jack diameter
-
 | Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
 |--------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
 | Sony AC-ES3010K3   | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
@@ -65,34 +58,26 @@ import MDPlayersPartsSheet from '../../components/MDPlayersPartsSheet';
 - NW-S203F
 - NW-S205F
 
-### Compatable
+### Compatible
 - NW-E305
 - NW-E307
 
-### Possibly compatible but need to test
+### Possibly compatible OLED but need to test
 - NW-E002F
 - NW-E003F
 - NW-E005F
 
+## DC jacks
 ![](images/md-player-parts-and-accessories/3v-portable-md.png)
-
 ![](images/md-player-parts-and-accessories/3v-portable-md-to-type-c.png)
-
 ![](images/md-player-parts-and-accessories/iriver-ihp-jack.png)
 
 ## Sidecar battery
 - Images of side card battery for Sony portable MD players.
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-01.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-02.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-03.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-04.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-05.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-06.png)
-
 ![](images/md-player-parts-and-accessories/sidecar-battery-07.png)
