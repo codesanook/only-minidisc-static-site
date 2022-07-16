@@ -41,7 +41,7 @@ title: MD player parts and accessories
 ![](images/md-player-parts-and-accessories/md-belt-diameter.png)
 
 ## Power adapters and DC jack diameter
-| Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Outer diameter jack (mm) |
+| Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Inner diameter jack (mm) |
 |--------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
 | Sony AC-ES3010K3   | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
 | Sony AC-96NP       | Sony MDS-NT1             | 9           | 600          | 4.8                      | 1.7                      |
