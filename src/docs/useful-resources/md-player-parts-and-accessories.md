@@ -41,13 +41,15 @@ title: MD player parts and accessories
 ![](images/md-player-parts-and-accessories/md-belt-diameter.png)
 
 ## Power adapters and DC jack diameter
-| Adapter model name | For device               | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Inner diameter jack (mm) |
-|--------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
-| Sony AC-ES3010K3   | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
-| Sony AC-96NP       | Sony MDS-NT1             | 9           | 600          | 4.8                      | 1.7                      |
-| -                  | Sony MZ-N10              | 6           | 1000         | 4                        | 1.7                      |
-| -                  | Sanyo MD-U4 (หมาเนย)     | 9           | 2000         | 4                        | 1.7                      |
-| -                  | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
+| Original adapter model name | For devices              | Voltage (V) | Current (mA) | Outer diameter jack (mm) | Inner diameter jack (mm) |
+|-----------------------------|--------------------------|-------------|--------------|--------------------------|--------------------------|
+| Sony AC-ES3010K3            | Sony portable MD players | 3           | 1000         | 2.5                      | 0.7                      |
+| Sony AC-96NP                | Sony MDS-NT1             | 9           | 600          | 4.8                      | 1.7                      |
+| -                           | Sony MZ-N10              | 6           | 1000         | 4                        | 1.7                      |
+| Sony AC-E45HG               | Sony MZ-E40              | 4.5         | 700          | 4                        | 1.7                      |
+| SONY AC-ES454               | Sony MZ-R37              | 4.5         | 400          | 4                        | 1.7                      |
+| -                           | Sanyo MD-U4 (หมาเนย)     | 9           | 2000         | 4                        | 1.7                      |
+| -                           | iRiver iHP100, 120, 140  | 5           | 350          | 3.5                      | 1.35                     |
 
 - For **Sony AC-96NP** jack replacement, we need to find a jack which has a spring inside.
 
