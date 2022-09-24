@@ -196,7 +196,7 @@ export default function USCalculator() {
           spellCheck='false'
           placeholder={`Default to "${defaultShippingRate}" THB per 1 KG `}
           onChange={handleShippingRateChanged} />
-        <span className='hint'>Actual, not shifting price and it is for 1 - 30 KG.</span>
+        <span className='hint'>Actual, not shifting the price and it is for 1 - 30 KG.</span>
       </div>
 
       <div css={fieldContainer}>
@@ -210,7 +210,7 @@ export default function USCalculator() {
       </div>
 
       <div css={totalPrice}>
-        Total price: ({numberFormat.format(productPrice)} * {numberFormat.format(exchangeRate)} * {numberFormat.format(billingRate)}) +
+        Total shipping cost: ({numberFormat.format(productPrice)} * {numberFormat.format(exchangeRate)} * {numberFormat.format(billingRate)}) +
         ({numberFormat.format(productWeight)} * {numberFormat.format(shippingRate)})
         = {numberFormat.format(totalCost)}
       </div>
