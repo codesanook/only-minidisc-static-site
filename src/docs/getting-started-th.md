@@ -7,16 +7,15 @@ import MDDeviceGraphicalImage from "../components/MDDeviceGraphicalImage";
 
 ## Getting started
 
-บทความนี้แปลมาจากต้นฉบับ[ภาษาอังกฤษ MiniDisc.Wiki - Getting Started](https://www.minidisc.wiki/guides/getting-started) โดยมีการดัดแปลงให้เหมาะสมกับบริบทภาษาไทย และลดทอนเนื้อหาบางส่วนให้มีความกระชับมากขึ้น
+บทความนี้แปลมาจากต้นฉบับ[ภาษาอังกฤษ MiniDisc.Wiki - Getting Started](https://www.minidisc.wiki/guides/getting-started) โดยมีการดัดแปลงเนื้อหาให้เหมาะสมกับบริบทของภาษาไทย และลดทอนบางส่วนออกไป เพื่อให้เนื้อหามีความกระชับมากขึ้น
 
-**หมายเหตุ:** บทความนี้จัดทำขึ้นสำหรับผู้เริ่มต้นใช้งาน MD ดังนั้น community ในต่างประเทศจึงแนะนำให้ใช้เครื่อง MD ที่รองรับ Net MD เนื่องจากใช้งานง่าย สะดวก และไม่ต้องซื้ออุปกรณ์เพิ่มเติม
+**หมายเหตุ:** บทความนี้จัดทำขึ้นสำหรับผู้เริ่มต้นใช้งาน MD ดังนั้น community ในต่างประเทศจึงแนะนำให้ใช้เครื่อง MD ที่รองรับ Net MD ซึ่งช่วยให้การบันทึกเพลงลงแผ่น MD ด้วยตนเอง ทำได้โดยง่าย สะดวก รวดเร็ว ประหยัดเวลา และไม่ต้องซื้ออุปกรณ์เพิ่มเติมเพื่อใช้ในการบันทึกเพลงลงแผ่น MD
 
 ### Which MD device to buy
-ซื้อเครื่อง MD รุ่นไหนดี หากคุณยังไม่เคยมีเครื่อง MD มาก่อน แนะนำให้เริ่มจากเครื่อง MD แบบพกพาที่สามารถบันทึกแผ่น MD ได้ และรองรับ Net MD ที่ช่วยให้การบันทึกเพลงลงแผ่น MD สะดวกมากขึ้น ผ่านการเชื่อมต่อทางพอร์ต USB กับคอมพิวเตอร์ (Windows, macOS, Linux) หรือโทรศัพท์มือถือระบบ Android
+หากคุณยังไม่เคยมีเครื่อง MD มาก่อน แนะนำให้เริ่มจากเครื่อง MD แบบพกพาที่สามารถบันทึกแผ่น MD ได้ และรองรับ Net MD ที่ช่วยให้การบันทึกเพลงลงแผ่น MD ทำได้สะดวกมากขึ้น ผ่านการเชื่อมต่อทางพอร์ต USB กับคอมพิวเตอร์ (Windows, macOS, Linux) หรือโทรศัพท์มือถือระบบ Android
 
 ### Recommended MD devices for a beginner
-รุ่น Net MD ที่แนะนำสำหรับผู้เริ่มต้น
-ตัวอย่างบางส่วนของเครื่อง MD ที่แนะนำสำหรับผู้เริ่มต้น (รายการนี้ ไม่ได้แสดงชื่อรุ่นที่รองรับ Net MD ทั้งหมด เป็นเพียงตัวอย่างบางส่วนเท่านั้น)
+ตัวอย่างบางส่วนของเครื่อง MD ที่รองรับ Net MD ที่แนะนำสำหรับผู้เริ่มต้น (รายการนี้ ไม่ได้แสดงชื่อรุ่นที่รองรับ Net MD ทั้งหมด เป็นเพียงตัวอย่างบางส่วนเท่านั้น)
 1. MZ-N505 - ใช้ถ่าน AA
 2. MZ-N707 - ใช้ถ่าน AA
 3. MZ-NE410 ใช้ถ่าน AA เป็นรุ่นเริ่มต้น ที่ราคาถูก และไม่มีช่อง 3V DC input
@@ -29,31 +28,31 @@ import MDDeviceGraphicalImage from "../components/MDDeviceGraphicalImage";
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N505'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n505.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n505.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N707'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n707.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n707.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N420D'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n420d.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n420d.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N510'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n510.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n510.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N910'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n910.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n910.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N920'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n920.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n920.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-NE810'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-ne810.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-ne810.png' />
 
 ### Not recommended MD devices for a beginner
 รุ่นที่ไม่แนะนำสำหรับผู้เริ่มต้น
@@ -63,15 +62,15 @@ import MDDeviceGraphicalImage from "../components/MDDeviceGraphicalImage";
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N1'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n1.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n1.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-N10'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/n-series/mz-n10.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/n-series/mz-n10.png' />
 
 <MDDeviceGraphicalImage
   deviceName='Sony MZ-R2'
-  deviceGraphicalImageUrl='/images/graphic-md-devices/r-series/mz-r2.png' />
+  deviceGraphicalImageUrl='/images/md-devices-graphical-images/r-series/mz-r2.png' />
 
 ### Where to buy an MD devices in Thailand
 ในประเทศไทย เราสามารถหาซื้อเครื่องได้จากที่ไหนได้บ้าง
@@ -95,13 +94,13 @@ MDLP ใช้รูปแบบการบีบอัดที่ใหมท
 NetMD คือคุณสมบัติเพิ่มเติมสำหรับ MiniDisc ที่พัฒนาโดยบริษัท Sony ทำให้สามารถบันทึกเพลงลงแผ่น MD ผ่านการเชื่อมต่อเข้ากับเครื่องคอมพิวเตอร์ โดยทั่วไปจะใช้งานร่วมกับโปรแกรม SonicStage หรือ MD Simple Burner แต่ปัจจุบันสามารถใช้ได้กับ Web MiniDisc หรือ Platinum MD ทำให้การใช้งานสะดวกมากขึ้น
 
 - เครื่องที่รองรับ Net MD ทั้งหมด จะรองรับ MDLP
-- เครื่องที่รองรับ MDLP บางตัว จะไม่รองรับ Net MD และมีเครื่องหลายรุ่นที่เล่น MD ได้อย่างเดียว และอัดไม่ได้
+- เครื่องที่รองรับ MDLP บางตัว จะไม่รองรับ Net MD และมีเครื่องหลายรุ่นที่เล่น MD ได้อย่างเดียว และไม่รองรับการบันทึกเพลงลงแผ่น MD
 
 ### Hi-MD คืออะไร
 ในช่วงท้ายของการจำหน่ายผลิตภัณฑ์ MD บริษัท Sony ได้เพิ่มเติมรูปแบบ Hi-MD ซึ่งเป็นมาตรฐานใหม่ ซึ่งทำงานด้วยเครื่องและแผ่น MD แบบใหม่ แต่ก็ยังสามารถใช้งานร่วมกับแผ่น MD ธรรมดาได้
 
 เครื่องที่รองรับ Hi-MD สามารถใช้งานร่วมกับแผ่น MD ธรรมดาที่บันทึกในโหมด SP, LP2, P4 ได้
-แต่แผ่น Hi-MD และแผ่นธรรมดาที่อัดในรูปแบบ Hi-MD  ไม่สามารถใช้งานร่วมกับเครื่องที่ไม่รองรับ Hi-MD
+แต่แผ่น Hi-MD และแผ่นธรรมดาที่บันทึกในรูปแบบ Hi-MD  ไม่สามารถใช้งานร่วมกับเครื่องที่ไม่รองรับ Hi-MD
 
 ในปัจจุบัน เครื่องที่รองรับ Hi-MD และแผ่น Hi-MD มีราคาสูงกว่าเครื่องรุ่นทั่วไปและแผ่น MD ธรรมดามาก จึงไม่แนะนำสำหรับผู้เริ่มต้น
 
