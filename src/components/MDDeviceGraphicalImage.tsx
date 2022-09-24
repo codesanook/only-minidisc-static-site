@@ -12,7 +12,7 @@ const style = css`
   h4{
     margin: 2px;
     padding: 0;
-
+    text-align: center;
   }
 
   img {
