@@ -11,3 +11,8 @@
 - Run `yarn install`.
 - Run `yarn start`.
 - Open a browser and navigate to http://localhost:8000.
+
+
+ref
+https://  rocketdocs.gatsbyjs.io/usage/creating-docs
+https://blog.siddu.tech/complete-guide-to-destructuring-in-javascript
