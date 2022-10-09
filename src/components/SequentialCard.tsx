@@ -5,11 +5,12 @@ const style = css`
   display: flex;
   flex-direction: column;
   position: relative;
+  // outline: #0f0 1px solid;
 
   > span {
     margin:0;
     position: absolute;
-    top: -15px;
+    top: -10px;
     left: 10px;
     border-radius: 2px;
     padding:2px;
@@ -25,12 +26,12 @@ const style = css`
   }
 
   > div:nth-of-type(1) {
-    background-color: #f00;
-    min-height: 150px;
+    flex-grow: 1;
+    //outline: #f00 1px solid;
   }
 
-  > div:nth-child(2) {
-
+  > div:nth-of-type(2) {
+    //outline: #00f 1px solid;
   }
 `;
 

@@ -5,6 +5,8 @@ import { css } from '@emotion/react';
 const style = css`
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+
     > div {
       padding: 10px;
     }
