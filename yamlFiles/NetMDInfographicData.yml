@@ -1,0 +1,33 @@
+- description: >
+    Download Zagig.exe (a driver Installation tool) from zadig.akeo.ie
+    and double clik it to run the tool. A Zadig window will show up.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-1.png
+
+- description: >
+    Insert a blank MD disc to Net MD recorder.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-2.png
+
+- description: >
+    Connect Net MD recorder to a computer via mini USB cable.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-3.png
+
+- description: >
+    Zadig windows will automatically display a device name as Net MD and click "Install Driver" button and wait to finish.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-4.png
+
+- description: >
+    Open a browser and navigate to web.minidisc.wiki. Then click "CONNECT" button.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-5.png
+
+- description: >
+    Click "+" button and select music files that you want to write to a disc.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-6.png
+
+- description: >
+    Select recording mode. Then click "OK" button to start recording.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-7.png
+
+- description: >
+    Wating until writing has finished, press stop button at Net MD device and remove a connected cable.
+  imageUrl: /images/net-md-infographic/net-md-infographic-step-8.png
+
