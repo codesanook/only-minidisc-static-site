@@ -1,5 +1,5 @@
 ---
-title: How to use Net MD inforgraphic
+title: How to use Net MD (infographic)
 disableTableOfContents: true
 ---
 
