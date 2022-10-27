@@ -5,11 +5,11 @@ description: All Sony Net MD decks
 
 ## Sony MDS-NT1
 👇
-![](images/sony-net-md-decks/sony-mds-nt1-01.png)
+![](images/sony-netmd-decks/sony-mds-nt1-01.png)
 
-![](images/sony-net-md-decks/sony-mds-nt1-02.png)
+![](images/sony-netmd-decks/sony-mds-nt1-02.png)
 
-![](images/sony-net-md-decks/sony-mds-nt1-03.png)
+![](images/sony-netmd-decks/sony-mds-nt1-03.png)
 
 Power adapter: Sony AC-96NP 9V 600mA
 
@@ -17,9 +17,9 @@ Power adapter: Sony AC-96NP 9V 600mA
 
 ## Sony MDS-JE780
 👇
-![](images/sony-net-md-decks/sony-mds-je780-01.png)
+![](images/sony-netmd-decks/sony-mds-je780-01.png)
 
-![](images/sony-net-md-decks/sony-mds-je780-02.png)
+![](images/sony-netmd-decks/sony-mds-je780-02.png)
 
 
 - width x height x depth: 430mm x 95mm x 285mm
@@ -28,18 +28,18 @@ Power adapter: Sony AC-96NP 9V 600mA
 ## Sony MDS-JB980
 👇
 
-![](images/sony-net-md-decks/sony-mds-jb980-01.png)
+![](images/sony-netmd-decks/sony-mds-jb980-01.png)
 
-![](images/sony-net-md-decks/sony-mds-jb980-02.png)
+![](images/sony-netmd-decks/sony-mds-jb980-02.png)
 
 - width x height x depth: 430mm x 108mm x 285mm
 - [More information on MiniDisc Wiki](https://www.minidisc.wiki/equipment/sony/deck/mds-jb980)
 
 ## Sony MDS-S500
 👇
-![](images/sony-net-md-decks/sony-mds-s500-01.png)
+![](images/sony-netmd-decks/sony-mds-s500-01.png)
 
-![](images/sony-net-md-decks/sony-mds-s500-02.png)
+![](images/sony-netmd-decks/sony-mds-s500-02.png)
 
 - Remote control: Sony RM-D10J
 
@@ -64,12 +64,12 @@ Power adapter: Sony AC-96NP 9V 600mA
 
 ### MDS-S500 VS MDS-NT1
 
-![](images/sony-net-md-decks/sony-mds-s500-vs-sony-mds-nt1.png)
+![](images/sony-netmd-decks/sony-mds-s500-vs-sony-mds-nt1.png)
 
 
 ### MDS-S500 VS MDS-JE780
 
-![](images/sony-net-md-decks/sony-mds-s500-vs-sony-mds-je780.png)
+![](images/sony-netmd-decks/sony-mds-s500-vs-sony-mds-je780.png)
 
 
 ## Credit
