@@ -1,39 +1,39 @@
 - description: >
     For Windows compter only: download Zagig.exe (a driver installation tool) from "zadig.akeo.ie"
     and double click to run it. A Zadig window will show up. Leave the window open.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-1.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-1.png
 
 - description: >
     Insert a blank MD disc to a Net MD recorder.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-2.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-2.png
 
 - description: >
     Connect a Net MD recorder to a computer or an Android phone via a mini USB cable.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-3.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-3.png
 
 - description: >
     Zadig will automatically display a device's name as "Net MD".
     Click "Install Driver" button and wait to finish.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-4.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-4.png
 
 - description: >
     Open a browser and navigate to "web.minidisc.wiki".
     Then click "CONNECT" button.
     If there is an additional window shows up, select Net MD.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-5.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-5.png
 
 - description: >
     Click "+" button and select music files that you want to record to a disc.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-6.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-6.png
 
 - description: >
     Select recording mode. Then click "OK" button to start recording.
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-7.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-7.png
 
 - description: >
     Wating until recording has finished.
     Exit Web MiniDisc and press "STOP" button at Net MD device.
     At system tray on a computer, safely remove Net MD and disconnect a cable.
     Enjoy your MD!!!
-  imageUrl: /images/net-md-infographic/net-md-infographic-step-8.png
+  imageUrl: /images/netmd-infographic/netmd-infographic-step-8.png
 

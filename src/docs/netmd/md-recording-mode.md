@@ -53,8 +53,8 @@ MD recording mode ต่างๆ สำหรับเครื่องที�
 ## Additional useful information
 ข้อมูลเพิ่มเติมที่มีประโยชน์
 
-- [คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ Windows 10 64-bit](/net-md/sonic-stage-manual-installation-manual)
-- [คู่มือใช้งาน Web MiniDisc](/net-md/web-mini-disc-user-guide)
+- [คู่มือติดตั้งโปรแกรม SonicStage 4.3 สำหรับ Windows 10 64-bit](/netmd/sonic-stage-manual-installation-manual)
+- [คู่มือใช้งาน Web MiniDisc](/netmd/web-minidisc-user-guide)
 
 ## Credit
 - คุณ [Puwanai Mahachinorot](https://www.facebook.com/pinghitz) ที่ได้ให้ไอเดียเพื่อเขียนบทความนี้

@@ -8,7 +8,7 @@
   link: /getting-started-th
 
 - label: เรื่องเล่า MiniDisc
-  link: /mini-disc-story
+  link: /minidisc-story
 - label: เว็บไซต์เพื่อนบ้าน
   link: /friends-websites
 - label: Privacy Policy
@@ -17,43 +17,43 @@
 - label: Net MD
   items:
     - label: Web MiniDisc User Guide
-      link: /net-md/web-mini-disc-user-guide
+      link: /netmd/web-minidisc-user-guide
     - label: คู่มือใช้งาน Web MiniDisc ภาษาไทย
-      link: /net-md/web-mini-disc-user-guide-th
+      link: /netmd/web-minidisc-user-guide-th
     - label: Net MD infographic
-      link: /net-md/net-md-infographic
+      link: /netmd/netmd-infographic
 
     - label: คู่มือติดตั้งและใช้งานโปรแกรม SonicStage
-      link: /net-md/sonic-stage-manual
+      link: /netmd/sonic-stage-manual
     - label: คู่มือติดตั้งและใช้งานโปรแกรม MD Simple Burner
-      link: /net-md/md-simple-burner-manual
+      link: /netmd/md-simple-burner-manual
 
     - label: เครื่องเล่นที่รองรับ Net MD
-      link: /net-md/net-md-players
+      link: /netmd/netmd-players
     - label: Sony Net MD decks
-      link: /net-md/sony-net-md-decks
+      link: /netmd/sony-netmd-decks
 
     - label: รู้จัก MD recording mode
-      link: /net-md/md-recording-mode
+      link: /netmd/md-recording-mode
     - label: ทดสอบเวลาที่ในการเขียนเพลง MP3 ลงแผ่น MD
-      link: /net-md/writing-disc-time-usage-test
+      link: /netmd/writing-disc-time-usage-test
 
     - label: Advantages of Net MD
-      link: /net-md/advantages-of-net-md
+      link: /netmd/advantages-of-netmd
     - label: ข้อดีของ Net MD
-      link: /net-md/advantages-of-net-md-th
+      link: /netmd/advantages-of-netmd-th
     - label: ทำไมในอดีต Net MD จึงเสียงไม่ดี
-      link: /net-md/why-did-net-md-not-produce-good-sound-quality-in-the-past
+      link: /netmd/why-did-netmd-not-produce-good-sound-quality-in-the-past
 
     - label: รีวิวคุณภาพเสียงจากแผ่นที่อัดด้วย Net MD
-      link: /net-md/net-md-sound-quality-review
+      link: /netmd/netmd-sound-quality-review
     - label: Copy audio CD to MD
-      link: /net-md/copy-audio-cd-to-md
+      link: /netmd/copy-audio-cd-to-md
     - label: การอัด 1:1 (digital input) และ Net MD (Web MiniDisc) ให้ผลลัพธ์ต่างกันในแบบที่เราฟังแล้วแยกออกหรือไม่
-      link: /net-md/do-one-to-one-and-net-md-recording-produce-different-output
+      link: /netmd/do-one-to-one-and-netmd-recording-produce-different-output
 
     - label: ข้อแตกต่างระหว่างการอัดด้วยวิธี 1:1 (digital input) และ Net MD (Web MiniDisc)
-      link: /net-md/differences-between-one-to-one-and-net-md-recording
+      link: /netmd/differences-between-one-to-one-and-netmd-recording
 
 - label: Useful resources
   items:

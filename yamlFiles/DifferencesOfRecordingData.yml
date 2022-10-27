@@ -19,7 +19,7 @@
     เท่ากับความยาวของเพลง เช่น เพลง 5 นาที จะใช้เวลาอัด 5 นาที เพลงทั้งอัลบั้ม 60 นาที จะใช้เวลา 60 นาที
   netMD: >
     ใช้เวลาน้อยกว่าเวลาจริงของเพลง ตัวอย่างเช่น เพลง 64 นาที เขียนใน SP mode (4x) จะใช้เวลา ~16 นาที และ LP2 mode (32x) จะใช้เวลา ~2 นาที
-    เรียนรู้เพิ่มเติม https://onlyminidisc.com/net-md/writing-disc-time-usage-test และ https://www.minidisc.wiki/guides/net-md-speed-test
+    เรียนรู้เพิ่มเติม https://onlyminidisc.com/netmd/writing-disc-time-usage-test และ https://www.minidisc.wiki/guides/netmd-speed-test
 
 - feature: เครื่องเล่นที่รองรับ
   oneToOne: >
@@ -41,7 +41,7 @@
     แต่ Net MD จะมีตัวแปรที่น้อยกว่าคือเฉพาะไฟล์เพลง
   netMD: >
     ไฟล์เพลงในรูปแบบ WAVE, MP3, FLAC, M4A, AIFF
-    รูปแบบไฟล์ทั้งหมดที่รองรับ https://onlyminidisc.com/net-md/web-mini-disc-user-guide#supported-music-files
+    รูปแบบไฟล์ทั้งหมดที่รองรับ https://onlyminidisc.com/netmd/web-minidisc-user-guide#supported-music-files
 
 - feature: โปแกรมเพิ่มเติมที่ต้องใช้
   oneToOne: >

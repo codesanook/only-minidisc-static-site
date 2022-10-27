@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/react';
-import data from './net-md-players-data.json';
+import data from './netmd-players-data.json';
 
 const containerId = 'netMDPlayersSheet';
 
