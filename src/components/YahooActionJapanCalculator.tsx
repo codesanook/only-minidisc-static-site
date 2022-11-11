@@ -3,7 +3,6 @@ import { css } from '@emotion/react';
 import { useState } from 'react';
 
 // Configuration
-const defaultExchangeRate = 0.31;
 const defaultShippingCost = 0;
 const defaultYahooAuctionFee = 100;
 const defaultBillingFee = 250;
@@ -107,7 +106,11 @@ const totalPrice = css`
   text-align: center;
 `;
 
-export default function YahooActionJapanCalculator() {
+type Props = {
+  defaultExchangeRate: number;
+}
+
+export default function YahooActionJapanCalculator({ defaultExchangeRate }: Props) {
   const [productPrice, setProductPrice] = useState(0);
   const [shippingCost, setShippingCost] = useState(defaultShippingCost);
   const [yahooAuctionFee, setYahooActionFee] = useState(defaultYahooAuctionFee);

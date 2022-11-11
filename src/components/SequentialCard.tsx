@@ -35,10 +35,10 @@ const style = css`
   }
 `;
 
-export default function SequentialCard({ number, description, imageUrl }) {
+export default function SequentialCard({ number = null, description, imageUrl }) {
   return (
     <div css={style}>
-      <span>{number}</span>
+      {number && <span>{number}</span>}
       <div>
         {description}
       </div>
