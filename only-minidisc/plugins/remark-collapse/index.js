@@ -1,74 +1,42 @@
 // https://www.gatsbyjs.com/tutorial/remark-plugin-tutorial/
-const headingRange = require('mdast-util-heading-range')
+// const headingRange = require('mdast-util-heading-range')
+// const findAfter = require('unist-util-find-after');
+
 const toString = require('mdast-util-to-string')
 const visit = require("unist-util-visit")
-const findAfter = require('unist-util-find-after');
+
+// https://github.com/syntax-tree/unist-util-find-after/blob/main/index.js
+const is = require('unist-util-is');
+var toHAST = require('mdast-util-to-hast');
+var toHTML = require('hast-util-to-html');
 
 module.exports = ({ markdownAST }) => {
 
   visit(markdownAST, 'heading', (node) => {
     const { depth } = node;
-    // Skip if not an h2
+    // Skip if not an h1
     if (depth !== 1) return;
 
+    let index = markdownAST.children.indexOf(node)
+
+    const contentNodes = [];
+    while (++index < markdownAST.children.length) {
+      const currentNode = markdownAST.children[index];
+      if (is({ type: 'heading', depth: 1 }, currentNode)) {
+        break;
+      }
+
+      if (is({ type: 'paragraph' }, currentNode)) {
+        contentNodes.push(currentNode);
+      }
+    }
+
     const headingText = toString(node);
-
+    const body = contentNodes.map(n => toHTML(toHAST(n)));
     node.type = 'html';
-    node.value = `<details class='collapse'><summary>${headingText}</summary>Hello world</details>`;
-
+    node.value = `<details class='collapse'><summary>${headingText}</summary>${body.join()}</details>`;
+    markdownAST.children = markdownAST.children.filter(n => !contentNodes.includes(n))
   });
-
-  //headingRange(markdownAST, 'foo', (start, nodes, end) => {
-  // visit(markdownAST, 'heading', (node) => {
-  //   const { depth } = node;
-  //   // Skip if not an h2
-  //   if (depth !== 1) return;
-
-  //   // test (Function, string, Object, or Array<Test>, optional) — check:
-  //   // when nullish, checks if node is a Node
-  //   // when string, works like passing node => node.type === test
-  //   // when array, checks if any one of the subtests pass
-  //   // when object, checks that all fields in test are in node and that they have strictly equal values
-  //   // when function checks if function passed the node is true
-
-
-  //   // Grab the innerText of the heading node
-  //   const headingText = toString(node);
-  //   // get next paragraph node
-  //   // const next = findAfter(markdownAST, node);
-
-  //   // const html = `
-  //   //     <details>
-  //   //       <summary>Details</summary>
-  //   //       ${headingText}
-  //   //     </details>
-  //   //   `;
-  //   node.type = 'paragraph';
-  //   node.children = [
-  //     {
-  //       type: 'html',
-  //       value: `<details>`
-  //     },
-  //     {
-  //       type: 'html',
-  //       value: `<summary> ${headingText}</summary>`
-  //     },
-  //     {
-  //       type: 'paragraph',
-  //       children: [
-  //         {
-  //           type: 'text',
-  //           value: `details of ${headingText}`
-  //         }
-  //       ]
-  //     },
-  //     {
-  //       type: 'html',
-  //       value: `</details>`
-  //     }
-  //   ];
-
-  // });
 
   return markdownAST;
 };
