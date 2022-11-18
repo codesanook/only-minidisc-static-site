@@ -305,6 +305,10 @@ export default function GlobalStyle() {
           content: 'flow';
           background: #e8bd36;
         }
+
+        .collapse {
+          border: 1px solid #f00;
+        }
       `}
     />
   );

@@ -24,7 +24,8 @@ module.exports = {
         baseDir: 'examples/gatsby-theme-docs',
         gatsbyRemarkPlugins: [
           {
-            resolve: require.resolve(`./plugins/gatsby-remark-purple-headers`),
+            // resolve: require.resolve(`./plugins/gatsby-remark-purple-headers`),
+            resolve: require.resolve(`./plugins/remark-collapse`),
           },
         ],
       },

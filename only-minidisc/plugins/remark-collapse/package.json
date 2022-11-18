@@ -1,0 +1,13 @@
+{
+  "name": "remark-collapse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mdast-util-heading-range": "^2",
+    "mdast-util-to-string": "^2",
+    "unist-util-find-after": "^2",
+    "unist-util-is": "^2",
+    "unist-util-visit": "^2"
+  }
+}
