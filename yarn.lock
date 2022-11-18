@@ -2059,7 +2059,7 @@
     lodash.camelcase "^4.3.0"
     url-join "^4.0.1"
 
-"@rocketseat/gatsby-theme-docs@^3.1.0":
+"@rocketseat/gatsby-theme-docs@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@rocketseat/gatsby-theme-docs/-/gatsby-theme-docs-3.2.0.tgz#6177b932a68121ca96d77fff9d7a207426af8e24"
   integrity sha512-4MeJIHBj4BR9T5w26IhYKzbH7Bt8CkqM2H5anS29FCKPTju5fuGYjTVDLp+gSn6OTJvNwdyZ38R88w93vxXk5A==

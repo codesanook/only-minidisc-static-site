@@ -22,6 +22,11 @@ module.exports = {
         docsPath: 'src/docs',
         repositoryUrl: 'https://github.com/rocketseat/gatsby-themes',
         baseDir: 'examples/gatsby-theme-docs',
+        gatsbyRemarkPlugins: [
+          {
+            resolve: require.resolve(`./plugins/gatsby-remark-purple-headers`),
+          },
+        ],
       },
     },
     'gatsby-plugin-remove-trailing-slashes',
