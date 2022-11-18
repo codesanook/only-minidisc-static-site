@@ -6,6 +6,8 @@
   link: /why-minidisc
 - label: คำแนะนำเบื้องต้นสำหรับผู้เริ่มต้นใช้งาน MD
   link: /getting-started-th
+- label: รวมคำถามที่พบบ่อย (MD FAQ)
+  link: /faq
 
 - label: เรื่องเล่า MiniDisc
   link: /minidisc-story
