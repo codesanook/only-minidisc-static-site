@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "only-minidisc"
+    "only-minidisc",
+    "only-minidisc/plugins/*"
   ],
   "scripts": {
     "start": "yarn workspace only-minidisc start",

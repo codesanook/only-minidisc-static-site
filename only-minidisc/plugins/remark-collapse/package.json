@@ -5,10 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "hast-util-to-html": "^2",
-    "mdast-util-heading-range": "^2",
     "mdast-util-to-hast": "^2",
     "mdast-util-to-string": "^2",
-    "unist-util-find-after": "^2",
     "unist-util-is": "^2",
     "unist-util-visit": "^2"
   }
