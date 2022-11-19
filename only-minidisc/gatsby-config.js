@@ -42,6 +42,8 @@ module.exports = {
         icon: 'static/favicon.png',
       },
     },
+    // https://medium.com/@johnny02/how-to-add-font-awesome-to-a-gatsby-site-89da940924d5
+    `gatsby-plugin-fontawesome-css`,
   ],
 };
 

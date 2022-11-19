@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { css } from '@emotion/react';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 const style = css`
   display: flex;
@@ -11,7 +12,7 @@ const style = css`
 export default function YouTubeChannel({ title, url }) {
   return (
     <a href={url} title={title} css={style}>
-      <FontAwesomeIcon icon={faYoutube} size='2x' color='#FF1A1A' />
+      <FontAwesomeIcon icon={faYoutube as IconProp} size='2x' color='#FF1A1A' />
       <span>{title}</span>
     </a>
   );

@@ -1,3 +1,13 @@
+// https://www.gatsbyjs.com/docs/porting-from-create-react-app-to-gatsby/#context-providers
+import React from 'react';
+
+// // https://fontawesome.com/v5/docs/web/use-with/react
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+// library.add(fab, faCheckSquare, faCoffee)
+
 export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   setHeadComponents([
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet@latest/dist/plugins/css/pluginsCss.css' />,
