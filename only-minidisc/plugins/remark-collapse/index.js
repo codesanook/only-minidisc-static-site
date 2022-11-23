@@ -34,7 +34,7 @@ module.exports = ({ markdownAST }) => {
 
     const htmlContent = contentNodes.map(n => toHTML(toHAST(n)));
     node.type = 'html';
-    node.value = `<details class='collapse'><summary>${headingText}</summary>${htmlContent.join('')}</details>`;
+    node.value = `<details class='collapse'><summary class='title'>${headingText}</summary>${htmlContent.join('')}</details>`;
 
     markdownAST.children = markdownAST.children.filter(n => !contentNodes.includes(n))
   });
