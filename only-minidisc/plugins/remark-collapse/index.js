@@ -2,6 +2,8 @@
 // const headingRange = require('mdast-util-heading-range')
 // const findAfter = require('unist-util-find-after');
 
+// https://astexplorer.net/ and select Markdown for debugging Markdown tree
+
 const toString = require('mdast-util-to-string')
 const visit = require("unist-util-visit")
 
@@ -27,7 +29,7 @@ module.exports = ({ markdownAST }) => {
         break;
       }
 
-      if (is({ type: 'paragraph' }, currentNode)) {
+      if (is({ type: 'paragraph' }, currentNode) || is({ type: 'list' }, currentNode)) {
         contentNodes.push(currentNode);
       }
     }
