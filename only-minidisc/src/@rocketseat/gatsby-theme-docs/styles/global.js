@@ -307,7 +307,25 @@ export default function GlobalStyle() {
         }
 
         .collapse {
-          border: 1px solid #f00;
+          border: 1px solid #aaa;
+          border-radius: 4px;
+          padding: 7px 7px 0;
+          margin-bottom: 7px;
+
+          &[open] {
+            padding: 7px;
+          }
+
+          &[open] > .title {
+            border-bottom: 1px solid #aaa;
+            margin-bottom: 7px;
+          }
+
+          > .title {
+            font-weight: bold;
+            margin: -7px -7px 0;
+            padding: 7px;
+          }
         }
       `}
     />
