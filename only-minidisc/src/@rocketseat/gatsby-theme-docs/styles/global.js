@@ -310,7 +310,7 @@ export default function GlobalStyle() {
           border: 1px solid #aaa;
           border-radius: 4px;
           padding: 7px 7px 0;
-          margin-bottom: 7px;
+          margin-bottom: 12px;
 
           &[open] {
             padding: 7px;

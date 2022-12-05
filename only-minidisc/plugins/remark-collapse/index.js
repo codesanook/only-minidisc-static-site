@@ -29,7 +29,8 @@ module.exports = ({ markdownAST }) => {
         break;
       }
 
-      if (is({ type: 'paragraph' }, currentNode) || is({ type: 'list' }, currentNode)) {
+      if (!is({ type: 'heading', depth: 1 }), currentNode) {
+        console.log(currentNode);
         contentNodes.push(currentNode);
       }
     }

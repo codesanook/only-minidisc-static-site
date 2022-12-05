@@ -7,6 +7,12 @@ disableTableOfContents: true
 # เพิ่งเริ่มเล่น MD ควรทราบข้อมูลอะไรบ้าง
 - [คำแนะนำเบื้องต้นสำหรับผู้เริ่มต้นใช้งาน MD](https://www.onlyminidisc.com/getting-started-th)
 
+# Net MD คืออะไร
+- เป็นเทคโนโลยีที่พัฒนาโดย Sony สำหรับใช้กับครื่อง MD แบบบันทึกได้ (MD recorder) เพื่อทำการเขียนไฟล์เพลงที่อยู่ในคอมพิวเตอร์หรือโทรศัพท์มือถือลงไปบนแผ่น MD
+- เครื่อง MD ที่รองรับ Net MD จะมีช่อง USB Mini-B เพื่อต่อเข้ากับคอมพิวเตอร์หรือโทรศัพท์มือถือ ตัวอย่างสาย USB เช่น Mini-B to Type-A, Mini-B to Type-C
+- การเขียนแผ่นด้วย Net MD แนะนำให้ใช้ผ่าน [Web MiniDisc Pro](https://www.onlyminidisc.com/netmd/web-minidisc-user-guide-th) ที่ใช้งานได้ง่าย สะดวก และใช้งานได้ทั้งคอมพิวเตอร์และโทรศัพท์มือถือ
+- Net MD จะเขียนแผ่นได้ไวกว่าอัด 1:1 อยู่ 4 เท่าในรูปแบบ SP mode
+
 # Net MD ใช้กับคอมพิวเตอร์หรือมือถือระบบบปฏิบัติการ (OS) ใดได้บ้าง
 เราสามารถใช้งานเครื่องเล่นที่รองรับ Net MD ได้กับ:
 - คอมพิวเตอร์ระบบปฏิบัติการ Windows, Linux และ Mac
@@ -36,3 +42,15 @@ disableTableOfContents: true
 - Sony เครื่องเล่นขนาดใหญ่ขึ้นมาหน่อย รุ่นก่อนปี 2000 ที่ใช้ไฟ 4.5V ใช้หัว DC jack ขนาด **4.0x1.7mm**
 - Aiwa เครื่องเล่นแบบอัดได้ ที่ใช้ไฟ 4.5V ใช้หัว DC jack ขนาด **4.0x1.7mm**
 - เรียนรู้เพิ่มเติม [Power adapters and DC jack diameter](https://www.onlyminidisc.com/useful-resources/md-player-parts-and-accessories#power-adapters-and-dc-jack-diameter)
+
+# เปรียบเทียบ Sony MZ-N1 และ Sony MZ-N10
+
+| Specification  | Sony MZ-N1                                              | Sony MZ-N10                                                              |
+|----------------|---------------------------------------------------------|--------------------------------------------------------------------------|
+| Battery        | NH-14WM "Gumstick" which can be used in other models.   | Internal battery (3.7v)                                                  |
+| Sidecar        | Normal 1AA battery which can be used with other models  | 1xAA with a special proprietary connection, specific to N10              |
+| USB connection | a normal mini USB that requires a dock to use Net MD    | a proprietary USB cable which can be used with or without a dock         |
+| Major problem  | Dark LCD screen’s film which is hard to fix             | It is hard to find a a proprietary USB cable and an old internal battery |
+| ATRAC version  | Type-R                                                  | Type-S                                                                   |
+| More details   | https://www.minidisc.wiki/equipment/sony/portable/mz-n1 | https://www.minidisc.wiki/equipment/sony/portable/mz-n10                 |
+
