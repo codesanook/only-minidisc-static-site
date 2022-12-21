@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 // Configuration
 const defaultBillingFee = 50;
-const defaultNumberOfDiscs = 1
+const defaultNumberOfDiscs = -1
 const ratePricePerDisc = 40 // THB
 
 const numberFormat = new Intl.NumberFormat(
@@ -98,6 +98,10 @@ const fieldContainer = css`
   input[type=text]:focus, input[type=password]:focus {
 		background: #FFFFFF;
 	}
+
+  &.mt-3 {
+    margin-top: 3rem;
+  }
 `;
 
 const cssTotalPrice = css`
@@ -122,44 +126,32 @@ export default function JapanShippingCalculator({ defaultExchangeRate }: Props) 
   const [numberOfDiscs, setNumberOfDiscs] = useState(defaultNumberOfDiscs)
 
   const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue));
+    setNumberValue(
+      e.target.value,
+      numberValue => setProductPrice(numberValue),
+      0
+    );
 
   const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
     setNumberValue(
       e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setBillingFee(defaultBillingFee);
-        } else {
-          setBillingFee(numberValue);
-        }
-      }
+      numberValue => setBillingFee(numberValue),
+      defaultBillingFee
     );
 
   const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
     setNumberValue(
       e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setExchangeRate(defaultExchangeRate);
-        } else {
-          setExchangeRate(numberValue);
-        }
-      }
+      numberValue => setExchangeRate(numberValue),
+      defaultExchangeRate
     );
 
   const handleNumberOfDiscsChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setNumberOfDiscs(defaultNumberOfDiscs);
-        } else {
-          setNumberOfDiscs(numberValue);
-        }
-      })
+    setNumberValue(
+      e.target.value,
+      numberValue => setNumberOfDiscs(numberValue),
+      defaultNumberOfDiscs
+    )
 
 
 
@@ -203,13 +195,10 @@ export default function JapanShippingCalculator({ defaultExchangeRate }: Props) 
         {/* <span className='hint'>Billing fee is what we pay a provider who delivers an item from Thailand to Japan</span> */}
       </div>
       <div css={cssTotalPrice}>
-        Total price: (
-        {numberFormat.format(productPrice)}x
-        {numberFormat.format(exchangeRate)})+
-        {numberFormat.format(billingFee)}=
-        {numberFormat.format(totalPrice)} THB
+        Total price:
+        {` (${numberFormat.format(productPrice)}x${numberFormat.format(exchangeRate)})+${numberFormat.format(billingFee)} = ${numberFormat.format(totalPrice)} THB`}
       </div>
-      <div css={fieldContainer}>
+      <div css={fieldContainer} className="mt-3">
         <label htmlFor='numberOfDiscs'>Number of discs</label>
         <input
           type='text'
@@ -219,22 +208,26 @@ export default function JapanShippingCalculator({ defaultExchangeRate }: Props) 
           onChange={handleNumberOfDiscsChanged}
         />
       </div>
-      <div css={cssTotalPrice}>
-        Price per disc : (
-        {numberFormat.format(totalPrice)}/
-        {numberFormat.format(numberOfDiscs)})
-        = {numberFormat.format(pricePerDisc)} THB
-      </div>
-      {((totalPrice > 0) && (pricePerDisc <= ratePricePerDisc)) && (<div css={cssTotalPrice} className="-text-red">Buy it now</div>)}
+      {numberOfDiscs > 0 && (
+        <>
+          <div css={cssTotalPrice}>
+            Price per disc :
+            {` (${numberFormat.format(totalPrice)}/${numberFormat.format(numberOfDiscs)}) = ${numberFormat.format(pricePerDisc)} THB`}
+          </div>
+          {((totalPrice > 0) && (pricePerDisc <= ratePricePerDisc)) && (<div css={cssTotalPrice} className="-text-red">Buy it now</div>)}
+        </>
+      )}
+
     </form>
   );
 }
 
-function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void) {
+function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void, defaultValue: number) {
   const pattern = /[^0-9\.]/g;
-
-  const numberValue = Number(inputValue.replace(pattern, ''));
-  if (!isNaN(numberValue)) {
+  const strValue = inputValue.replace(pattern, '')
+  const numberValue = Number(strValue);
+  if (!strValue) setValueState(defaultValue)
+  else if (!isNaN(numberValue)) {
     setValueState(numberValue)
   }
 }

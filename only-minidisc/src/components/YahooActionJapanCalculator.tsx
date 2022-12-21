@@ -118,48 +118,19 @@ export default function YahooActionJapanCalculator({ defaultExchangeRate }: Prop
   const [exchangeRate, setExchangeRate] = useState(defaultExchangeRate)
 
   const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue));
+    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue), 0);
 
   const handleShippingCostChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setShippingCost(numberValue));
+    setNumberValue(e.target.value, numberValue => setShippingCost(numberValue), defaultShippingCost);
 
   const handleYahooAuctionFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setYahooActionFee(defaultYahooAuctionFee);
-        } else {
-          setYahooActionFee(numberValue);
-        }
-      }
-    );
+    setNumberValue(e.target.value, numberValue => setYahooActionFee(numberValue), defaultYahooAuctionFee);
 
   const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setBillingFee(defaultBillingFee);
-        } else {
-          setBillingFee(numberValue);
-        }
-      }
-    );
+    setNumberValue(e.target.value, numberValue => setBillingFee(numberValue), defaultBillingFee);
 
   const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setExchangeRate(defaultExchangeRate);
-        } else {
-          setExchangeRate(numberValue);
-        }
-      }
+    setNumberValue(e.target.value, numberValue => setExchangeRate(numberValue), defaultExchangeRate
     );
 
   const getTotalPrice = () => (productPrice + shippingCost + yahooAuctionFee + billingFee) * exchangeRate;
@@ -231,11 +202,12 @@ export default function YahooActionJapanCalculator({ defaultExchangeRate }: Prop
   );
 }
 
-function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void) {
+function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void, defaultValue: number) {
   const pattern = /[^0-9\.]/g;
-
-  const numberValue = Number(inputValue.replace(pattern, ''));
-  if (!isNaN(numberValue)) {
+  const strValue = inputValue.replace(pattern, '')
+  const numberValue = Number(strValue);
+  if (!strValue) setValueState(defaultValue)
+  else if (!isNaN(numberValue)) {
     setValueState(numberValue)
   }
 }

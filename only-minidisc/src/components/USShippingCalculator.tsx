@@ -116,39 +116,19 @@ export default function USCalculator() {
   const [exchangeRate, setExchangeRate] = useState(defaultExchangeRate)
 
   const handleProductPriceChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue));
+    setNumberValue(e.target.value, numberValue => setProductPrice(numberValue), 0);
 
   const handleShippingRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setShippingRate(numberValue));
+    setNumberValue(e.target.value, numberValue => setShippingRate(numberValue), defaultShippingRate);
 
   const handleProductWeightChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(e.target.value, numberValue => setProductWeight(numberValue));
+    setNumberValue(e.target.value, numberValue => setProductWeight(numberValue), 0);
 
   const handleBillingFeeChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setBillingRate(defaultBillingRate);
-        } else {
-          setBillingRate(numberValue);
-        }
-      }
-    );
+    setNumberValue(e.target.value, numberValue => setBillingRate(numberValue), defaultBillingRate);
 
   const handleExchangeRateChanged = (e: ChangeEvent<HTMLInputElement>) =>
-    setNumberValue(
-      e.target.value,
-      numberValue => {
-        // If a new value is 0, set it to default value.
-        if (numberValue == 0) {
-          setExchangeRate(defaultExchangeRate);
-        } else {
-          setExchangeRate(numberValue);
-        }
-      }
-    );
+    setNumberValue(e.target.value, numberValue => setExchangeRate(numberValue), defaultExchangeRate);
 
   const billingFree = (productPrice * exchangeRate) * billingRate
   const shippingCost = productWeight * shippingRate;
@@ -221,11 +201,12 @@ export default function USCalculator() {
   );
 }
 
-function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void) {
+function setNumberValue(inputValue: string, setValueState: (numberValue: number) => void, defaultValue: number) {
   const pattern = /[^0-9\.]/g;
-
-  const numberValue = Number(inputValue.replace(pattern, ''));
-  if (!isNaN(numberValue)) {
+  const strValue = inputValue.replace(pattern, '')
+  const numberValue = Number(strValue);
+  if (!strValue) setValueState(defaultValue)
+  else if (!isNaN(numberValue)) {
     setValueState(numberValue)
   }
 }
