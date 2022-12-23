@@ -306,7 +306,7 @@ export default function GlobalStyle() {
           background: #e8bd36;
         }
 
-        .collapse {
+        .collapse-content {
           border: 1px solid #aaa;
           border-radius: 4px;
           padding: 7px 7px 0;
@@ -325,7 +325,13 @@ export default function GlobalStyle() {
             font-weight: bold;
             margin: -7px -7px 0;
             padding: 7px;
+            cursor:pointer;
           }
+
+          > .title:hover {
+           color: ${theme.colors.primary}
+          }
+
         }
       `}
     />

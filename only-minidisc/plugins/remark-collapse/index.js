@@ -1,3 +1,4 @@
+// Inspired by https://github.com/Rokt33r/remark-collapse
 // https://www.gatsbyjs.com/tutorial/remark-plugin-tutorial/
 // const headingRange = require('mdast-util-heading-range')
 // const findAfter = require('unist-util-find-after');
@@ -16,7 +17,7 @@ module.exports = ({ markdownAST }) => {
 
   visit(markdownAST, 'heading', (node) => {
     const { depth } = node;
-    // Skip if not an h1
+    // Skip if not an h1, make collapse only child of H1
     if (depth !== 1) return;
 
     const headingText = toString(node);
@@ -25,11 +26,13 @@ module.exports = ({ markdownAST }) => {
     const contentNodes = [];
     while (++index < markdownAST.children.length) {
       const currentNode = markdownAST.children[index];
+
+      // https://github.com/syntax-tree/unist-util-is#isnode-test-index-parent-context
       if (is({ type: 'heading', depth: 1 }, currentNode)) {
         break;
       }
 
-      if (!is({ type: 'heading', depth: 1 }), currentNode) {
+      if (!is({ type: 'heading', depth: 1 }, currentNode) && !is({ type: 'export' }, currentNode)) {
         console.log(currentNode);
         contentNodes.push(currentNode);
       }
@@ -37,7 +40,7 @@ module.exports = ({ markdownAST }) => {
 
     const htmlContent = contentNodes.map(n => toHTML(toHAST(n)));
     node.type = 'html';
-    node.value = `<details class='collapse'><summary class='title'>${headingText}</summary>${htmlContent.join('')}</details>`;
+    node.value = `<details class='collapse-content'><summary class='title'>${headingText}</summary>${htmlContent.join('')}</details>`;
 
     markdownAST.children = markdownAST.children.filter(n => !contentNodes.includes(n))
   });

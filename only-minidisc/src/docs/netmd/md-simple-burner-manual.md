@@ -3,9 +3,9 @@ title: คู่มือติดตั้งและใช้งานโป�
 description: คู่มือติดตั้งและใช้งานโปรแกรม MD Simple Burner แบบ step by step
 ---
 
-# MD Simple Burner installation instructions
+## MD Simple Burner installation instructions
 
-# The download button on Sony MZ-NE810
+### The download button on Sony MZ-NE810
 - For curiosity, how does the download button on Sony MZ NE810 work?
 - If you have a audio disc in a computer's drive and already installed MD Simple Burner. (I can get it to work only Windows XP on VirtualBox)
 - NE810 connects to a computer via a mini USB port with a proper driver.
@@ -16,10 +16,10 @@ description: คู่มือติดตั้งและใช้งาน�
   - Sony MZ-DH10P
   - Sony MZ-NH3D
 
-## Prepare program and driver
+### Prepare program and driver
 - Download MD Simple Burner program.👉 [💾Click here to download MD Simple Burner.](files/md-simple-burner.zip)
 
-## Program screenshots
+### Program screenshots
 
 MD Simple Burner main page
 
@@ -28,16 +28,16 @@ MD Simple Burner main page
 ![](images/md-simple-burner-manual/settings-window.png)
 
 
-## The Download button on Sony MZ-DH10P
+### The Download button on Sony MZ-DH10P
 👇
 ![](images/md-simple-burner-manual/the-download-button-on-sony-mz-dh10p.png)
 
 
-## The Download button on Sony MZ-MZ-NH3D
+### The Download button on Sony MZ-MZ-NH3D
 👇
 ![](images/md-simple-burner-manual/the-download-button-on-sony-mz-nh3d.png)
 
-## How it work in action
+### How it work in action
 
 https://youtu.be/t7HTIMyuINM
 

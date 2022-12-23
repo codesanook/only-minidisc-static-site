@@ -5,7 +5,7 @@ disableTableOfContents: true
 ---
 
 # เพิ่งเริ่มเล่น MD ควรทราบข้อมูลอะไรบ้าง
-- [คำแนะนำเบื้องต้นสำหรับผู้เริ่มต้นใช้งาน MD](https://www.onlyminidisc.com/getting-started-th)
+- แนะนำให้อ่านบทความ [คำแนะนำเบื้องต้นสำหรับผู้เริ่มต้นใช้งาน MD](https://www.onlyminidisc.com/getting-started-th) ครับ
 
 # Net MD คืออะไร
 - เป็นเทคโนโลยีที่พัฒนาโดย Sony สำหรับใช้กับครื่อง MD แบบบันทึกได้ (MD recorder) เพื่อทำการเขียนไฟล์เพลงที่อยู่ในคอมพิวเตอร์หรือโทรศัพท์มือถือลงไปบนแผ่น MD
@@ -45,12 +45,12 @@ disableTableOfContents: true
 
 # เปรียบเทียบ Sony MZ-N1 และ Sony MZ-N10
 
-| Specification  | Sony MZ-N1                                              | Sony MZ-N10                                                              |
-|----------------|---------------------------------------------------------|--------------------------------------------------------------------------|
-| Battery        | NH-14WM "Gumstick" which can be used in other models.   | Internal battery (3.7v)                                                  |
-| Sidecar        | Normal 1AA battery which can be used with other models  | 1xAA with a special proprietary connection, specific to N10              |
-| USB connection | a normal mini USB that requires a dock to use Net MD    | a proprietary USB cable which can be used with or without a dock         |
-| Major problem  | Dark LCD screen’s film which is hard to fix             | It is hard to find a a proprietary USB cable and an old internal battery |
-| ATRAC version  | Type-R                                                  | Type-S                                                                   |
-| More details   | https://www.minidisc.wiki/equipment/sony/portable/mz-n1 | https://www.minidisc.wiki/equipment/sony/portable/mz-n10                 |
+| Spec           | Sony MZ-N1                                                       | Sony MZ-N10                                                      |
+|----------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| Battery        | NH-14WM "Gumstick" which can be used in other models             | Internal battery (3.7v)                                          |
+| Sidecar        | Normal 1AA battery which can be used in other models             | 1AA with a special proprietary connection, specific to N10       |
+| USB connection | a normal mini USB which requires a dock to use Net MD            | a proprietary USB cable which can be used with or without a dock |
+| Major problems | Dark LCD screen’s film, USB connection on a dock is not reliable | It is hard to find a a proprietary USB cable                     |
+| ATRAC version  | Type-R                                                           | Type-S                                                           |
+| More details   | https://www.minidisc.wiki/equipment/sony/portable/mz-n1          | https://www.minidisc.wiki/equipment/sony/portable/mz-n10         |
 
